@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phrasal Verb Table</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        th, td {
+            text-align: left;
+        }
+        #display {
+            margin-top: 20px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Phrasal Verb Table</h1>
+    <button onclick="randomSelect()">Random Select</button>
+    <button onclick="showSentence()">Show Sentence</button>
+
+    <table id="phrasal-verbs">
+        <tr>
+            <th>Target</th>
+            <th>Sentence</th>
+            <th>Trigger</th>
+        </tr>
+        <tr>
+            <td>Put on</td>
+            <td>Put on your shoes.</td>
+            <td>Clothes</td>
+        </tr>
+        <tr>
+            <td>Take off</td>
+            <td>Take off your clothes.</td>
+            <td>Clothes</td>
+        </tr>
+        <tr>
+            <td>Get on</td>
+            <td>I just got on the ferry.</td>
+            <td>Vehicles</td>
+        </tr>
+        <tr>
+            <td>Get off</td>
+            <td>What stop should I get off at?</td>
+            <td>Vehicles</td>
+        </tr>
+    </table>
+
+    <div id="display"></div>
+
+    <script>
+        let currentEntry = null;
+
+        function randomSelect() {
+            const rows = document.querySelectorAll('#phrasal-verbs tr:not(:first-child)'); // Exclude header row
+            const randomIndex = Math.floor(Math.random() * rows.length);
+            const selectedRow = rows[randomIndex];
+
+            const target = selectedRow.cells[0].innerText; // Get Target from first cell
+            const trigger = selectedRow.cells[2].innerText; // Get Trigger from third cell
+            const sentence = selectedRow.cells[1].innerText; // Get Sentence from second cell
+
+            currentEntry = { target, trigger, sentence }; // Store current entry
+            document.getElementById('display').innerHTML = 
+                `<p>Target: ${target}, Trigger: ${trigger}</p>`;
+        }
+
+        function showSentence() {
+            if (currentEntry) {
+                document.getElementById('display').innerHTML += 
+                    `<p>Sentence: ${currentEntry.sentence}</p>`;
+            }
+        }
+    </script>
+
+</body>
+</html>
