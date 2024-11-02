@@ -3,18 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phrasal Verb Table</title>
+    <title>Phrasal Verb Selector</title>
     <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 8px;
-        }
-        th, td {
-            text-align: left;
-        }
         #display {
             margin-top: 20px;
+            font-size: 18px;
         }
         button {
             margin: 5px;
@@ -22,65 +15,119 @@
             font-size: 16px;
             cursor: pointer;
         }
+        .target {
+            color: red; /* Target text in red */
+        }
+        .sentence {
+            font-weight: bold; /* Sentence text in bold */
+        }
     </style>
 </head>
 <body>
 
-    <h1>Phrasal Verb Table</h1>
-    <button onclick="randomSelect()">Random Select</button>
-    <button onclick="showSentence()">Show Sentence</button>
+    <h1>Practice Sentence</h1>
+    
+    <p>
+        <label for="targetSelect">Select a Target:</label>
+        <select id="targetSelect" onchange="displaySelected()">
+            <option value="">--Select a Target--</option>
+        </select>
+    </p>
 
-    <table id="phrasal-verbs">
-        <tr>
-            <th>Target</th>
-            <th>Sentence</th>
-            <th>Trigger</th>
-        </tr>
-        <tr>
-            <td>Put on</td>
-            <td>Put on your shoes.</td>
-            <td>Clothes</td>
-        </tr>
-        <tr>
-            <td>Take off</td>
-            <td>Take off your clothes.</td>
-            <td>Clothes</td>
-        </tr>
-        <tr>
-            <td>Get on</td>
-            <td>I just got on the ferry.</td>
-            <td>Vehicles</td>
-        </tr>
-        <tr>
-            <td>Get off</td>
-            <td>What stop should I get off at?</td>
-            <td>Vehicles</td>
-        </tr>
-    </table>
+    <p>
+        <button onclick="randomSelect()">Random Select</button>
+    </p>
+
+    <p>
+        <button onclick="showSentence()">Show Sentence</button>
+    </p>
 
     <div id="display"></div>
 
     <script>
+        // Phrasal verb data
+        const phrasalVerbs = [
+            { target: "Put on", sentence: "Put on your shoes.", trigger: "nan" },
+            { target: "Take off", sentence: "Take off your clothes.", trigger: "nan" },
+            { target: "Get on", sentence: "I just got on the ferry.", trigger: "Ferry" },
+            { target: "Get off", sentence: "What stop should I get off at?", trigger: "nan" },
+            { target: "Come up with", sentence: "At that moment, I came up with an idea", trigger: "FreshFold" },
+            { target: "Turn into", sentence: "During that period, it turned into a mega corporation", trigger: "Netflix" },
+            { target: "Turn into", sentence: "Fresh Fold will turn your laundry into simple experience.", trigger: "FreshFold" },
+            { target: "End up", sentence: "The staff said no because the prices were different, so I ended up putting it back on the shelf. ", trigger: "Devocion" },
+            { target: "Pass by", sentence: "I passed by the station that I was supposed to get off.", trigger: "Station" },
+            { target: "Drop by", sentence: "I'll drop by your apartment when I go back home.", trigger: "Apartment" },
+            { target: "Make up", sentence: "3 people will provide funding for company, which will make up 50% of capital.", trigger: "Funding" },
+            { target: "Pull off", sentence: "I've finished! I pulled it off!", trigger: "nan" },
+            { target: "Come out", sentence: "The concept of FreshFold first came out of that question.", trigger: "FreshFold" },
+            { target: "Get to", sentence: "As time passes, I got to understand it.", trigger: "Time passes" },
+            { target: "Get to", sentence: "Living in the US isn't easy, but at least, I get to learn English.", trigger: "English" },
+            { target: "Get to", sentence: "I enjoyed going to school because I got to play football.", trigger: "Schooldays" },
+            { target: "Go into", sentence: "Netflix went into a period of rapid growth.", trigger: "Netflix" },
+            { target: "Put back", sentence: "I'm done, I'm just putting the weights back", trigger: "Gym" },
+            { target: "go around", sentence: "I spent about a week going around the area to find an apartment to rent.", trigger: "Apartment" },
+            { target: "nan", sentence: "nan", trigger: "nan" },
+            { target: "Modification", sentence: "I made some modifications to the first draft.", trigger: "Draft" },
+            { target: "Annoying", sentence: "Doing laundry is a really annoying task.", trigger: "Laundry" },
+            { target: "exchange", sentence: "I asked if I could exchange the one I just bought for another.", trigger: "Devocion" },
+            { target: "nan", sentence: "nan", trigger: "nan" },
+            { target: "Find", sentence: "At a certain point, I found that programming is more interesting than accounting", trigger: "Programming, Accounting" },
+            { target: "Matter", sentence: "You'd better focus on what really matters on your life", trigger: "Focuse" },
+            { target: "Return", sentence: "I got a refund but the company didn't require the item to be returned.", trigger: "Temu, Bed frame" },
+            { target: "Drop", sentence: "I dropped my wallet on the ferry.", trigger: "Ferry" },
+            { target: "Look closer", sentence: "When I looked closer, it wasn't that good.", trigger: "Graph" },
+            { target: "Put into situations", sentence: "I was often put in to situations where I had to handle a large scale of data.", trigger: "ICFR" },
+            { target: "Far(way) --er", sentence: "We are far older than that.", trigger: "Required ID " },
+            { target: "More focused", sentence: "My job was more focused on auditing than accounting.", trigger: "Job description" },
+            { target: "Happen to", sentence: "I happened to return the one I paid for and take the other one instead.", trigger: "Devocion" },
+            { target: "Have sth on it", sentence: "What if I get a bill that has my wife's name on it?", trigger: "NYCID" },
+            { target: "Show", sentence: "What if I get a bill that shows my wife's name on it?", trigger: "NYCID" },
+            { target: "Grab", sentence: "I grabbed another one and took it to the counter, asking for an exchange.", trigger: "Devocion" },
+            { target: "In the meantime", sentence: "What if I get a bill that has my wife's name on it in the meantime?", trigger: "NYCID" },
+            { target: "Incorrectly", sentence: "I wrote something incorrectly on the application form", trigger: "NYCID" },
+            { target: "Speak to", sentence: "May I ask who I am speaking to?", trigger: "Unknown call" },
+            { target: "Calling to ask ", sentence: "Hello, I am calling to ask something blah blah", trigger: "Unknown call" },
+            { target: "Back and forth", sentence: "t took me 5 hours, going back and forth between my apartment and the laundromat.", trigger: "Laundromat" },
+            { target: "Likely", sentence: "In which sector am I more likely to get hired?", trigger: "which sector" },
+            { target: "Had PP", sentence: "If I had intended to do that, I wouldn't have left it on the table.", trigger: "Devocion" }
+            
+        ];
+
+        // Populate the select box with targets
+        const targetSelect = document.getElementById('targetSelect');
+        phrasalVerbs.forEach(verb => {
+            const option = document.createElement('option');
+            option.value = verb.target;
+            option.textContent = verb.target;
+            targetSelect.appendChild(option);
+        });
+
         let currentEntry = null;
 
         function randomSelect() {
-            const rows = document.querySelectorAll('#phrasal-verbs tr:not(:first-child)'); // Exclude header row
-            const randomIndex = Math.floor(Math.random() * rows.length);
-            const selectedRow = rows[randomIndex];
-
-            const target = selectedRow.cells[0].innerText; // Get Target from first cell
-            const trigger = selectedRow.cells[2].innerText; // Get Trigger from third cell
-            const sentence = selectedRow.cells[1].innerText; // Get Sentence from second cell
-
-            currentEntry = { target, trigger, sentence }; // Store current entry
+            const randomIndex = Math.floor(Math.random() * phrasalVerbs.length);
+            currentEntry = phrasalVerbs[randomIndex];
             document.getElementById('display').innerHTML = 
-                `<p>Target: ${target}, Trigger: ${trigger}</p>`;
+                `<p class="target">Target: ${currentEntry.target}</p>
+                 <p>Trigger: ${currentEntry.trigger}</p>`;
+        }
+
+        function displaySelected() {
+            const selectedTarget = targetSelect.value;
+            currentEntry = phrasalVerbs.find(verb => verb.target === selectedTarget);
+            if (currentEntry) {
+                document.getElementById('display').innerHTML = 
+                    `<p class="target">Target: ${currentEntry.target}</p>
+                     <p>Trigger: ${currentEntry.trigger}</p>`;
+            } else {
+                document.getElementById('display').innerHTML = '';
+            }
         }
 
         function showSentence() {
             if (currentEntry) {
                 document.getElementById('display').innerHTML += 
-                    `<p>Sentence: ${currentEntry.sentence}</p>`;
+                    `<p class="sentence">Sentence: ${currentEntry.sentence}</p>`;
             }
         }
     </script>
