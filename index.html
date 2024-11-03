@@ -15,6 +15,15 @@
             font-size: 16px;
             cursor: pointer;
         }
+        #buttonRow {
+            display: flex;
+            gap: 10px;
+        }
+        #navigation {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
         .target {
             color: red; /* Target text in red */
         }
@@ -26,7 +35,7 @@
 <body>
 
     <h1>Practice Sentence</h1>
-    
+
     <p>
         <label for="targetSelect">Select a Target:</label>
         <select id="targetSelect" onchange="displaySelected()">
@@ -34,19 +43,21 @@
         </select>
     </p>
 
-    <p>
+    <div id="buttonRow">
         <button onclick="randomSelect()">Random Select</button>
-    </p>
-
-    <p>
         <button onclick="showSentence()">Show Sentence</button>
-    </p>
+    </div>
 
     <div id="display"></div>
 
+    <div id="navigation">
+        <button onclick="prevEntry()">Previous</button>
+        <button onclick="nextEntry()">Next</button>
+    </div>
+
     <script>
-        // Phrasal verb data
-        const phrasalVerbs = [
+        // Sentence data
+        const sentences = [
             { target: "Put on", sentence: "Put on your shoes.", trigger: "nan" },
             { target: "Take off", sentence: "Take off your clothes.", trigger: "nan" },
             { target: "Get on", sentence: "I just got on the ferry.", trigger: "Ferry" },
@@ -76,7 +87,8 @@
             { target: "Return", sentence: "I got a refund but the company didn't require the item to be returned.", trigger: "Temu, Bed frame" },
             { target: "Drop", sentence: "I dropped my wallet on the ferry.", trigger: "Ferry" },
             { target: "Look closer", sentence: "When I looked closer, it wasn't that good.", trigger: "Graph" },
-            { target: "Put into situations", sentence: "I was often put in to situations where I had to handle a large scale of data.", trigger: "ICFR" },
+            { target: "Put into situations", sentence: "I was often put into situations where I had to handle a large scale of data.", trigger: "ICFR" },
+            { target: "Apply", sentence: "Any sector is fine for me as long as I can apply both my past experience and the skills I've gained", trigger: "Sector" },
             { target: "Far(way) --er", sentence: "We are far older than that.", trigger: "Required ID " },
             { target: "More focused", sentence: "My job was more focused on auditing than accounting.", trigger: "Job description" },
             { target: "Happen to", sentence: "I happened to return the one I paid for and take the other one instead.", trigger: "Devocion" },
@@ -90,46 +102,76 @@
             { target: "Back and forth", sentence: "t took me 5 hours, going back and forth between my apartment and the laundromat.", trigger: "Laundromat" },
             { target: "Likely", sentence: "In which sector am I more likely to get hired?", trigger: "which sector" },
             { target: "Had PP", sentence: "If I had intended to do that, I wouldn't have left it on the table.", trigger: "Devocion" }
-            
         ];
 
         // Populate the select box with targets
         const targetSelect = document.getElementById('targetSelect');
-        phrasalVerbs.forEach(verb => {
+        sentences.forEach((verb, index) => {
             const option = document.createElement('option');
-            option.value = verb.target;
+            option.value = index;  // Use index for navigation
             option.textContent = verb.target;
             targetSelect.appendChild(option);
         });
 
-        let currentEntry = null;
+        let currentIndex = 0;  // Track the current index
+        let currentEntry = sentences[currentIndex];
+        let sentenceShown = false; // Track if the sentence is already displayed
 
-        function randomSelect() {
-            const randomIndex = Math.floor(Math.random() * phrasalVerbs.length);
-            currentEntry = phrasalVerbs[randomIndex];
-            document.getElementById('display').innerHTML = 
-                `<p class="target">Target: ${currentEntry.target}</p>
-                 <p>Trigger: ${currentEntry.trigger}</p>`;
-        }
-
-        function displaySelected() {
-            const selectedTarget = targetSelect.value;
-            currentEntry = phrasalVerbs.find(verb => verb.target === selectedTarget);
+        function updateDisplay() {
             if (currentEntry) {
                 document.getElementById('display').innerHTML = 
-                    `<p class="target">Target: ${currentEntry.target}</p>
-                     <p>Trigger: ${currentEntry.trigger}</p>`;
+                    `<p class="target">Target: ${
+                        currentEntry.target
+                    }</p>
+                     <p>Trigger: ${
+                         currentEntry.trigger
+                     }</p>`;
+                sentenceShown = false; // Reset sentence shown state
             } else {
                 document.getElementById('display').innerHTML = '';
             }
         }
 
+        function randomSelect() {
+            currentIndex = Math.floor(Math.random() * sentences.length);
+            currentEntry = sentences[currentIndex];
+            updateDisplay();
+        }
+
+        function displaySelected() {
+            currentIndex = parseInt(targetSelect.value);
+            currentEntry = sentences[currentIndex];
+            updateDisplay();
+        }
+
         function showSentence() {
-            if (currentEntry) {
+            if (currentEntry && !sentenceShown) {
                 document.getElementById('display').innerHTML += 
-                    `<p class="sentence">Sentence: ${currentEntry.sentence}</p>`;
+                    `<p class="sentence">Sentence: ${
+                        currentEntry.sentence
+                    }</p>`;
+                sentenceShown = true; // Set sentence as shown
             }
         }
+
+        function prevEntry() {
+            if (currentIndex > 0) {
+                currentIndex--;
+                currentEntry = sentences[currentIndex];
+                updateDisplay();
+            }
+        }
+
+        function nextEntry() {
+            if (currentIndex < sentences.length - 1) {
+                currentIndex++;
+                currentEntry = sentences[currentIndex];
+                updateDisplay();
+            }
+        }
+
+        // Initial display update
+        updateDisplay();
     </script>
 
 </body>
