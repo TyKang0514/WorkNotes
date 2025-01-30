@@ -49,10 +49,9 @@ seaborn.barplot()
 <img src="comp.png" alt="Description" style="width:500px; height:auto;">
 
 ## 3. Correlation of Income and Housing Values
-### 2.1. 
+### 3.1. Remove outliers in `income` column 
 **Steps Taken**
 >Among the features, the correlation between house value and income was found to be the highest. Before visualization, outliers above the upper whisker (Q3 + 1.5 * IQR) were removed to improve accuracy.
-
 
 **Code Used** <br>
 ```
@@ -61,8 +60,18 @@ dataframe[‘column’].quantile()
  filter the column
 ```
 
-<img src="" alt="Description" style="width:500px; height:auto;">
+<img src="out.png" alt="Description" style="width:300px; height:auto;">
 
+### 3.2. Identify relationship Between Income and Housing Value
+**Steps Taken**
+>The relationship is visualized using a hexbin plot after removing outliers from both features (income and house value), showing a positive linear correlation.
+
+**Code Used** <br>
+```
+matplotlib.pyplot.hexbin()
+```
+
+<img src="out.png" alt="Description" style="width:300px; height:auto;">
 
     
 
