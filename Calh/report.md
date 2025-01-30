@@ -32,6 +32,8 @@ The project analyzes 1990s California housing prices, offering valuable insights
 ```
 seaborn.scatterplot( )
 ```
+
+<img src="geo.png" alt="Description" style="width:500px; height:auto;">
     
 
 
