@@ -24,7 +24,7 @@ The project analyzes 1990s California housing prices, offering valuable insights
 
 
 ## Finding1: Coastal Areas Have Higher Housing Values
-### Geographical visualization
+### 1. Geographical visualization
 **Steps Taken**
 >Using geographical information (latitude, longitude), create a scatter plot where color represents ocean proximity and size varies by housing price. The visualization highlights that coastal areas tend to have higher housing values.
 
@@ -34,6 +34,18 @@ seaborn.scatterplot( )
 ```
 
 <img src="geo.png" alt="Description" style="width:500px; height:auto;">
+
+### 2. Compare Housing Value between Coastal and Inland
+**Steps Taken**
+>After simplifying the ocean proximity feature into two categories (Coastal and Inland), a bar plot was used to directly compare house values. The average house value in coastal areas is nearly double that of inland areas.
+
+**Code Used** <br>
+```
+dataframe.map()
+dataframe.groupby()
+seaborn.barplot()
+```
+
     
 
 
