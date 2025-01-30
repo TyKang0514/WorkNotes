@@ -33,7 +33,7 @@ The project analyzes 1990s California housing prices, offering valuable insights
 seaborn.scatterplot( )
 ```
 
-<img src="geo.png" alt="Description" style="width:500px; height:auto;">
+<img src="geo.png" alt="Description" style="width:400px; height:auto;">
 
 ### 2.2. Compare Housing Value between Coastal and Inland
 **Steps Taken**
@@ -46,7 +46,7 @@ dataframe.groupby()
 seaborn.barplot()
 ```
 
-<img src="comp.png" alt="Description" style="width:500px; height:auto;">
+<img src="comp.png" alt="Description" style="width:400px; height:auto;">
 
 ## 3. Correlation of Income and Housing Values
 ### 3.1. Remove outliers in `income` column 
@@ -71,7 +71,7 @@ dataframe[‘column’].quantile()
 matplotlib.pyplot.hexbin()
 ```
 
-<img src="out.png" alt="Description" style="width:300px; height:auto;">
+<img src="hex.png" alt="Description" style="width:300px; height:auto;">
 
     
 
