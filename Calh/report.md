@@ -1,3 +1,37 @@
-# AA
-## AA
-### AA
+# Data Analysis on California Housing Prices
+## OVERVIEW ##
+The project analyzes 1990s California housing prices, offering valuable insights into the key factors that determine housing values. While based on historical data, it provides a general understanding of housing market analysis. More importantly, this work is meaningful as I designed the process to apply analytical skills in practice, including data cleaning, visualization, and statistical analysis, to uncover trends and make informed predictions of data.
+
+**Objective**
+>**Descriptive Analysis** Identify key trends and patterns from the data <br>
+>**Predictive Analysis** Estimate Housing valuse by key factors
+
+**Methods**
+>**Python Libraries** Pandas, Numpy, Seaborn, MatPlotLib, ScikitLearn
+
+**Outcome**
+>**Finding1** Coastal Areas Have Higher Housing Value <br>
+>**Finding2** Correlation of Income and Housing Value <br>
+>**Prediction Model** RandomForestRegressor with *R2Score: 0.82* and *RMSE: 48,671($)*
+
+
+## ABOUT DATASET
+**Attributes**
+
+>**Key Variable** House Value <br>
+>**Housing Characteristic** Number of Rooms, Housing Age, Ocean Proximity <br>
+>**Demographic Population** Households, Income <br>
+
+
+## Finding1: Coastal Areas Have Higher Housing Values
+### Geographical visualization
+**Steps Taken**
+>Using geographical information (latitude, longitude), create a scatter plot where color represents ocean proximity and size varies by housing price. The visualization highlights that coastal areas tend to have higher housing values.
+
+**Code Used** <br>
+```
+seaborn.scatterplot( )
+```
+    
+
+
