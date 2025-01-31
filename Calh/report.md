@@ -74,6 +74,8 @@ matplotlib.pyplot.hexbin()
 <img src="hex.png" alt="Description" style="width:300px; height:auto;">
 
 ## 4. Prediction Model: Random Forest Regressor
+*Each entry in the dataset represents a block featured by longitude and latitude. The median values are used for Housing age, Income and house Value*
+
 **Key Features**
 >**Housing Age** age of a house; a lower number is a newer <br>
 >**Population** number of people <br>
