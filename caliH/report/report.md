@@ -1,5 +1,5 @@
 # Data Analysis on California Housing Prices
-[Source From Kaggle](URL)
+[Source From Kaggle](URL) <br>
 [Jupyter Notebook](URL)
 
 ## 0. OVERVIEW ##
