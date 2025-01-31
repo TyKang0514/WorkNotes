@@ -1,6 +1,5 @@
 # Data Analysis on California Housing Prices
-[Source From Kaggle](URL) <br>
-[Jupyter Notebook](URL)
+[Also Find Jupyter Notebook](URL)
 
 ## 0. OVERVIEW ##
 The project analyzes 1990s California housing prices, offering valuable insights into the key factors that determine housing values. While based on historical data, it provides a general understanding of housing market analysis. More importantly, this work is meaningful as I designed the process to apply analytical skills in practice, including data cleaning, visualization, and statistical analysis, to uncover trends and make informed predictions of data.
