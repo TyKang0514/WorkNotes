@@ -58,8 +58,7 @@ seaborn.barplot()
 **Code Used** <br>
 ```
 dataframe[‘column’].quantile()
- # used to calculate ICR and
- filter the column
+ # used to calculate ICR and filter the column
 ```
 
 <img src="out.png" alt="Description" style="width:300px; height:auto;">
