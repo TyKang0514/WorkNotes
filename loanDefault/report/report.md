@@ -84,6 +84,27 @@ Create a new dataframe `df1` with adjusted columns
 ***Note** The default rate in the entire dataset (all applicants) is approximately 8%.*
 
 ### 3.1. Set the function
-set the function that returns a dataframe, where 
+Define a function that takes a categorical column as input and returns a DataFrame displaying the default rate for each category in the column
+
+<img src="func.png" alt="Alt text" width="500">
+
+>```
+>def defaultRate(col) : 
+>    summary = df1.groupby(col)['TARGET'].agg(Repaid=lambda t: (t == 0).sum(),
+>                                             Default=lambda t: (t == 1).sum(),
+>                                             Total='size').reset_index()
+>    summary['DefaultRate_%'] = (summary['Default'] / summary['Total']) * 100
+>    summary = summary.rename(columns={col: 'Group'})
+>    summary['Column']=col
+>    summary = summary[['Column','Group','Repaid','Default','Total','DefaultRate_%']]
+>    return round(summary,2)
+```
+For example, when giving column 'contract type' to the function, it returns like below.
+
+```
+>defaultRate('NAME_CONTRACT_TYPE')
+><img src="func.png" alt="Alt text" width="500">
+```
+
 
 
