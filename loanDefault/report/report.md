@@ -19,9 +19,12 @@ This project explores various types of information extracted from loan applicati
 **Sorce from Kaggle**
 
 **Size**
+>**Index 307511 | Column 122**
 >```
 >df.info()
 >```
+><img src="dfinfo.png" alt="Alt text" width="500">
+
 
 **Attributes**
 > **Key Variable** Default status (0:no default | 1: default) <br>
