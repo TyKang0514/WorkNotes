@@ -19,8 +19,9 @@ This project explores various types of information extracted from loan applicati
 **Sorce from Kaggle**
 
 **Size**
->
->
+>```
+>df.info()
+>```
 
 **Attributes**
 > **Key Variable** Default status (0:no default | 1: default) <br>
@@ -31,11 +32,13 @@ This project explores various types of information extracted from loan applicati
 > ***Note**: The actual dataset contains more detailed columns and uses different labels. The above grouping is a generalized representation for clarity*
 
 ## 2. Identify unnecessary column
+<img src="columns.png" alt="Alt text" width="500">
+
 ### 2.1. Missing Value (49 columns deleted)
 **Steps Taken**
-> Remove columns with more than 40% missing values
+> Add a group of columns with more than 40% missing values into a list labeled `column_unnecessary`
 
-**Code used** 
+**Code Used** 
 >```
 ># make a series of null value percentage of each column
 >columnlist_null = df.isnull().sum() / df.shape[0] * 100
@@ -43,3 +46,22 @@ This project explores various types of information extracted from loan applicati
 ># make a list that contains the column which has more than 40% of null value
 >column_unnecessary = columnlist_null[columnlist_null>40].index.tolist()
 >```
+
+### 2.2. Documents submission (19 columns deleted)
+**Steps Taken**
+> A set of columns indicates whether certain documents were submitted. However, since most of them were not submitted, they provide little meaningful information, except for 'document3.
+>
+> **Code Used** 
+>```
+>FlagDocCol = []
+>
+>for x in df.columns:
+>    if 'FLAG_DOCUMENT' in x :
+>        FlagDocCol.append(x)
+>
+>df[FlagDocCol].sum()   
+>```
+
+### 2.3. Exgternal source (2 colums deleted)
+**Steps Taken**
+> Several columns labeled "external source" have ambiguous meanings. No clear correlation was found between these external sources and loan default.
