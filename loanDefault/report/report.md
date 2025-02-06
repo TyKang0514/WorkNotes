@@ -107,7 +107,7 @@ For example, when the column 'contract type' is provided to the function, it ret
 ><img src="img/funcEx.png" alt="Alt text" width="600">
 
 ### 3.1. Identify Noticeable Groups
-Using the previously defined function, groups with a default rate below 5% and above 11% are identified. These ranges are determined based on a difference of more than 4% from the overall default rate of all applicants, which is 8%.
+Using the previously defined function, groups with a default rate below 5% and above 11% are identified. These ranges are determined based on a difference of more than 3% from the overall default rate of all applicants, which is 8%.
 
 <img src="img/catAnal.png" alt="Alt text" width="1000">
 
