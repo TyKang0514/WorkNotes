@@ -111,3 +111,14 @@ Using the previously defined function, groups with a default rate below 5% and a
 
 <img src="img/catAnal.png" alt="Alt text" width="1000">
 
+**The default rate across the entire dataset (all applicants) is 8.07%. Assuming a difference of 3% is significant, the identified groups with a default rate lower than 5% and higher than 11% are as follows:**
+>**The lower default rate groups:**
+>- [Occupation] Accountants
+>- [IncomeType] Businessman, Student
+>- [EducationLevel] Academic degree
+>
+>**The higher default rate groups**
+>- [Occupation] Waiters/barmen staff, Drivers, Low-skill Laborers
+>- [IncomeType] Unemployed, Maternity leave
+>- [HousingType] With parents, Rented apartment
+
