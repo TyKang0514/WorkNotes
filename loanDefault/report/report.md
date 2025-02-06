@@ -83,7 +83,7 @@ Create a new dataframe `df1` with adjusted columns
 3. Identify the group with a defualt rate lower than 5% or higher than 11%. <br>
 ***Note** The default rate in the entire dataset (all applicants) is approximately 8%.*
 
-### 3.1. Set the function
+### 3.1. Set the function for the analysis
 Define a function that takes a categorical column as input and returns a DataFrame displaying the default rate for each category in the column
 
 <img src="img/func.png" alt="Alt text" width="500">
@@ -106,7 +106,7 @@ For example, when the column 'contract type' is provided to the function, it ret
 >```
 ><img src="img/funcEx.png" alt="Alt text" width="600">
 
-### 3.1. Identify Noticeable Groups
+### 3.2. Noticeable Groups
 Using the previously defined function, groups with a default rate below 5% and above 11% are identified. These ranges are determined based on a difference of more than 3% from the overall default rate of all applicants, which is 8%.
 
 <img src="img/catAnal.png" alt="Alt text" width="1000">
