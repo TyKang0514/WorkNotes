@@ -56,7 +56,7 @@ A set of columns indicates whether certain documents were submitted. However, si
 >
 >df[FlagDocCol].sum()   
 >```
-><img src="flagdoc.png" alt="Alt text" width="500">
+><img src="img/flagdoc.png" alt="Alt text" width="500">
 >
 >```
 >FlagDocCol.remove('FLAG_DOCUMENT_3')
@@ -86,7 +86,7 @@ Create a new dataframe `df1` with adjusted columns
 ### 3.1. Set the function
 Define a function that takes a categorical column as input and returns a DataFrame displaying the default rate for each category in the column
 
-<img src="func.png" alt="Alt text" width="500">
+<img src="img/func.png" alt="Alt text" width="500">
 
 >```
 >def defaultRate(col) : 
@@ -104,10 +104,10 @@ For example, when the column 'contract type' is provided to the function, it ret
 >```
 >defaultRate('NAME_CONTRACT_TYPE')
 >```
-><img src="funcEx.png" alt="Alt text" width="600">
+><img src="img/funcEx.png" alt="Alt text" width="600">
 
 ### 3.1. Identify Noticeable Groups
 Using the previously defined function, groups with a default rate below 5% and above 11% are identified. These ranges are determined based on a difference of more than 4% from the overall default rate of all applicants, which is 8%.
 
-<img src="catAnal.png" alt="Alt text" width="500">
+<img src="img/catAnal.png" alt="Alt text" width="500">
 
