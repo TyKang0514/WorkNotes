@@ -98,13 +98,14 @@ Define a function that takes a categorical column as input and returns a DataFra
 >    summary['Column']=col
 >    summary = summary[['Column','Group','Repaid','Default','Total','DefaultRate_%']]
 >    return round(summary,2)
-```
-For example, when giving column 'contract type' to the function, it returns like below.
+>```
 
-```
+For example, when the column 'contract type' is provided to the function, it returns a DataFrame like the one shown below.
+>```
 >defaultRate('NAME_CONTRACT_TYPE')
-><img src="func.png" alt="Alt text" width="500">
-```
+>```
+><img src="funcEx.png" alt="Alt text" width="600">
 
+### 3.1. Identify Noticeable Groups
 
 
