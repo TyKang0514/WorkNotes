@@ -31,7 +31,7 @@ Identify the features that contribute to an increased default rate.
 > ***Note**: The actual dataset contains more detailed columns and uses different labels. The above grouping is a generalized representation for clarity*
 
 ## 2. Identify unnecessary column
-<img src="columns.png" alt="Alt text" width="500">
+<img src="img/columns.png" alt="Alt text" width="500">
 
 ### 2.1. Missing Value (49 columns deleted)
 Add a group of columns with more than 40% missing values into a list labeled `column_unnecessary`
