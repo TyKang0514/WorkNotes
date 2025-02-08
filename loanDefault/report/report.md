@@ -128,7 +128,7 @@ Analyze numerical columns individually to identify specific ranges where the def
 
 
 ### 4.1. Credit Amount
-The column represents the credit amount of the loan. To overview the distribution of the column and how the default state changes along the way, KDE and scatter plot were created
+This column represents the credit amount of the loan. To provide an overview of the distribution and examine how the default state changes across different credit amounts, a KDE (Kernel Density Estimate) and scatter plot were created
 >```
 ># Set x-axis range
 >x_min, x_max = df1['AMT_CREDIT'].min(), df1['AMT_CREDIT'].max()
@@ -155,5 +155,9 @@ The column represents the credit amount of the loan. To overview the distributio
 ># Show the plots
 >plt.show()
 >```
-><img src="img/CreditAmtOverview.png" alt="Alt text" width="1000">
+><img src="img/CreditAmtOverview.png" alt="Alt text" width="700">
+
+As shown above, the majority of loans are under 1 million. It is expected that in the range of extremely large credit amounts, there may be a decrease in the default rate.
+
+To verify this inference, the dataset is split into 8 groups based on the quantiles of credit amount to compare their default rates
 
