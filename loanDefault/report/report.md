@@ -122,3 +122,37 @@ Using the previously defined function, groups with a default rate below 5% and a
 >- [IncomeType] Unemployed, Maternity leave
 >- [HousingType] With parents, Rented apartment
 
+## 4. Numerical Data Analysis
+**Strategy** <br>
+Analyze numerical columns individually to identify specific ranges where the default rate is noticeably high or low compared to the overall default rate of the dataset
+
+
+### 4.1. Credit Amount
+The column represents the credit amount of the loan. To overview the distribution of the column and how the default state changes along the way, KDE and scatter plot were created
+>```
+># Set x-axis range
+>x_min, x_max = df1['AMT_CREDIT'].min(), df1['AMT_CREDIT'].max()
+>
+># Create figure with two subplots, sharing the same x-axis
+>fig, axes = plt.subplots(nrows=2, figsize=(6, 4), sharex=True, gridspec_kw={'height_ratios': [1, 1]})
+>
+># KDE plot
+>sns.kdeplot(x=df1['AMT_CREDIT'], fill=True, clip=(x_min, x_max), ax=axes[0])
+>axes[0].set_ylabel('Density')
+>
+># Scatter plot
+>sns.scatterplot(x=df1['AMT_CREDIT'], y=df1['TARGET'], ax=axes[1])
+>axes[1].set_yticks([0, 1])
+>axes[1].set_yticklabels(["False", "True"])
+>axes[1].set_ylabel('Default')
+>
+># X label
+>plt.xlabel('Credit Amount')
+>
+># Adjust layout
+>plt.tight_layout()
+>
+># Show the plots
+>plt.show()
+>```
+
