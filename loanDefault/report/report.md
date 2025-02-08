@@ -155,4 +155,5 @@ The column represents the credit amount of the loan. To overview the distributio
 ># Show the plots
 >plt.show()
 >```
+><img src="img/CreditAmtOverview.png" alt="Alt text" width="1000">
 
