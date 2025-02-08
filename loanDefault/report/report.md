@@ -155,9 +155,10 @@ This column represents the credit amount of the loan. To provide an overview of 
 ># Show the plots
 >plt.show()
 >```
-><img src="img/CreditAmtOverview.png" alt="Alt text" width="700">
+><img src="img/CrOverview.png" alt="Alt text" width="600">
 
 As shown above, the majority of loans are under 1 million. It is expected that in the range of extremely large credit amounts, there may be a decrease in the default rate.
 
 To verify this inference, the dataset is split into 8 groups based on the quantiles of credit amount to compare their default rates
 
+<img src="img/CrVisual.png" alt="Alt text" width="700">
