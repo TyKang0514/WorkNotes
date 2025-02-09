@@ -161,4 +161,12 @@ As shown above, the majority of loans are under 1 million. It is expected that i
 
 To verify this inference, the dataset is split into 8 groups based on the quantiles of credit amount to compare their default rates
 
-<img src="img/CrVisual.png" alt="Alt text" width="700">
+<img src="img/CrVisual.png" alt="Alt text" width="730">
+
+Default rates show a **U-shaped** trend across credit amount groups. The lowest rates are in Q1 (6.87%) and Q8 (5.39%), while the highest are in mid-range groups Q3-Q5 (9.66%-10.65%).
+
+**Smaller loans may indicate lower risks, and larger loans may reflect more stable borrowers. Mid-range loans likely represent higher-risk borrowers, emphasizing the importance of identifying specific credit amount ranges associated with higher default risks.**
+
+### 4.2. Income
+Characteristc that stands out in the column is that it has extreme outliers and most of the data is concentrated in a certain range
+
