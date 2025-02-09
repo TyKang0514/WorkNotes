@@ -168,5 +168,4 @@ Default rates show a **U-shaped** trend across credit amount groups. The lowest 
 **Smaller loans may indicate lower risks, and larger loans may reflect more stable borrowers. Mid-range loans likely represent higher-risk borrowers, emphasizing the importance of identifying specific credit amount ranges associated with higher default risks.**
 
 ### 4.2. Income
-Characteristc that stands out in the column is that it has extreme outliers and most of the data is concentrated in a certain range
-
+One thing that is immediately noticeable is the presence of extreme outliers, while most of the data is highly concentrated within a specific range."
