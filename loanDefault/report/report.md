@@ -174,6 +174,11 @@ Two noticeable aspects of the column are the presence of extreme outliers (up to
 - **Group A: Income from $0 to $270,000 (up to the 90th percentile)**
 - **Group B: Income above $270,000**
 
-<img src="img/InScatter.png" alt="Alt text" width="600">
+<img src="img/InScatter.png" alt="Alt text" width="730">
 
 The scatter plot implies that the default rate would change only after reaching Group B, while it remains steady in Group A. To verify this, it is necessary to examine how the default rate varies across income brackets within each group.
+
+<img src="img/InTrend.png" alt="Alt text" width="730">
+
+It was expected that the default rate wouldn’t change until reaching the top 10% of income. However, as shown above, a general trend of decreasing default rates exists across all income ranges. Nevertheless, **it is clear that the default rate decreases significantly when entering Group B (the top 10% of income)**.
+
