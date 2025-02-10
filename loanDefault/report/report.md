@@ -183,7 +183,7 @@ The scatter plot implies that the default rate would change only after reaching 
 It was expected that the default rate wouldn’t change until reaching the top 10% of income. However, as shown above, a general trend of decreasing default rates exists across all income ranges. Nevertheless, **it is clear that the default rate decreases significantly when entering Group B (the top 10% of income)**.
 
 ### 4.3. Family Status
-Regarding family status, there are two relevent columns. However, the two column has very strong linear correlation, only one of two is chosen for the analysis, the number of childeren.
+Regarding family status, there are two relevant columns: the number of children and the number of family members. However, these two columns have a very strong linear correlation, so only one of them, the number of children, is chosen for the analysis."
 
 <img src="img/FamChil.png" alt="Alt text" width="730">
 
