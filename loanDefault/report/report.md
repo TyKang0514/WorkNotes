@@ -1,14 +1,16 @@
 # Loan Default Risk Analysis
-[Also find Jupyter Notebook here]()
-[Data Source from Kaggle]()
+[Original Jupyter Notebook]() <br>
+[Data Source (From Kaggle)]()
 
-## 0. OVERVIEW
-This project explores various types of information extracted from loan application forms and identifies groups of features associated with a higher risk of default.
+## 0. PROJECT OVERVIEW
+The project explores various types of information extracted from loan application forms and identifies groups of features associated with a higher risk of default.
 
 <img src="img/pjOverview.png" alt="Alt text" width="700">
 
 
 ## 1. Identify unnecessary column
+To narrow the range of features for analysis, unnecessary columns were deleted, including those with more than 40% missing values, columns related to document submission where most items were not submitted, and other columns with ambiguous meanings or lacking clear information.
+
 <img src="img/columns.png" alt="Alt text" width="500">
 
 ### 1.1. Missing Value (49 columns deleted)
