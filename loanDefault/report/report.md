@@ -1,8 +1,13 @@
 # Loan Default Risk Analysis
 [Also find Jupyter Notebook here]()
+[Data Source from Kaggle]()
 
 ## 0. OVERVIEW
 This project explores various types of information extracted from loan application forms and identifies groups of features associated with a higher risk of default.
+
+<img src="img/pjOverview.png" alt="Alt text" width="700">
+
+
 
 ### Objective
 Identify the features that contribute to an increased default rate.
@@ -15,7 +20,6 @@ Identify the features that contribute to an increased default rate.
 >**Finding2** ... <br>
 
 ## 1.About Dataset
-[Sorce from Kaggle]()
 
 ### Size
 >**Index** 307,511  |  **Column** 122
