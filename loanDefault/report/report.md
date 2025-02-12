@@ -12,50 +12,6 @@ The project explores various types of information extracted from loan applicatio
 To narrow the range of features for analysis, unnecessary columns were deleted, including those with more than 40% missing values, columns related to document submission where most items were not submitted, and other columns with ambiguous meanings or lacking clear information.
 
 <img src="img/columns.png" alt="Alt text" width="700">
-
-### 1.1. Missing Value (49 columns deleted)
-Add a group of columns with more than 40% missing values into a list labeled `column_unnecessary`
-
->```
-># make a series of null value percentage of each column
->columnlist_null = df.isnull().sum() / df.shape[0] * 100
->
-># make a list that contains the column which has more than 40% of null value
->column_unnecessary = columnlist_null[columnlist_null>40].index.tolist()
->```
-
-### 1.2. Documents submission (19 columns deleted)
-A set of columns indicates whether certain documents were submitted. However, since most of them were not submitted, they provide little meaningful information, except for 'document3.
->```
-># Most of documents are not submitted, except for document 3
->FlagDocCol = []
->
->for x in df.columns:
->    if 'FLAG_DOCUMENT' in x :
->        FlagDocCol.append(x)
->
->df[FlagDocCol].sum()   
->```
-><img src="img/flagdoc.png" alt="Alt text" width="500">
->
->```
->FlagDocCol.remove('FLAG_DOCUMENT_3')
->column_unnecessary = column_unnecessary + FlagDocCol 
->```
-
-### 1.3. External source (2 columns deleted)
-Several columns labeled "external source" have ambiguous meanings. No clear correlation was found between these external sources and loan default.
-
-### 1.4. Contact Information (6 columns deleted)
-Personal contatct information is also unnecessary
-
-### 1.5 New dataframe with the adjusted columns
-Create a new dataframe `df1` with adjusted columns
-
->```
->df1=df.loc[:,[x for x in originalcolumn if x not in column_unnecessary]]
->```
-
 ## 2. Categorical Data Analysis
 **Strategy**
 1. Group the data by the values in the categorical column.
