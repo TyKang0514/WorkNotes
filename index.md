@@ -7,7 +7,7 @@ Over the past 7 years, I have worked in Internal Audit. During this time, I witn
 I am currently a graduate student majoring in Business Analytics. I created this webpage to document my work history, track the development of my skills, and share it with others.
 
 
-Projects
-1. [Data Analysis on California Housing Prices](https://tykang0514.github.io/WorkNotes/caliH/report/report)
-2. [Loan Default Analysis](https://tykang0514.github.io/WorkNotes/loanDefault/report/report)
+# Projects
+## 1. [Data Analysis on California Housing Prices](https://tykang0514.github.io/WorkNotes/caliH/report/report)
+## 2. [Loan Default Analysis](https://tykang0514.github.io/WorkNotes/loanDefault/report/report)
 
