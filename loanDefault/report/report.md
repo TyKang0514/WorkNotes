@@ -126,5 +126,3 @@ Regarding family status, there are two relevant columns: the number of children 
 Although it is a numerical column, it can be treated as categorical because it has only a small number of unique values. Therefore, it is divided into 5 groups (no children, 1 child, 2 children, 3 children, above 3 children), and the default rate is checked for each group.
 
 <<img src="img/ChildAnal.png" alt="Alt text" width="730">
-
-
