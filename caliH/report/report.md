@@ -64,35 +64,10 @@ matplotlib.pyplot.hexbin()
 <img src="hex.png" alt="Description" style="width:300px; height:auto;">
 
 ## 4. Prediction Model: Random Forest Regressor
-*Each entry in the dataset represents a block featured by longitude and latitude. The median values are used for Housing age, Income and house Value*
-
-**Key Features**
->**Housing Age** age of a house; a lower number is a newer <br>
->**Population** number of people <br>
->**Households** number of households, a group of people within a home unit <br>
->**Rooms** total number of rooms per household <br>
->**Income** of households <br>
->**Ocean Proximity** location of the house <br>
-
-**Target**
->**House Value** of households
-
-**Model**
->**Model type** RandomForestRegressor <br>
->**Performance** R2: 0.82  |  RMSE: 48,671($) <br>
+<img src="img/p1.png" alt="Alt text" width="700">
 
 ## 5. Sampling Test with the Model: 75% of accuracy
-
-**Test Strategy**
->From the cleaned dataset used for both training and testing the model, extract 5 random samples, each comprising 20% of the entire dataset, and test them individually. If the predicted value is within ±10% of the true value, the result is marked as Pass; otherwise, it is marked as Fail.
-
-**Outcome**
->The model showed 75% accuracy, with predicted values falling within ±10% of the true values. However, further refinement is needed to improve the remaining 25%
-
-<img src="test.png" alt="Description" style="width:300px; height:auto;">
-
-
-
+<img src="img/p2.png" alt="Alt text" width="700">
 
 
     
