@@ -93,9 +93,9 @@ This column represents the credit amount of the loan. To provide an overview of 
 >```
 ><img src="img/CrOverview.png" alt="Alt text" width="600">
 
-As shown above, the majority of loans are under 1 million. It is expected that in the range of extremely large credit amounts, there may be a decrease in the default rate.
+As shown above, the majority of loans are under 1 million. And it is expected that in the range of extremely large credit amounts, there may be a decrease in the default rate.
 
-To verify this inference, the dataset is split into 8 groups based on the quantiles of credit amount to compare their default rates
+To verify this inference, the dataset is split into 8 groups based on the quantiles of credit amount to compare their default rates.
 
 <img src="img/CrVisual.png" alt="Alt text" width="730">
 
@@ -119,10 +119,12 @@ The scatter plot implies that the default rate would change only after reaching 
 It was expected that the default rate wouldn’t change until reaching the top 10% of income. However, as shown above, a general trend of decreasing default rates exists across all income ranges. Nevertheless, **it is clear that the default rate decreases significantly when entering Group B (the top 10% of income)**.
 
 ### 4.3. Family Status
-Regarding family status, there are two relevant columns: the number of children and the number of family members. However, these two columns have a very strong linear correlation, so only one of them, the number of children, is chosen for the analysis."
+Regarding family status, there are two relevant columns: the number of children and the number of family members. However, these two columns have a very strong linear correlation, so only one of them, the number of children, is chosen for the analysis.
 
 <img src="img/FamChil.png" alt="Alt text" width="400">
 
 Although it is a numerical column, it can be treated as categorical because it has only a small number of unique values. Therefore, it is divided into 5 groups (no children, 1 child, 2 children, 3 children, above 3 children), and the default rate is checked for each group.
 
-<<img src="img/ChildAnal.png" alt="Alt text" width="730">
+<img src="img/ChildAnal.png" alt="Alt text" width="730">
+
+**End of the document**
