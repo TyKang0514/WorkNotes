@@ -4,18 +4,7 @@
 ## 0. OVERVIEW ##
 The project analyzes 1990s California housing prices, offering valuable insights into the key factors that determine housing values. While based on historical data, it provides a general understanding of housing market analysis. More importantly, this work is meaningful as I designed the process to apply analytical skills in practice, including data cleaning, visualization, and statistical analysis, to uncover trends and make informed predictions of data.
 
-**Objective**
->**Descriptive Analysis** Identify key trends and patterns from the data <br>
->**Predictive Analysis** Estimate Housing valuse by key factors
-
-**Methods**
->**Python Libraries** Pandas, Numpy, Seaborn, MatPlotLib, ScikitLearn
-
-**Outcome**
->**Finding1** Coastal Areas Have Higher Housing Value <br>
->**Finding2** Correlation of Income and Housing Value <br>
->**Prediction Model** RandomForestRegressor with *R2Score: 0.82* and *RMSE: 48,671($)*
-
+<img src="img/pOverview.png" alt="Alt text" width="700">
 
 ## 1. ABOUT DATASET
 **Attributes**
