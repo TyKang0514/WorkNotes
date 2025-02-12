@@ -42,7 +42,7 @@ For example, when the column 'contract type' is provided to the function, it ret
 >```
 ><img src="img/funcEx.png" alt="Alt text" width="600">
 
-### 3.2. Noticeable Groups
+### 2.2. Noticeable Groups
 Using the previously defined function, groups with a default rate below 5% and above 11% are identified. These ranges are determined based on a difference of more than 3% from the overall default rate of all applicants, which is 8%.
 
 <img src="img/catAnal.png" alt="Alt text" width="850">
@@ -58,12 +58,12 @@ Using the previously defined function, groups with a default rate below 5% and a
 >- [IncomeType] Unemployed, Maternity leave
 >- [HousingType] With parents, Rented apartment
 
-## 4. Numerical Data Analysis
+## 3. Numerical Data Analysis
 **Strategy** <br>
 Analyze numerical columns individually to identify specific ranges where the default rate is noticeably high or low compared to the overall default rate of the dataset
 
 
-### 4.1. Credit Amount
+### 3.1. Credit Amount
 This column represents the credit amount of the loan. To provide an overview of the distribution and examine how the default state changes across different credit amounts, a KDE (Kernel Density Estimate) and scatter plot were created
 >```
 ># Set x-axis range
@@ -103,7 +103,7 @@ Default rates show a **U-shaped** trend across credit amount groups. The lowest 
 
 **Smaller loans may indicate lower risks, and larger loans may reflect more stable borrowers. Mid-range loans likely represent higher-risk borrowers, emphasizing the importance of identifying specific credit amount ranges associated with higher default risks.**
 
-### 4.2. Income
+### 3.2. Income
 <img src="img/InOverview.png" alt="Alt text" width="600">
 
 Two noticeable aspects of the column are the presence of extreme outliers (up to $117,000,000) and a high concentration of data within a specific range (below the 90th percentile: $270,000). To address these characteristics, the analysis is divided into two groups:
@@ -118,7 +118,7 @@ The scatter plot implies that the default rate would change only after reaching 
 
 It was expected that the default rate wouldn’t change until reaching the top 10% of income. However, as shown above, a general trend of decreasing default rates exists across all income ranges. Nevertheless, **it is clear that the default rate decreases significantly when entering Group B (the top 10% of income)**.
 
-### 4.3. Family Status
+### 3.3. Family Status
 Regarding family status, there are two relevant columns: the number of children and the number of family members. However, these two columns have a very strong linear correlation, so only one of them, the number of children, is chosen for the analysis.
 
 <img src="img/FamChil.png" alt="Alt text" width="400">
