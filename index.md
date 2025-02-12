@@ -1,4 +1,4 @@
-# Work Notes by Taeyoon Kang
+# Taeyoon Kang
 
 Thanks for coming to see my work.
 
