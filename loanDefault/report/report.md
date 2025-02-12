@@ -11,7 +11,7 @@ The project explores various types of information extracted from loan applicatio
 ## 1. Identify unnecessary column
 To narrow the range of features for analysis, unnecessary columns were deleted, including those with more than 40% missing values, columns related to document submission where most items were not submitted, and other columns with ambiguous meanings or lacking clear information.
 
-<img src="img/columns.png" alt="Alt text" width="500">
+<img src="img/columns.png" alt="Alt text" width="700">
 
 ### 1.1. Missing Value (49 columns deleted)
 Add a group of columns with more than 40% missing values into a list labeled `column_unnecessary`
@@ -66,7 +66,7 @@ Create a new dataframe `df1` with adjusted columns
 ### 2.1. Set the function for the analysis
 Define a function that takes a categorical column as input and returns a DataFrame displaying the default rate for each category in the column
 
-<img src="img/func.png" alt="Alt text" width="500">
+<img src="img/func.png" alt="Alt text" width="700">
 
 >```
 >def defaultRate(col) : 
