@@ -1,6 +1,6 @@
 # Loan Default Risk Analysis
 [Original Jupyter Notebook]() <br>
-[Data Source (From Kaggle)]()
+[Data Source (From Kaggle)](https://www.kaggle.com/datasets/gauravduttakiit/loan-defaulter/code?datasetId=807638&sortBy=voteCou)
 
 ## 0. PROJECT OVERVIEW
 The project explores various types of information extracted from loan application forms and identifies groups of features associated with a higher risk of default.
