@@ -1,5 +1,5 @@
 # Loan Default Risk Analysis
-[Original Jupyter Notebook]() <br>
+[Original Jupyter Notebook](https://github.com/TyKang0514/WorkNotes/blob/main/loanDefault/LoanDefault.ipynb) <br>
 [Data Source (From Kaggle)](https://www.kaggle.com/datasets/gauravduttakiit/loan-defaulter/code?datasetId=807638&sortBy=voteCou)
 
 ## 0. PROJECT OVERVIEW
