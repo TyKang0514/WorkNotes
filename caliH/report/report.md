@@ -1,4 +1,5 @@
 # Data Analysis on California Housing Prices
+[Data Source (From Kaggle)](https://www.kaggle.com/datasets/camnugent/california-housing-prices) <br>
 [Jupyter Notebook](https://github.com/TyKang0514/WorkNotes/blob/main/caliH/HousePricePred.ipynb)
 
 ## 0. OVERVIEW ##
