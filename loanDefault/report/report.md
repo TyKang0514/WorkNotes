@@ -12,6 +12,7 @@ The project explores various types of information extracted from loan applicatio
 To narrow the range of features for analysis, unnecessary columns were deleted, including those with more than 40% missing values, columns related to document submission where most items were not submitted, and other columns with ambiguous meanings or lacking clear information.
 
 <img src="img/columns.png" alt="Alt text" width="700">
+
 ## 2. Categorical Data Analysis
 **Strategy**
 1. Group the data by the values in the categorical column.
