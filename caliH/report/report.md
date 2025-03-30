@@ -8,12 +8,9 @@ The project analyzes 1990s California housing prices, offering valuable insights
 <img src="img/pOverview.png" alt="Alt text" width="700">
 
 ## 1. ABOUT DATASET
-**Attributes**
+The dataset provides California housing information from the 1990 census. Each entry represents a unit of area, described by its longitude and latitude.
 
->**Key Variable** House Value <br>
->**Housing Characteristic** Number of Rooms, Housing Age, Ocean Proximity <br>
->**Demographic Population** Households, Income <br>
-
+<img src="img/aboutDataset.png" alt="Alt text" width="700">
 
 ## 2. Coastal Areas Have Higher Housing Values
 ### 2.1. Geographical visualization
