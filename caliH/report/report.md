@@ -2,18 +2,18 @@
 [Data Source (From Kaggle)](https://www.kaggle.com/datasets/camnugent/california-housing-prices) <br>
 [Jupyter Notebook](https://github.com/TyKang0514/WorkNotes/blob/main/caliH/HousePricePred.ipynb)
 
-## 0. OVERVIEW ##
+## OVERVIEW ##
 The project analyzes 1990s California housing prices, offering valuable insights into the key factors that determine housing values. While based on historical data, it provides a general understanding of housing market analysis. More importantly, this work is meaningful as I designed the process to apply analytical skills in practice, including data cleaning, visualization, and statistical analysis, to uncover trends and make informed predictions of data.
 
 <img src="img/pOverview.png" alt="Alt text" width="700">
 
-## 1. ABOUT DATASET
+## ABOUT DATASET
 The dataset provides California housing information from the 1990 census. Each entry represents a unit of area, described by its longitude and latitude.
 
 <img src="img/aboutDataset.png" alt="Alt text" width="700">
 
-## 2. Coastal Areas Have Higher Housing Values
-### 2.1. Geographical visualization
+## FINDING 1. Coastal Areas Have Higher Housing Values
+### Geographical visualization
 **Steps Taken**
 >Using geographical information (latitude, longitude), create a scatter plot where color represents ocean proximity and size varies by housing price. The visualization highlights that coastal areas tend to have higher housing values.
 
@@ -24,7 +24,7 @@ seaborn.scatterplot( )
 
 <img src="geo.png" alt="Description" style="width:400px; height:auto;">
 
-### 2.2. Compare Housing Value between Coastal and Inland
+### Compare Housing Value between Coastal and Inland
 **Steps Taken**
 >After simplifying the ocean proximity feature into two categories (Coastal and Inland), a bar plot was used to directly compare house values. The average house value in coastal areas is nearly double that of inland areas.
 
@@ -37,8 +37,8 @@ seaborn.barplot()
 
 <img src="comp.png" alt="Description" style="width:400px; height:auto;">
 
-## 3. Correlation of Income and Housing Values
-### 3.1. Remove outliers in `income` column 
+## FINDING 2. Correlation of Income and Housing Values
+### Remove outliers in `income` column 
 **Steps Taken**
 >Among the features, the correlation between house value and income was found to be the highest. Before visualization, outliers above the upper whisker (Q3 + 1.5 * IQR) were removed to improve accuracy.
 
@@ -50,7 +50,7 @@ dataframe[‘column’].quantile()
 
 <img src="out.png" alt="Description" style="width:300px; height:auto;">
 
-### 3.2. Identify relationship Between Income and Housing Value
+### Identify relationship Between Income and Housing Value
 **Steps Taken**
 >The relationship is visualized using a hexbin plot after removing outliers from both features (income and house value), showing a positive linear correlation.
 
@@ -61,10 +61,10 @@ matplotlib.pyplot.hexbin()
 
 <img src="hex.png" alt="Description" style="width:300px; height:auto;">
 
-## 4. Prediction Model: Random Forest Regressor
+## Prediction Model: Random Forest Regressor
 <img src="img/p1.png" alt="Alt text" width="700">
 
-## 5. Sampling Test with the Model: 75% of accuracy
+## Sampling Test with the Model: 75% of accuracy
 <img src="img/p2.png" alt="Alt text" width="700">
 
 
