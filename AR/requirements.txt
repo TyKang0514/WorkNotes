@@ -1,2 +1,2 @@
 seaborn
-plotply
+plotly
