@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
 
-arstat = pd.read_csv('./AR_status.csv')
+arstat = pd.read_csv('AR_status.csv')
 
 # Set page config (optional)
 st.set_page_config(layout="wide")
