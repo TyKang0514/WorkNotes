@@ -5,10 +5,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt 
 import plotly.graph_objects as go
 
-# Get the current directory where the script is located
-script_dir = os.path.dirname(os.path.abspath(__file__))
-# Build the path to the CSV file relative to the script directory
-csv_file_path = os.path.join(script_dir, 'AR_status.csv')
 
 arstat = pd.read_csv('AR_status.csv')
 
