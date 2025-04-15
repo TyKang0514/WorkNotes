@@ -5,7 +5,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt 
 import plotly.graph_objects as go
 
-arstat = pd.read_csv('AR_status.csv')
+url = 'https://raw.githubusercontent.com/TyKang0514/WorkNotes/refs/heads/main/AR/AR_status.csv'
+arstat = pd.read_csv(url)
 
 # Set page config (optional)
 st.set_page_config(layout="wide")
