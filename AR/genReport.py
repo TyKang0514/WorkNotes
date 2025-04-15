@@ -18,9 +18,9 @@ col1, col2, col3, _ = st.columns([1, 1, 1, 6])
 with col1:
     year = st.selectbox("Year", list(range(2020, 2031)), index=5)
 with col2:
-    month = st.selectbox("Month", list(range(1, 13)), index=5)
+    month = st.selectbox("Month", list(range(1, 13)), index=4)
 with col3:
-    day = st.selectbox("Day", list(range(1, 32)))
+    day = st.selectbox("Day", list(range(1, 32)), index=1)
 
 
 # Submit button
