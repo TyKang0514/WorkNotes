@@ -36,4 +36,7 @@ It consists of two main sections: **Aging Summary** and **AR Details**.
 
 <img src="img/step3.png" alt="Alt text" width="800">
 
+### simulation
+<img src="img/report_sim.png" alt="Alt text" width="800">
+
 
