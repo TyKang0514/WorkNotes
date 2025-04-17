@@ -11,3 +11,5 @@ In business, turning sales into real cash is just as crucial as making the sales
 ## STEP1. Extract data from the DB
 <img src="img/step1a.png" alt="Alt text" width="800">
 <img src="img/step1b.png" alt="Alt text" width="800">
+
+</div>
