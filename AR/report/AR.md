@@ -47,7 +47,7 @@ The total amount of AR along with an aging analysis. Receivables are categorized
 The AR Details section displays a list of invoices that have not yet been collected.
 Users can filter the list by AR category (Normal, Pending, Risky) using a scroll box for easy navigation.
 
-### Final Output [Try it](https://worknotes-xqbeymbsbfam6keqsxxogx.streamlit.app)
+## Final Output [Try it](https://worknotes-xqbeymbsbfam6keqsxxogx.streamlit.app)
 <img src="img/report_sim.gif" alt="Alt text" width="800">
 
 
