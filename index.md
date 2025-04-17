@@ -8,6 +8,7 @@ I am currently a graduate student majoring in Business Analytics. I created this
 
 
 # Projects
-## 1. [Data Analysis on California Housing Prices](https://tykang0514.github.io/WorkNotes/caliH/report/report)
+## 1. [Accounts Receivable Analysis & Dashboard Development](https://tykang0514.github.io/WorkNotes/AR/report/AR)
 ## 2. [Loan Default Analysis](https://tykang0514.github.io/WorkNotes/loanDefault/report/report)
+## 3. [Data Analysis on California Housing Prices](https://tykang0514.github.io/WorkNotes/caliH/report/report)
 
