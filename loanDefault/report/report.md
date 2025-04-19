@@ -2,10 +2,30 @@
 [Jupyter Notebook](https://github.com/TyKang0514/WorkNotes/blob/main/loanDefault/LoanDefault.ipynb) <br>
 [Data Source (From Kaggle)](https://www.kaggle.com/datasets/gauravduttakiit/loan-defaulter/code?datasetId=807638&sortBy=voteCou)
 
-## 0. PROJECT OVERVIEW
+## PROJECT OVERVIEW
 The project explores various types of information extracted from loan application forms and identifies groups of features associated with a higher risk of default.
 
-<img src="img/pjOverview.png" alt="Alt text" width="700">
+### OBJECTIVE
+Identify the factors than affect Loan Deafult <br>
+### METHODS 
+**Python Libraries** (Pandas, Numpy, Seaborn, MatPlotLib)
+### FINDINGS
+**1. Specific groups with higher or lower default rates than average**
+ - The lower default rate groups
+   >(Occupation) Accountants <br>
+   >(Income Type) Businessman, Student <br>
+   >(Education Level) Academic degree
+
+ - The higher dafault rate groups
+   >(Occupation) Waiters/barmen staff, Drivers, Low-skill Laborers <br>
+   >(Income Type) Unemployed, Maternity leave <br>
+   >(Housing Type) With parents, Rented apartment
+
+**2. Mid-range loans ($270K–$650K) carry a higher risk of default.**
+
+**3. The top 10% of income groups have a lower risk of default.**
+
+**4 Having more than two children increases the risk of default**
 
 
 ## 1. Identify unnecessary column
