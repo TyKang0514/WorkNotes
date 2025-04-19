@@ -3,9 +3,11 @@
 [Jupyter Notebook](https://github.com/TyKang0514/WorkNotes/blob/main/caliH/HousePricePred.ipynb)
 
 ## OVERVIEW ##
-The project analyzes 1990s California housing prices, offering valuable insights into the key factors that determine housing values. While based on historical data, it provides a general understanding of housing market analysis. More importantly, this work is meaningful as I designed the process to apply analytical skills in practice, including data cleaning, visualization, and statistical analysis, to uncover trends and make informed predictions of data.
+This project aims to apply key data analytics techniques—such as data cleaning, visualization, and predictive modeling—using the 1990 California housing dataset.
+ - **Tools used**: Python Libraries(Pandas, Numpy, Seaborn, MatPlotLib, ScikitLearn)
 
-<img src="img/pOverview.png" alt="Alt text" width="700">
+<img src="img/aboutDataset.png" alt="Alt text" width="700">
+
 
 ## ABOUT DATASET
 The dataset provides California housing information from the 1990 census. Each entry represents a unit of area, described by its longitude and latitude.
