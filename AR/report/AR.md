@@ -9,7 +9,7 @@ In business, turning sales into real cash is just as crucial as making the sales
 ### Process
 <img src="img/overview.png" alt="Alt text" width="800">
 
-## STEP1. Extract data from the DB ([Source Code]())
+## STEP1. Extract data from the DB ([Source Code](https://github.com/TyKang0514/WorkNotes/blob/main/AR/extractor.py))
 ### `Generel Ledger` and `Customer`
 As mentioned in the overview, this project assumes that a database already exists. To simulate this environment, I created a virtual General Ledger dataset that represents what an organization might use and established a local MySQL database. The first step was to import two unmodified tables—General Ledger and Customer Master—into pandas DataFrames. Additionally, I created a SQL query to join the two tables for further analysis(Residue).
 
@@ -21,7 +21,7 @@ As mentioned in the overview, this project assumes that a database already exist
 <img src="img/step1b.png" alt="Alt text" width="800">
 
 
-## STEP2. Manipulate the Dataset ([Source Code]())
+## STEP2. Manipulate the Dataset ([Source Code](https://github.com/TyKang0514/WorkNotes/blob/main/AR/genReport.py))
 **The key part of Step 2 is converting the `paymentTerm` column into a `paymentDue` date.**
 The `paymentTerm` information comes from the `Customer` table in the database, with values such as 30, 60, or 90.
 
