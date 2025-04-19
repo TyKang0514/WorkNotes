@@ -2,7 +2,7 @@
 
 Thanks for coming!
 
-This is a series of works where I put data analytics skills I’ve learned into practice. 
+This is a series of works where I put data analytics into practice. 
 
 I spent most of my career in Internal Audit, where I had the chance to work with various types of data coming from different parts of the organization. Over time, I came to realize that how we utilize data is a decisive factor for business success, and it’s not just limited to one area, but extends across all business operations.
 
