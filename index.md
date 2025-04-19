@@ -1,10 +1,15 @@
 # Taeyoon Kang
 
-Thanks for coming to see my work.
+Thanks for coming!
 
-Over the past seven years, I have spent most of my career in Internal Audit. During this time, I witnessed how a large amount of information—what we call data—is constantly generated in day-to-day business. At a certain point, I became inspired by the idea that making the most of this data can be a decisive factor for success, and that it can be applied across every part of the business.
+This is a series of works where I put data analytics skills I’ve learned into practice. 
 
-I am currently a graduate student majoring in Business Analytics. I created this page to document my work history, track the development of my skills, and share it with others.
+I spent most of my career in Internal Audit, where I had the chance to work with various types of data coming from different parts of the organization. Over time, I came to realize that how we utilize data is a decisive factor for business success, and it’s not just limited to one area, but extends across all business operations.
+
+I am currently a graduate student majoring in Business Analytics. I created this page to track the development of my skills, which I hope will contribute to the success of either my future employer or maybe even my own business :)
+
+
+
 
 
 # Projects
