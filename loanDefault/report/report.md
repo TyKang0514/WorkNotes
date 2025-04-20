@@ -5,11 +5,14 @@
 ## PROJECT OVERVIEW
 The project explores various types of information extracted from loan application forms and identifies groups of features associated with a higher risk of default.
 
-### OBJECTIVE
+**OBJECTIVE** <br>
 Identify the factors than affect Loan Deafult <br>
-### METHODS 
-**Python Libraries** (Pandas, Numpy, Seaborn, MatPlotLib)
-### FINDINGS
+
+**METHODS** <br>
+Python Libraries: Pandas, Numpy, Seaborn, MatPlotLib
+
+**FINDINGS**
+
 **1. Specific groups with higher or lower default rates than average**
  - The lower default rate groups
    >(Occupation) Accountants <br>
