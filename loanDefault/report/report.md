@@ -3,15 +3,11 @@
 [Data Source (From Kaggle)](https://www.kaggle.com/datasets/gauravduttakiit/loan-defaulter/code?datasetId=807638&sortBy=voteCou)
 
 ## PROJECT OVERVIEW
-The project explores various types of information extracted from loan application forms and identifies groups of features associated with a higher risk of default.
+The project explores various types of information extracted from loan application forms and **identifies groups of features associated with a higher risk of default.**
 
-**OBJECTIVE** <br>
-Identify the factors than affect Loan Deafult <br>
+ - **Used Python Libraries**: Pandas, Numpy, Seaborn, MatPlotLib
 
-**METHODS** <br>
-Python Libraries: Pandas, Numpy, Seaborn, MatPlotLib
-
-**FINDINGS**
+## FINDINGS
 
 **1. Specific groups with higher or lower default rates than average**
  - The lower default rate groups
@@ -31,7 +27,7 @@ Python Libraries: Pandas, Numpy, Seaborn, MatPlotLib
 **4 Having more than two children increases the risk of default**
 
 
-## 1. Identify unnecessary column
+## Step 1. Data Cleaning
 To narrow the range of features for analysis, unnecessary columns were deleted, including those with more than 40% missing values, columns related to document submission where most items were not submitted, and other columns with ambiguous meanings or lacking clear information.
 
 <img src="img/columns.png" alt="Alt text" width="700">
