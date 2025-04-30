@@ -32,14 +32,14 @@ To narrow the range of features for analysis, unnecessary columns were deleted, 
 
 <img src="img/columns.png" alt="Alt text" width="700">
 
-## 2. Categorical Data Analysis
-**Strategy**
+## Step 2. Categorical Data Analysis
+### Strategy
 1. Group the data by the values in the categorical column.
 2. Calculate the default rate for each group.
 3. Identify the group with a defualt rate lower than 5% or higher than 11%. <br>
 ***Note** The default rate in the entire dataset (all applicants) is approximately 8%.*
 
-### 2.1. Set the function for the analysis
+### Set the function for the analysis
 Define a function that takes a categorical column as input and returns a DataFrame displaying the default rate for each category in the column
 
 <img src="img/func.png" alt="Alt text" width="700">
