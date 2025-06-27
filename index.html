@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taeyoon Kang</title>
+  <style>
+    body {
+      background-color: #d9d4d0ff;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 18px ;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Menu bar layout */
+    nav {
+      background-color: #bbb7b3;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+    }
+
+    .brand {
+      font-weight: bold;
+      font-size: 20px;
+      color: #7A2917;
+    }
+
+    .menu {
+      display: flex;
+      gap: 30px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .menu a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      display: none;
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .active {
+      display: block;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    ul {
+      padding-left: 0;
+      list-style-type: none;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a.project-link {
+      color: #333;
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    a.project-link:hover {
+      text-decoration: underline;
+    }
+
+    .not-bold {
+      font-weight: normal;}
+
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="brand">Worknote By Taeyoon Kang</div>
+    <div class="menu">
+      <a onclick="showSection('about')">ABOUT</a>
+      <a onclick="showSection('projects')">PROJECT</a>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <div id="about" class="section active">
+    <h1>Thanks For Coming!</h1>
+    <p> This is a collection of works where I share things I find meaningful—using what we often call <strong>DATA</strong>. 
+      Whether it's interesting facts or insights into different aspects of life and business, 
+      each piece is something I wanted to explore and pass along.
+    </p>
+    <p>Any comment, thought, or just a quick hello—always welcome.</p> 
+    
+  </div>
+
+  <!-- Projects Section -->
+  <div id="projects" class="section">
+    <h1>PROJECTS</h1>
+    <ul>
+      <li>
+        <a class="project-link" href="https://public.tableau.com/views/Working_17492438589380/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">
+          1. Can We Predict the Winner of a Match in World Cup? 
+        </a>
+        <div style="margin-left: 20px;">
+          <p>
+            <span style="color: #445A67;"><strong>Data: </strong> World Cup Match Results (1930 - 2022) </span> <br>
+            <span style="color: #445A67;"><strong>Tools Used: </strong> Python, Tableau </span> <br>
+          </p>  
+          <p>
+            There is always one of our friends saying, 'Let's bet on the match!' <br>
+            This work is to identify some factors that help predicting match result in World Cup, 
+            based on every single matches in the history.
+          </p>
+          
+        </div>
+      </li>
+      <li><a class="project-link" href="https://tykang0514.github.io/WorkNotes/AR/report/AR" target="_blank">2. Accounts Receivable Analysis & Dashboard Development</a></li>
+      <li><a class="project-link" href="https://tykang0514.github.io/WorkNotes/loanDefault/report/report" target="_blank">3. Loan Default Analysis</a></li>
+      <li><a class="project-link" href="https://tykang0514.github.io/WorkNotes/caliH/report/report" target="_blank">4. Data Analysis on California Housing Prices</a></li>
+    </ul>
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    function showSection(sectionId) {
+      document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+      document.getElementById(sectionId).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
