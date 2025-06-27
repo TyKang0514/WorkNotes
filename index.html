@@ -138,11 +138,24 @@
   </div>
 
   <!-- JavaScript -->
+
   <script>
     function showSection(sectionId) {
       document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
       document.getElementById(sectionId).classList.add('active');
     }
+    
+    // On page load, check URL hash and show corresponding section
+    window.addEventListener('DOMContentLoaded', () => {
+      const hash = window.location.hash.substring(1); // remove the '#' character
+      if (hash && document.getElementById(hash)) {
+        showSection(hash);
+        // Optional: scroll smoothly to section
+        document.getElementById(hash).scrollIntoView({ behavior: 'smooth' });
+      } else {
+        showSection('about'); // default section
+      }
+    });
   </script>
 
 </body>
