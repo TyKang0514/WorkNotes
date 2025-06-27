@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>World Cup Analysis</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      background-color: #d9d4d0ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navigation Bar */
+    .nav {
+      background-color: #bbb7b3;
+      padding: 20px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+    }
+
+
+    .back-link {
+      font-size: 15px;
+      padding: 6px 14px;
+      background-color: #bbb7b3;
+      color: #000;
+      border: 1px solid #000;
+      border-radius: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+    
+    .back-link:hover {
+      background-color: #000;
+      color: #ffffff;
+    }
+
+
+    .nav-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #7A2917;
+    }
+
+    .content {
+      padding: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="nav">
+    <a href="index.html" class="back-link">GO BACK</a>
+    <div class="nav-title">World Cup Analysis</div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <!-- Tableau Embed -->
+    <div class='tableauPlaceholder' id='viz1750955698304' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Dashboard 1'
+            src='https://public.tableau.com/static/images/Wo/Working_17492438589380/Dashboard1/1_rss.png'
+            style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='Working_17492438589380&#47;Dashboard1' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/Wo/Working_17492438589380/Dashboard1/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+  </div>
+
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1750955698304');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    if (divElement.offsetWidth > 800) {
+      vizElement.style.width = '1000px';
+      vizElement.style.height = '3527px';
+    } else if (divElement.offsetWidth > 500) {
+      vizElement.style.width = '1000px';
+      vizElement.style.height = '3527px';
+    } else {
+      vizElement.style.width = '100%';
+      vizElement.style.height = '3427px';
+    }
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+
+</body>
+</html>
