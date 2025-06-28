@@ -1,74 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>World Cup Analysis</title>
   <style>
-    body {
-      font-family: "Times New Roman", Times, serif;
-      background-color: #d9d4d0ff;
+    :root {
+      --color-background: #d9d4d0ff;
+      --color-surface: #bbb7b3;
+      --color-text-primary: #1d1d1f;
+      --color-text-secondary: #5f5f65;
+      --color-accent: #7A2917;
+      --color-overlay: rgba(0, 0, 0, 0.5);
+      --offcanvas-width: 220px;
+      --font-family-serif: "Times New Roman", Times, serif;
+      --navbar-height: 70px;
+      --transition-speed: 0.35s;
+      --transition-curve: cubic-bezier(0.7, 0, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
       margin: 0;
       padding: 0;
+      height: 100%;
+      font-family: var(--font-family-serif);
+      background-color: var(--color-background);
+      color: var(--color-text-primary);
     }
 
-    /* Navigation Bar */
-    .nav {
-      background-color: #bbb7b3;
-      padding: 20px 30px;
+    .main-header {
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      position: sticky;
+      justify-content: space-between;
+      height: var(--navbar-height);
+      padding: 0 1.5rem;
+      background-color: var(--color-surface);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     }
-
-
-    .back-link {
-      font-size: 15px;
-      padding: 6px 14px;
-      background-color: #bbb7b3;
-      color: #000;
-      border: 1px solid #000;
-      border-radius: 20px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: all 0.2s ease;
-    }
-    
-    .back-link:hover {
-      background-color: #000;
-      color: #ffffff;
-    }
-
 
     .nav-title {
-      font-size: 20px;
+      font-size: 1.25rem;
       font-weight: bold;
-      color: #7A2917;
+      color: var(--color-accent);
+    }
+
+    .icon-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background: transparent;
+      padding: 0.5rem;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    .icon-button svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .icon-button:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .offcanvas-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 2000;
+      width: var(--offcanvas-width);
+      height: 100%;
+      padding: 1.5rem;
+      background-color: var(--color-surface);
+      transform: translateX(-100%);
+      transition: transform var(--transition-speed) var(--transition-curve);
+    }
+
+    .offcanvas-nav__header {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 2rem;
+    }
+
+    .offcanvas-nav__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .offcanvas-nav__link {
+      display: block;
+      padding: 0.75rem 0;
+      font-size: 1.1rem;
+      color: #000;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .offcanvas-nav__link:hover {
+      text-decoration: underline;
+    }
+
+    .offcanvas-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1500;
+      width: 100vw;
+      height: 100vh;
+      background-color: var(--color-overlay);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity var(--transition-speed) ease, visibility var(--transition-speed) ease;
+    }
+
+    body.offcanvas-is-active .offcanvas-nav {
+      transform: translateX(0);
+    }
+
+    body.offcanvas-is-active .offcanvas-overlay {
+      opacity: 1;
+      visibility: visible;
     }
 
     .content {
-      padding: 30px;
+      padding: 2rem;
+    }
+
+    .tableauPlaceholder {
+      width: 100%;
+      overflow: hidden;
     }
   </style>
 </head>
 <body>
+  <!-- Offcanvas Navigation -->
+  <div class="offcanvas-overlay" id="offcanvas-overlay"></div>
+  <nav class="offcanvas-nav" id="offcanvas-nav" aria-hidden="true">
+    <div class="offcanvas-nav__header">
+      <button class="icon-button" id="offcanvas-close-btn" aria-label="Close menu">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </div>
+    <ul class="offcanvas-nav__list">
+      <li><a class="offcanvas-nav__link" href="https://tykang0514.github.io/WorkNotes/index.html#about">About</a></li>
+      <li><a class="offcanvas-nav__link" href="https://tykang0514.github.io/WorkNotes/index.html#projects">Projects</a></li>
+    </ul>
+  </nav>
 
-  <!-- Navigation Bar -->
-  <div class="nav">
-    <a href="https://tykang0514.github.io/WorkNotes/index.html#projects" class="back-link">GO BACK</a>
+  <!-- Header with Menu and Title -->
+  <header class="main-header">
+    <button class="icon-button" id="offcanvas-open-btn" aria-label="Open menu" aria-haspopup="true" aria-controls="offcanvas-nav">
+      <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+    </button>
     <div class="nav-title">World Cup Analysis</div>
-  </div>
+  </header>
 
-  <!-- Main Content -->
+  <!-- Content Section -->
   <div class="content">
-    <!-- Tableau Embed -->
     <div class='tableauPlaceholder' id='viz1750955698304' style='position: relative'>
       <noscript>
-        <a href='#'>
-          <img alt='Dashboard 1'
-            src='https://public.tableau.com/static/images/Wo/Working_17492438589380/Dashboard1/1_rss.png'
-            style='border: none' />
-        </a>
+        <a href='#'><img alt='Dashboard 1'
+          src='https://public.tableau.com/static/images/Wo/Working_17492438589380/Dashboard1/1_rss.png'
+          style='border: none' /></a>
       </noscript>
       <object class='tableauViz' style='display:none;'>
         <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
@@ -88,7 +187,34 @@
     </div>
   </div>
 
-  <script type='text/javascript'>
+  <!-- Script for Offcanvas Menu -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const body = document.body;
+      const openBtn = document.getElementById('offcanvas-open-btn');
+      const closeBtn = document.getElementById('offcanvas-close-btn');
+      const overlay = document.getElementById('offcanvas-overlay');
+      const nav = document.getElementById('offcanvas-nav');
+
+      function openMenu() {
+        body.classList.add('offcanvas-is-active');
+        nav.setAttribute('aria-hidden', 'false');
+        openBtn.setAttribute('aria-expanded', 'true');
+        closeBtn.focus();
+      }
+
+      function closeMenu() {
+        body.classList.remove('offcanvas-is-active');
+        nav.setAttribute('aria-hidden', 'true');
+        openBtn.setAttribute('aria-expanded', 'false');
+      }
+
+      openBtn.addEventListener('click', openMenu);
+      closeBtn.addEventListener('click', closeMenu);
+      overlay.addEventListener('click', closeMenu);
+    });
+
+    // Tableau embed script
     var divElement = document.getElementById('viz1750955698304');
     var vizElement = divElement.getElementsByTagName('object')[0];
     if (divElement.offsetWidth > 800) {
@@ -105,6 +231,5 @@
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
   </script>
-
 </body>
 </html>
