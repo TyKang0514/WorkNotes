@@ -234,6 +234,13 @@
         document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
         document.getElementById(id).classList.add('active');
     }
+
+    window.addEventListener('DOMContentLoaded', function () {
+        const hash = window.location.hash.replace('#', '');
+        if (hash === 'about' || hash === 'projects') {
+            showSection(hash);
+        }
+    });
     </script>
 </body>
 </html>
