@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project Title</title>
+  <style>
+    :root {
+      --color-background: #d9d4d0ff;
+      --color-surface: #bbb7b3;
+      --color-text-primary: #1d1d1f;
+      --color-text-secondary: #5f5f65;
+      --color-accent: #7A2917;
+      --color-overlay: rgba(0, 0, 0, 0.5);
+      --offcanvas-width: 220px;
+      --font-family-serif: "Times New Roman", Times, serif;
+      --navbar-height: 70px;
+      --transition-speed: 0.35s;
+      --transition-curve: cubic-bezier(0.7, 0, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: var(--font-family-serif);
+      background-color: var(--color-background);
+      color: var(--color-text-primary);
+    }
+
+    .main-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: var(--navbar-height);
+      padding: 0 1.5rem;
+      background-color: var(--color-surface);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: var(--color-accent);
+    }
+
+    .icon-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background: transparent;
+      padding: 0.5rem;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    .icon-button svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .icon-button:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .offcanvas-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 2000;
+      width: var(--offcanvas-width);
+      height: 100%;
+      padding: 1.5rem;
+      background-color: var(--color-surface);
+      transform: translateX(-100%);
+      transition: transform var(--transition-speed) var(--transition-curve);
+    }
+
+    .offcanvas-nav__header {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 2rem;
+    }
+
+    .offcanvas-nav__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .offcanvas-nav__link {
+      display: block;
+      padding: 0.75rem 0;
+      font-size: 1.1rem;
+      color: #000;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .offcanvas-nav__link:hover {
+      text-decoration: underline;
+    }
+
+    .offcanvas-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1500;
+      width: 100vw;
+      height: 100vh;
+      background-color: var(--color-overlay);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity var(--transition-speed) ease, visibility var(--transition-speed) ease;
+    }
+
+    body.offcanvas-is-active .offcanvas-nav {
+      transform: translateX(0);
+    }
+
+    body.offcanvas-is-active .offcanvas-overlay {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .content {
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Offcanvas Navigation -->
+  <div class="offcanvas-overlay" id="offcanvas-overlay"></div>
+  <nav class="offcanvas-nav" id="offcanvas-nav" aria-hidden="true">
+    <div class="offcanvas-nav__header">
+      <button class="icon-button" id="offcanvas-close-btn" aria-label="Close menu">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </div>
+    <ul class="offcanvas-nav__list">
+      <li><a class="offcanvas-nav__link" href="https://tykang0514.github.io/WorkNotes/index.html#about">About</a></li>
+      <li><a class="offcanvas-nav__link" href="https://tykang0514.github.io/WorkNotes/index.html#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header with Menu and Title -->
+  <header class="main-header">
+    <button class="icon-button" id="offcanvas-open-btn" aria-label="Open menu" aria-haspopup="true" aria-controls="offcanvas-nav">
+      <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+    </button>
+    <div class="nav-title">AR Dashboard</div>
+  </header>
+
+  <!-- Content Section -->
+  <div class="content">
+    <!-- 👇 Place your project-specific content here -->
+
+    <div class='tableauPlaceholder' id='viz1751585949066' style='position: relative'>
+      <noscript>
+        <a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17515854328870&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a>
+      </noscript>
+      <object class='tableauViz'  style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+        <param name='name' value='Book1_17515854328870&#47;Dashboard1' />
+        <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+        <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17515854328870&#47;Dashboard1&#47;1.png' /> 
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+  </div>
+  
+  
+  
+  <!-- Script for Offcanvas Menu -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const body = document.body;
+      const openBtn = document.getElementById('offcanvas-open-btn');
+      const closeBtn = document.getElementById('offcanvas-close-btn');
+      const overlay = document.getElementById('offcanvas-overlay');
+      const nav = document.getElementById('offcanvas-nav');
+
+      function openMenu() {
+        body.classList.add('offcanvas-is-active');
+        nav.setAttribute('aria-hidden', 'false');
+        openBtn.setAttribute('aria-expanded', 'true');
+        closeBtn.focus();
+      }
+
+      function closeMenu() {
+        body.classList.remove('offcanvas-is-active');
+        nav.setAttribute('aria-hidden', 'true');
+        openBtn.setAttribute('aria-expanded', 'false');
+      }
+
+      openBtn.addEventListener('click', openMenu);
+      closeBtn.addEventListener('click', closeMenu);
+      overlay.addEventListener('click', closeMenu);
+    });
+  </script>
+
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1751585949066');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  if (divElement.offsetWidth > 800) {
+    vizElement.style.width = '800px';
+    vizElement.style.height = '1327px';
+  } else if (divElement.offsetWidth > 500) {
+    vizElement.style.width = '800px';
+    vizElement.style.height = '1327px';
+  } else {vizElement.style.width = '100%';
+    vizElement.style.height = '1677px';
+  }
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+
+</body>
+</html>
