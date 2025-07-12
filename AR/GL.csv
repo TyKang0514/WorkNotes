@@ -1,0 +1,45 @@
+TransactionNo,Date,Account,CustomerID,Customer,DebitCredit,Debit,Credit,RefTransaction
+1,2025-01-15,"Account Receivable",7,"Theta Pharmaceuticals",D,2700,0,1
+2,2025-01-30,"Account Receivable",9,"Omicron Auto Parts",D,2200,0,2
+3,2025-01-31,"Account Receivable",8,"Lambda Retail Distributors",D,8000,0,3
+4,2025-02-14,"Account Receivable",5,"Epsilon Energy Group",D,5000,0,4
+5,2025-02-26,"Account Receivable",6,"Zeta Financial Services",D,3200,0,5
+6,2025-02-28,"Account Receivable",1,"AlphaTech Solutions",D,1000,0,6
+7,2025-02-28,"Account Receivable",2,"BetaCore Industries",D,3000,0,7
+8,2025-02-28,"Account Receivable",4,"Delta Manufacturing Co.",D,1200,0,8
+9,2025-02-28,"Account Receivable",7,"Theta Pharmaceuticals",D,3300,0,9
+10,2025-02-28,"Account Receivable",8,"Lambda Retail Distributors",D,8300,0,10
+11,2025-02-28,"Account Receivable",9,"Omicron Auto Parts",D,2200,0,11
+12,2025-02-28,"Account Receivable",10,"Sigma IT Consultants",D,400,0,12
+13,2025-03-05,"Account Receivable",10,"Sigma IT Consultants",C,0,400,12
+14,2025-03-08,"Account Receivable",7,"Theta Pharmaceuticals",C,0,2700,1
+15,2025-03-15,"Account Receivable",1,"AlphaTech Solutions",C,0,700,6
+16,2025-03-15,"Account Receivable",10,"Sigma IT Consultants",D,500,0,16
+17,2025-03-21,"Account Receivable",10,"Sigma IT Consultants",C,0,500,16
+18,2025-03-27,"Account Receivable",6,"Zeta Financial Services",C,0,3200,5
+19,2025-03-28,"Account Receivable",6,"Zeta Financial Services",D,3200,0,19
+20,2025-03-29,"Account Receivable",2,"BetaCore Industries",D,3400,0,20
+21,2025-03-29,"Account Receivable",4,"Delta Manufacturing Co.",D,1400,0,21
+22,2025-03-31,"Account Receivable",1,"AlphaTech Solutions",D,1000,0,22
+23,2025-03-31,"Account Receivable",2,"BetaCore Industries",C,0,3000,7
+24,2025-03-31,"Account Receivable",3,"Gamma Logistics LLC",D,900,0,24
+25,2025-03-31,"Account Receivable",4,"Delta Manufacturing Co.",C,0,1200,8
+26,2025-03-31,"Account Receivable",7,"Theta Pharmaceuticals",D,3400,0,26
+27,2025-03-31,"Account Receivable",8,"Lambda Retail Distributors",C,0,8000,3
+28,2025-04-01,"Account Receivable",10,"Sigma IT Consultants",D,400,0,28
+29,2025-04-08,"Account Receivable",10,"Sigma IT Consultants",C,0,400,28
+30,2025-04-12,"Account Receivable",7,"Theta Pharmaceuticals",C,0,3300,9
+31,2025-04-15,"Account Receivable",1,"AlphaTech Solutions",C,0,500,22
+32,2025-04-17,"Account Receivable",1,"AlphaTech Solutions",C,0,200,6
+33,2025-04-29,"Account Receivable",2,"BetaCore Industries",D,3000,0,33
+34,2025-04-29,"Account Receivable",4,"Delta Manufacturing Co.",D,2000,0,34
+35,2025-04-30,"Account Receivable",1,"AlphaTech Solutions",D,5000,0,35
+36,2025-04-30,"Account Receivable",2,"BetaCore Industries",C,0,3400,20
+37,2025-04-30,"Account Receivable",3,"Gamma Logistics LLC",C,0,900,24
+38,2025-04-30,"Account Receivable",3,"Gamma Logistics LLC",D,800,0,38
+39,2025-04-30,"Account Receivable",4,"Delta Manufacturing Co.",C,0,1400,21
+40,2025-04-30,"Account Receivable",6,"Zeta Financial Services",D,3400,0,40
+41,2025-04-30,"Account Receivable",6,"Zeta Financial Services",C,0,3200,19
+42,2025-04-30,"Account Receivable",7,"Theta Pharmaceuticals",D,3200,0,42
+43,2025-04-30,"Account Receivable",8,"Lambda Retail Distributors",D,8100,0,43
+44,2025-04-30,"Account Receivable",8,"Lambda Retail Distributors",C,0,8300,10
