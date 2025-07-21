@@ -1,298 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taeyoon Kang Portfolio</title>
-    <style>
-        :root {
-            --color-background: #d9d4d0ff;
-            --color-surface: #ffffff;
-            --color-text-primary: #1d1d1f;
-            --color-text-secondary: #5f5f65;
-            
-            --color-overlay: rgba(0, 0, 0, 0.5);
-            --offcanvas-width: 220px;
-            --font-family-serif: "Times New Roman", Times, serif;
-            --navbar-height: 70px;
-            --transition-speed: 0.35s;
-            --transition-curve: cubic-bezier(0.7, 0, 0.3, 1);
-        }
-
-        *, *::before, *::after { box-sizing: border-box; }
-        html, body { height: 100%; margin: 0; }
-
-        body {
-            font-family: var(--font-family-serif);
-            background-color: var(--color-background);
-            color: var(--color-text-primary);
-            overflow-x: hidden;
-            font-size: 18px;
-        }
-
-        .page-wrapper {
-            position: relative;
-            min-height: 100%;
-            transition: transform var(--transition-speed) var(--transition-curve);
-            background-color: var(--color-background);
-        }
-
-        .main-header {
-            display: flex; align-items: center;
-            height: var(--navbar-height); padding: 0 1.5rem;
-            background-color: #bbb7b3;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
-
-        .main-content {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 1.5rem;
-        }
-
-        .offcanvas-nav {
-            position: fixed; top: 0; left: 0; z-index: 2000;
-            width: var(--offcanvas-width); height: 100%;
-            padding: 1.5rem;
-            background-color: #bbb7b3;
-            transform: translateX(-100%);
-            transition: transform var(--transition-speed) var(--transition-curve);
-            will-change: transform;
-        }
-
-        .offcanvas-nav__header {
-            display: flex; justify-content: flex-end; align-items: center;
-            margin-bottom: 2rem;
-        }
-
-        .offcanvas-nav__list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-
-        .offcanvas-nav__link {
-            display: block;
-            padding: 0.75rem 0;
-            font-size: 1.1rem;
-            color: #000; /* black */
-            font-weight: 500;
-            cursor: pointer;
-            text-decoration: none; /* no underline by default */
-        }
-        
-        .offcanvas-nav__link:hover {
-            text-decoration: underline; /* underline only on hover */
-        }
-
-        .icon-button {
-            display: flex; align-items: center; justify-content: center;
-            border: none; background: transparent; padding: 0.5rem;
-            cursor: pointer; border-radius: 50%;
-        }
-
-        .icon-button svg { width: 28px; height: 28px; }
-        .icon-button:hover { background-color: rgba(0,0,0,0.05); }
-
-        .offcanvas-overlay {
-            position: fixed; top: 0; left: 0; z-index: 1500;
-            width: 100vw; height: 100vh;
-            background-color: var(--color-overlay);
-            opacity: 0; visibility: hidden;
-            transition: opacity var(--transition-speed) ease, visibility var(--transition-speed) ease;
-        }
-
-        body.offcanvas-is-active .offcanvas-nav {
-            transform: translateX(0);
-        }
-
-        body.offcanvas-is-active .offcanvas-overlay {
-            opacity: 1; visibility: visible;
-        }
-
-        body.offcanvas-is-active .page-wrapper {
-            transform: translateX(var(--offcanvas-width));
-            border-radius: 12px;
-            overflow: hidden;
-        }
-
-        .section { display: none; }
-        .section.active { display: block; }
-
-        .project-link {
-            color: #333;
-            text-decoration: none;
-            font-size: 1.2rem;
-            font-weight: bold;
-        }
-
-        .project-link:hover {
-            color: var(--color-primary);
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
-    <div class="offcanvas-overlay" id="offcanvas-overlay"></div>
-
-    <nav class="offcanvas-nav" id="offcanvas-nav" aria-hidden="true">
-        <div class="offcanvas-nav__header">
-            <button class="icon-button" id="offcanvas-close-btn" aria-label="Close menu">
-                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
-            </button>
-        </div>
-        <ul class="offcanvas-nav__list">
-            <li><a class="offcanvas-nav__link" onclick="showSection('about')">About</a></li>
-            <li><a class="offcanvas-nav__link" onclick="showSection('projects')">Projects</a></li>
-        </ul>
-    </nav>
-
-    <div class="page-wrapper">
-        <header class="main-header">
-            <button class="icon-button" id="offcanvas-open-btn" aria-label="Open menu" aria-haspopup="true" aria-controls="offcanvas-nav">
-                <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
-            </button>
-            <h1 style="font-size: 1.25rem; margin-left: 1rem;">Worknote by Taeyoon Kang</h1>
-        </header>
-        <main class="main-content">
-            <section id="about" class="section active">
-                <h2>Thanks For Coming!</h2>
-                <p>This is a collection of works where I share things I find meaningful—using what we often call <strong>DATA</strong>. Whether it's interesting facts or insights into different aspects of life and business, each piece is something I wanted to explore and pass along.</p>
-                <p>Any comment, thought, or just a quick hello—always welcome.</p>
-            </section>
-            <section id="projects" class="section">
-                <h2>Projects</h2>
-                <ul>
-
-                    <li>
-                        <a class="project-link" href="https://tykang0514.github.io/WorkNotes/worldcup/worldcup" target="_blank">
-                            Can We Predict the Winner of a Match in World Cup? <br>
-                            <span style="font-weight: normal; font-style: italic;">Analysis of World Cup matches throughout history</span>
-                        </a>
-                        <div style="margin-left: 20px;">
-                            <p>
-                                <span style="color: #445A67;"><strong>Data: </strong> World Cup Match Results (1930 - 2022)</span> <br>
-                                <span style="color: #445A67;"><strong>Tools Used: </strong> Python, Tableau</span> <br>
-                            </p>
-                            <p>
-                                There is always one of our friends saying, 'Let's bet on the match!' <br>
-                                This work is to identify some factors that help predicting the outcome of World Cup matches, based on features from every single match in history.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a class="project-link" href="https://tykang0514.github.io/WorkNotes/AR/AR" target="_blank">
-                            Who Is Not Paying? <br>
-                            <span style="font-weight: normal; font-style: italic;">AR Dashboard Development</span>
-                        </a>
-                        <div style="margin-left: 20px;">
-                            <p>
-                                <span style="color: #445A67;"><strong>Data: </strong> Mock data (customer info and financial transaction records)</span> <br>
-                                <span style="color: #445A67;"><strong>Tools Used: </strong> SQL, Tableau</span> <br>
-                            </p>
-                            <p>
-                                This project imagines a real-life business situation and builds a dashboard to keep track of who hasn’t paid yet. It helps spot which customers still owe money, so the business can follow up and manage cash flow better.
-                            </p>
-                        </div>
-                    </li>
-            
-                    <li>
-                        <a class="project-link" href="https://tykang0514.github.io/WorkNotes/loanDefault/report/report" target="_blank"> Loan Default Analysis <br>
-                            <span style="font-weight: normal; font-style: italic;">--</span>
-                        </a>
-                        <div style="margin-left: 20px;">
-                            <p>
-                                <span style="color: #445A67;"><strong>Data: </strong> Loan Application</span> <br>
-                                <span style="color: #445A67;"><strong>Tools Used: </strong> Python(Pandas, Scipy, Matplotlib)</span> <br>
-                            </p>
-                            <p>
-                                --
-                            </p>
-                        </div>
-                    </li>
-
-                    <li>
-                        <a class="project-link" href="https://tykang0514.github.io/WorkNotes/caliH/CaliHousing.html" target="_blank"> Are Coastal Homes Really More Expensive? <br>
-                            <span style="font-weight: normal; font-style: italic;">An Application of Inferential Statistics Using T-Tests</span>
-                        </a>
-                        <div style="margin-left: 20px;">
-                            <p>
-                                <span style="color: #445A67;"><strong>Data: </strong> 1990 California Housing Prices</span> <br>
-                                <span style="color: #445A67;"><strong>Tools Used: </strong> Python(pandas, scipy, matplotlib)</span> <br>
-                            </p>
-                            <p>
-                                If we want to understand something about a group — like how expensive houses are — we usually rely on a sample. 
-                                That’s where inferential statistics come in, and the t-test is one commonly used method. 
-                                In this project, t-tests are used to examine housing prices in specific areas, based on the 1990 California housing dataset.
-                            </p>
-                        </div>
-                    </li>
-                
-                </ul>
-            </section>
-        </main>
-    </div>
-
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const body = document.body;
-        const openBtn = document.getElementById('offcanvas-open-btn');
-        const closeBtn = document.getElementById('offcanvas-close-btn');
-        const overlay = document.getElementById('offcanvas-overlay');
-        const nav = document.getElementById('offcanvas-nav');
-
-        let lastActiveElement;
-
-        function openMenu() {
-            lastActiveElement = document.activeElement;
-            body.classList.add('offcanvas-is-active');
-            nav.setAttribute('aria-hidden', 'false');
-            openBtn.setAttribute('aria-expanded', 'true');
-            closeBtn.focus();
-        }
-
-        function closeMenu() {
-            body.classList.remove('offcanvas-is-active');
-            nav.setAttribute('aria-hidden', 'true');
-            openBtn.setAttribute('aria-expanded', 'false');
-            if (lastActiveElement) lastActiveElement.focus();
-        }
-
-        openBtn.addEventListener('click', openMenu);
-        closeBtn.addEventListener('click', closeMenu);
-        overlay.addEventListener('click', closeMenu);
-
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && body.classList.contains('offcanvas-is-active')) closeMenu();
-        });
-
-        nav.addEventListener('keydown', (e) => {
-            if (e.key === 'Tab' && body.classList.contains('offcanvas-is-active')) {
-                const focusables = nav.querySelectorAll('a[href], button, [tabindex]:not([tabindex="-1"])');
-                const first = focusables[0];
-                const last = focusables[focusables.length - 1];
-                if (e.shiftKey && document.activeElement === first) {
-                    last.focus(); e.preventDefault();
-                } else if (!e.shiftKey && document.activeElement === last) {
-                    first.focus(); e.preventDefault();
-                }
-            }
-        });
-    });
-
-    function showSection(id) {
-        document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
-        document.getElementById(id).classList.add('active');
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Taeyoon Kang Portfolio</title>
+  <style>
+    :root {
+      --color-background: #d9d4d0;
+      --color-surface: #beb8b3;
+      --color-text-primary: #333333;
+      --color-text-secondary: #5f5f65;
+      --color-overlay: rgba(0, 0, 0, 0.5);
+      --offcanvas-width: 220px;
+      --font-family-serif: "Times New Roman", Times, serif;
+      --navbar-height: 70px;
+      --transition-speed: 0.35s;
+      --transition-curve: cubic-bezier(0.7, 0, 0.3, 1);
     }
 
-    window.addEventListener('DOMContentLoaded', function () {
-        const hash = window.location.hash.replace('#', '');
-        if (hash === 'about' || hash === 'projects') {
-            showSection(hash);
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+
+    body {
+      font-family: var(--font-family-serif);
+      background-color: var(--color-background);
+      color: var(--color-text-primary);
+      overflow-x: hidden;
+      font-size: 18px;
+    }
+
+    .page-wrapper {
+      position: relative;
+      min-height: 100%;
+      transition: transform var(--transition-speed) var(--transition-curve);
+      background-color: var(--color-background);
+    }
+
+    .main-header {
+      display: flex;
+      align-items: center;
+      height: var(--navbar-height);
+      padding: 0 1.5rem;
+      background-color: #beb8b3;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .main-content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    .offcanvas-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 2000;
+      width: var(--offcanvas-width);
+      height: 100%;
+      padding: 1.5rem;
+      background-color: #beb8b3;
+      transform: translateX(-100%);
+      transition: transform var(--transition-speed) var(--transition-curve);
+      will-change: transform;
+    }
+
+    .offcanvas-nav__header {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    .offcanvas-nav__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .offcanvas-nav__link {
+      display: block;
+      padding: 0.75rem 0;
+      font-size: 1.1rem;
+      color: #000;
+      font-weight: 500;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .offcanvas-nav__link:hover {
+      text-decoration: underline;
+    }
+
+    .icon-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background: transparent;
+      padding: 0.5rem;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    .icon-button svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .icon-button:hover {
+      background-color: rgba(0,0,0,0.05);
+    }
+
+    .offcanvas-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1500;
+      width: 100vw;
+      height: 100vh;
+      background-color: var(--color-overlay);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity var(--transition-speed) ease, visibility var(--transition-speed) ease;
+    }
+
+    body.offcanvas-is-active .offcanvas-nav {
+      transform: translateX(0);
+    }
+
+    body.offcanvas-is-active .offcanvas-overlay {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    body.offcanvas-is-active .page-wrapper {
+      transform: translateX(var(--offcanvas-width));
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .section {
+      display: none;
+    }
+
+    .section.active {
+      display: block;
+    }
+
+    .project-link {
+      color: #333333;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    .project-link:hover {
+      text-decoration: underline;
+    }
+
+    /* Collapsible Project Styles */
+    .collapsible-btn {
+      width: 100%;
+      text-align: left;
+      padding: 1rem;
+      background-color: #beb8b3;
+      color: #333333;
+      border: none;
+      font-size: 1.1rem;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 8px;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .collapsible-btn:hover {
+      background-color: #a9a29d;
+    }
+
+    .collapsible-content {
+      display: none;
+      padding: 1rem;
+      margin-top: 0.5rem;
+      background-color: #f5f1e9;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="offcanvas-overlay" id="offcanvas-overlay"></div>
+
+  <nav class="offcanvas-nav" id="offcanvas-nav" aria-hidden="true">
+    <div class="offcanvas-nav__header">
+      <button class="icon-button" id="offcanvas-close-btn" aria-label="Close menu">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </div>
+    <ul class="offcanvas-nav__list">
+      <li><a class="offcanvas-nav__link" onclick="showSection('about')">About</a></li>
+      <li><a class="offcanvas-nav__link" onclick="showSection('projects')">Projects</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-wrapper">
+    <header class="main-header">
+      <button class="icon-button" id="offcanvas-open-btn" aria-label="Open menu" aria-haspopup="true" aria-controls="offcanvas-nav">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+      </button>
+      <h1 style="font-size: 1.25rem; margin-left: 1rem;">Worknote by Taeyoon Kang</h1>
+    </header>
+
+    <main class="main-content">
+      <section id="about" class="section active">
+        <h2>Thanks For Coming!</h2>
+        <p>This is a collection of works where I share things I find meaningful—using what we often call <strong>DATA</strong>. Whether it's interesting facts or insights into different aspects of life and business, each piece is something I wanted to explore and pass along.</p>
+        <p>Any comment, thought, or just a quick hello—always welcome.</p>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="collapsible-project">
+          <button class="collapsible-btn" onclick="toggleProject(this)">Analysis of World Cup Match Outcomes</button>
+          <div class="collapsible-content">
+            <a class="project-link" href="https://tykang0514.github.io/WorkNotes/worldcup/worldcup" >
+              <span style="color: #9e4b40; font-weight: bold;">Can We Predict the Winner of a Match in World Cup?</span>
+            </a>
+            <div style="margin-top: 0.5rem;">
+            
+              <p style="color: #516c83;">
+                <strong>Data:</strong> World Cup Match Results (1930 - 2022)<br>
+                <strong>Tools Used:</strong> Python, Tableau
+              </p>
+            
+              <p>
+                There is always one of our friends saying, 'Let's bet on the match!'
+                This work is to identify some factors that help predicting the outcome of World Cup matches, 
+                based on features from every single match in history.
+              </p>
+            
+            </div>
+          </div>
+        </div>
+
+        <div class="collapsible-project">
+          <button class="collapsible-btn" onclick="toggleProject(this)">Account Receivable Dashboard</button>
+          <div class="collapsible-content">
+            <a class="project-link" href="https://tykang0514.github.io/WorkNotes/AR/AR" >
+              <span style="color: #9e4b40; font-weight: bold;">Who Is Not Paying?</span>
+            </a>
+            <div style="margin-top: 0.5rem;">
+              
+              <p style="color: #516c83;"> 
+                <strong>Data:</strong> Mock data (customer info and financial transaction records)<br>
+                <strong>Tools Used:</strong> SQL, Tableau
+              </p>
+
+              <p>
+                This project imagines a real-life business situation and builds a dashboard to keep track of who hasn’t paid yet. 
+                It helps spot which customers still owe money, so the business can follow up and manage cash flow better.
+              </p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="collapsible-project">
+          <button class="collapsible-btn" onclick="toggleProject(this)">Loan Default Analysis</button>
+          <div class="collapsible-content">
+            <a class="project-link" href="https://tykang0514.github.io/WorkNotes/loanDefault/report/report" target="_blank" >
+              <span style="color: #9e4b40; font-weight: bold;">Who Is More Likely to Default on Their Loan? </span>
+            </a>
+            <div style="margin-top: 0.5rem;">
+              <p style="color: #516c83;"> 
+                <strong>Data:</strong> Loan Application<br>
+                <strong>Tools Used:</strong> Python(pandas, scipy, matplotlib)</p>
+              <p>bbb</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="collapsible-project">
+          <button class="collapsible-btn" onclick="toggleProject(this)">Inferential Statistics: T-Test Application on California Housing Prices</button>
+            
+          <div class="collapsible-content">
+            <a class="project-link" href="https://tykang0514.github.io/WorkNotes/caliH/CaliHousing.html">
+              <span style="color: #9e4b40; font-weight: bold;">Are Coastal Homes Really More Expensive?</span>
+            </a>
+            <div style="margin-top: 0.5rem;">
+              
+              <p style="color: #516c83;"> 
+                <strong>Data:</strong> Mock data (customer info and financial transaction records)<br>
+                <strong>Tools Used:</strong> SQL, Tableau
+              </p>
+              <p>
+                This project imagines a real-life business situation and builds a dashboard to keep track of who hasn’t paid yet. 
+                It helps spot which customers still owe money, so the business can follow up and manage cash flow better.
+              </p>
+            
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </div>
+
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('.section').forEach(sec => sec.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const body = document.body;
+      const openBtn = document.getElementById('offcanvas-open-btn');
+      const closeBtn = document.getElementById('offcanvas-close-btn');
+      const overlay = document.getElementById('offcanvas-overlay');
+      const nav = document.getElementById('offcanvas-nav');
+      let lastActiveElement;
+
+      function openMenu() {
+        lastActiveElement = document.activeElement;
+        body.classList.add('offcanvas-is-active');
+        nav.setAttribute('aria-hidden', 'false');
+        openBtn.setAttribute('aria-expanded', 'true');
+        closeBtn.focus();
+      }
+
+      function closeMenu() {
+        body.classList.remove('offcanvas-is-active');
+        nav.setAttribute('aria-hidden', 'true');
+        openBtn.setAttribute('aria-expanded', 'false');
+        if (lastActiveElement) lastActiveElement.focus();
+      }
+
+      openBtn.addEventListener('click', openMenu);
+      closeBtn.addEventListener('click', closeMenu);
+      overlay.addEventListener('click', closeMenu);
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && body.classList.contains('offcanvas-is-active')) closeMenu();
+      });
+
+      nav.addEventListener('keydown', (e) => {
+        if (e.key === 'Tab' && body.classList.contains('offcanvas-is-active')) {
+          const focusables = nav.querySelectorAll('a[href], button, [tabindex]:not([tabindex="-1"])');
+          const first = focusables[0];
+          const last = focusables[focusables.length - 1];
+          if (e.shiftKey && document.activeElement === first) {
+            last.focus(); e.preventDefault();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            first.focus(); e.preventDefault();
+          }
         }
+      });
+
+      const hash = window.location.hash.replace('#', '');
+      if (hash === 'about' || hash === 'projects') {
+        showSection(hash);
+      }
     });
-    </script>
+
+    function toggleProject(button) {
+      const content = button.nextElementSibling;
+
+      // Optional: Close other open sections
+      document.querySelectorAll('.collapsible-content').forEach((el) => {
+        if (el !== content) el.style.display = 'none';
+      });
+
+      content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+    }
+  </script>
 </body>
 </html>
