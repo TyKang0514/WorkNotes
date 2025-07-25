@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Project Title</title>
+  <title>California Housing Prices (T-Test)</title>
   <style>
     :root {
       --color-background: #d9d4d0ff;
@@ -20,7 +20,7 @@
     }
 
     html {
-      font-size: 18px;
+      font-size: 18px;      
     }
 
     * {
@@ -132,19 +132,53 @@
       visibility: visible;
     }
 
-    .content {
-      padding: 2rem;
+    p {
+      margin-top: 0;
+      margin-bottom: 0.75rem;
     }
-    
-    .clean-link {
-      color: inherit;
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0;
+      margin-bottom: 0.5em; 
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #a89f98; /* or var(--color-accent) */
+      width: 100%;
+      margin: 2rem 0;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    a {
+      color: var(--color-accent);
       text-decoration: none;
     }
     
-    .clean-link:hover {
+    a:hover {
       text-decoration: underline;
     }
-
+    
+    a {
+      color: #445A67;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: #6d5d54; /* Optional: warm gray on hover */
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 600px) {
+      html {
+        font-size: 16px;
+      }
+    }
 
   </style>
 </head>
@@ -168,26 +202,133 @@
     <button class="icon-button" id="offcanvas-open-btn" aria-label="Open menu" aria-haspopup="true" aria-controls="offcanvas-nav">
       <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
     </button>
-    <div class="nav-title">California Housing Prices (T-Test)</div>
+    <div class="nav-title">T-Test Applicaion</div>
   </header>
 
   <!-- Content Section -->
   <div class="content">
     <!-- 👇 Place your project-specific content here -->
-    <a href="https://www.kaggle.com/datasets/camnugent/california-housing-prices" target="_blank" class="clean-link">
-      <strong>Data Source</strong>: 1990 California Housing Prices
-    </a> <br>
+    <h1>
+      T-Test Application on California Housing Prices <br>
+      <span style="color: var(--color-accent); font-style: italic;">
+        Are Coastal Homes Really More Expensive?
+      </span>
+    </h1>
     
-    <a href="https://github.com/TyKang0514/WorkNotes/blob/9eeadafd0fe98a04dfecccb7c6dbb60fd6f8ee76/caliH/calihousing_ttest.ipynb" target="_blank" class="clean-link">
-      <strong>Source Code</strong>: Data Preparation & T-Test 
-    </a>
+    <hr>
 
+    <h2>Project Overview</h2>
 
-    <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;border-radius: 8px; will-change: transform;margin-left: auto; margin-right: auto;">
-      <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"src="https://www.canva.com/design/DAGsa2Tma4Q/WCdw5m8gEUymaRP8FcGmng/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">  
-      </iframe>
+    <p>
+      <strong>Data Source</strong><br>1990 California Housing Dataset (from Kaggle)
+    </p>
+    
+    <p>
+      <strong>Objective</strong><br>Examine whether housing prices in coastal areas are significantly higher than those in other regions.
+    </p>
+
+    <p>
+      <strong>How?</strong><br>The project applies two types of inferential statistical methods:
+      <ul style="margin-top: 0;">
+        <li><strong>One-Sample T-Test</strong> Checks if coastal home prices differ from the overall average. </li>
+        <li><strong>Two-Sample T-Test</strong> Compares coastal and inland prices to see if the difference is significant.</li>
+      </ul>  
+    </p>
+
+    <p>
+      <strong>Resources:</strong><br>
+      <a href="https://www.kaggle.com/datasets/camnugent/california-housing-prices" target="_blank" >
+        Data Source (Kaggle)
+      </a><br>
+      <a href="https://github.com/TyKang0514/WorkNotes/blob/9eeadafd0fe98a04dfecccb7c6dbb60fd6f8ee76/caliH/calihousing_ttest.ipynb" target="_blank" >
+        Source Code (GitHub)
+      </a>
+    </p>
+
+    <hr>
+
+    <h2>Basic Concept About Method: <br> How Is It Possible to Infer About Population Using Sample?</h2>
+    <p>
+      No matter what the original population looks like, 
+      if we repeatedly take samples and calculate their means, 
+      the distribution of those means will tend to be normal and centered around the population mean, 
+      which is usually unknown.
+    </p>
+
+    <div style="max-width: 100%; text-align: center;">
+      <img src="samplingDist.jpg" alt="Sampling Distribution" style="width: 100%; max-width: 700px; height: auto;"/>
     </div>
 
+    <p>
+      Although we don't know the center of the sampling distribution, 
+      we do know its shape is (nearly) normal. If that’s the case, 
+      assuming a center lets us judge how unusual our sample mean is—and how reasonable the assumption is.
+    </p>
+
+    <hr>
+
+    <h2>Data Preparation</h2>
+    <div style="max-width: 100%; text-align: center;">
+      <img src="dataPrep.png" alt="Sampling Distribution" style="width: 100%; max-width: 600px; height: auto;"/>
+    </div>
+
+    <hr>
+
+    <h2>One Sample T-Test</h2>
+
+    <p>
+      Here, we know the center of the sampling distribution — <span style="color:#445a67"><strong>the overall housing price mean (190.8K)</strong></span> from the entire dataset. 
+      We’re interested in how far <span style="color:var(--color-accent)"><strong>the Coastal Area Sample Mean (224.7K)</strong></span> is from that center.
+    </p>
+
+    <div style="max-width: 100%; text-align: center;">
+      <img src="ttest1.png" alt="Sampling Distribution" style="width: 100%; max-width: 600px; height: auto;"/>
+    </div>
+    
+    
+    <div style="margin: 1rem ; border: 1px solid #ccc; padding: 0.5rem; border-radius: 8px; background-color: #c0b9b4;">
+      <p>
+        <strong>Conclusion</strong><br>
+        The sample statistic we have — the average housing price in coastal areas — is significantly higher than the overall housing price.
+      </p>
+    </div>
+
+    <hr>
+
+    <h2>Two Sample T-Test</h2>
+
+    <p>
+      In this part, we compare <strong>two samples</strong> — the mean housing prices of coastal and inland areas (x̄<sub>coastal</sub> vs x̄<sub>inland</sub>). 
+      We start with the assumption that  <span style="color:#445a67"><strong>there’s no difference between the two (the null hypothesis)</strong></span>, 
+      then test how rare <span style="color:var(--color-accent)"><strong>the observed difference(x̄<sub>coastal</sub> - x̄<sub>inland</sub>) </strong></span> is under that assumption.
+    </p>
+
+    <div style="max-width: 100%; text-align: center;">
+      <img src="ttest2.png" alt="Sampling Distribution" style="width: 100%; max-width: 600px; height: auto;"/>
+    </div>
+
+    <div style="margin: 1rem ; border: 1px solid #ccc; padding: 0.5rem; border-radius: 8px; background-color: #c0b9b4;">
+      <p>
+        <strong>Conclusion</strong><br>
+        We reject the assumption of no difference and conclude that coastal housing prices are significantly higher than those in Inland Areas.
+      </p>
+    </div>
+
+    <hr>
+
+    <h2>Statistical Summary</h2>
+    
+    <div style="max-width: 100%; text-align: center;">
+      <img src="statsum.png" alt="Sampling Distribution" style="width: 100%; max-width: 700px; height: auto;"/>
+    </div>
+
+    <p style="text-align: center; margin-top: 3em; font-weight: bold; ;">
+      The end of the document
+    </p>
+
+
+
+    
   </div>
 
   <!-- Script for Offcanvas Menu -->
@@ -219,4 +360,3 @@
   </script>
 </body>
 </html>
-
