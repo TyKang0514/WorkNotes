@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Loan Defaulters(Z-Test)</title>
+  <style>
+    :root {
+      --color-background: #d9d4d0ff;
+      --color-surface: #bbb7b3;
+      --color-text-primary: #1d1d1f;
+      --color-text-secondary: #5f5f65;
+      --color-accent: #7A2917;
+      --color-overlay: rgba(0, 0, 0, 0.5);
+      --offcanvas-width: 220px;
+      --font-family-serif: "Times New Roman", Times, serif;
+      --navbar-height: 70px;
+      --transition-speed: 0.35s;
+      --transition-curve: cubic-bezier(0.7, 0, 0.3, 1);
+    }
+
+    html {
+      font-size: 18px;      
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: var(--font-family-serif);
+      background-color: var(--color-background);
+      color: var(--color-text-primary);
+    }
+
+    .main-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: var(--navbar-height);
+      padding: 0 1.5rem;
+      background-color: var(--color-surface);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: var(--color-accent);
+    }
+
+    .icon-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background: transparent;
+      padding: 0.5rem;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    .icon-button svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .icon-button:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .offcanvas-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 2000;
+      width: var(--offcanvas-width);
+      height: 100%;
+      padding: 1.5rem;
+      background-color: var(--color-surface);
+      transform: translateX(-100%);
+      transition: transform var(--transition-speed) var(--transition-curve);
+    }
+
+    .offcanvas-nav__header {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 2rem;
+    }
+
+    .offcanvas-nav__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .offcanvas-nav__link {
+      display: block;
+      padding: 0.75rem 0;
+      font-size: 1.1rem;
+      color: #000;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .offcanvas-nav__link:hover {
+      text-decoration: underline;
+    }
+
+    .offcanvas-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1500;
+      width: 100vw;
+      height: 100vh;
+      background-color: var(--color-overlay);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity var(--transition-speed) ease, visibility var(--transition-speed) ease;
+    }
+
+    body.offcanvas-is-active .offcanvas-nav {
+      transform: translateX(0);
+    }
+
+    body.offcanvas-is-active .offcanvas-overlay {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0;
+      margin-bottom: 0.5em; 
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #a89f98; /* or var(--color-accent) */
+      width: 100%;
+      margin: 2rem 0;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    a {
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    a {
+      color: #445A67;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: #6d5d54; /* Optional: warm gray on hover */
+      text-decoration: underline;
+    }
+
+    table {
+      font-size: 16px; 
+      border-collapse: collapse;
+      margin: 16px auto;
+      width: 80%;
+      text-align: center;
+      font-family: "Times New Roman";
+    }
+    
+    th, td {
+      padding: 5px;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      background-color: #bbb7b3;
+    }
+    
+    
+    @media (max-width: 600px) {
+      html {
+        font-size: 18px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Offcanvas Navigation -->
+  <div class="offcanvas-overlay" id="offcanvas-overlay"></div>
+  <nav class="offcanvas-nav" id="offcanvas-nav" aria-hidden="true">
+    <div class="offcanvas-nav__header">
+      <button class="icon-button" id="offcanvas-close-btn" aria-label="Close menu">
+        <svg viewBox="0 0 24 24"><path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" /></svg>
+      </button>
+    </div>
+    <ul class="offcanvas-nav__list">
+      <li><a class="offcanvas-nav__link" href="https://tykang0514.github.io/WorkNotes/index.html#about">About</a></li>
+      <li><a class="offcanvas-nav__link" href="https://tykang0514.github.io/WorkNotes/index.html#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header with Menu and Title -->
+  <header class="main-header">
+    <button class="icon-button" id="offcanvas-open-btn" aria-label="Open menu" aria-haspopup="true" aria-controls="offcanvas-nav">
+      <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
+    </button>
+    <div class="nav-title">Z-Test Applicaion</div>
+  </header>
+
+  <!-- Content Section -->
+  <div class="content">
+    <!-- 👇 Place your project-specific content here -->
+    <h1>
+      Z-Test Application on Loan Default Data<br>
+      <span style="color: var(--color-accent); font-style: italic;">
+        Who Is More Likely to Default on Their Loan?
+      </span>
+    </h1>
+    
+    <hr>
+
+    <h2>Project Overview</h2>
+
+    <p>
+      <strong>Data Source</strong><br> Synthetic Loan Defaulter Dataset (from Kaggle)
+      <ui>
+        <li>307,511 entries, each representing an individual loan applicant</li>
+        <li>Default status is marked as True or False</li>
+        <li>Includes both categorical and numerical features such as income, occupation, and family status</li>
+      </ui>
+    </p>
+    
+    <p>
+      <strong>Objective</strong><br>To identify which types of groups are more likely to default on their loan.
+    </p>
+
+    <p>
+      <strong>How?</strong>
+      <br>The project applies one of inferential statistical methods -<strong>the Z-Test</strong>-
+      to determine whether the default rate of specific subgroups differs significantly from the overall population default rate.
+    </p>
+
+    <p>
+      <strong>Project Assets</strong><br>
+      <a href="https://www.kaggle.com/datasets/gauravduttakiit/loan-defaulter/data" target="_blank" >
+        Data Source (Kaggle)
+      </a><br>
+      <a href="" target="_blank" >
+        Source Code (GitHub)
+      </a>
+    </p>
+
+    <hr>
+
+    <h2>Basic Concept About Method (Z-Test): <br> How Is It Possible to Infer About Population Using Sample?</h2>
+    <p>
+      No matter what the original population looks like, 
+      if we repeatedly take samples and calculate their means, 
+      the distribution of those means will tend to be normal and centered around the population mean, 
+      which is usually unknown. (*<i>Central Limit Theorem</i>)
+    </p>
+
+    <div style="max-width: 100%; text-align: center;">
+      <img src="samplingDist.jpg" alt="Sampling Distribution" style="width: 100%; max-width: 700px; height: auto;"/>
+    </div>
+
+    <p>
+      Although we don't know the center of the sampling distribution, 
+      we do know its shape is (nearly) normal. If that’s the case, 
+      assuming a center lets us judge how unusual our sample mean is—and how reasonable the assumption is.
+    </p>
+
+    <p style="color: var(--color-accent)"><strong>Note:</strong>        
+      Whether it's called a Z-Test or T-Test depends on the shape of the sampling distribution.
+      If the sample size is large and the population standard deviation is known, the sampling distribution follows a normal curve (Z-distribution), so it's a Z-Test.
+      If not, it follows a t-distribution, and we use a T-Test.
+      When testing proportions (like default rates), a Z-Test is typically used.
+    </p>
+      
+    <hr>
+
+    <h2>Apply Z-Test Logic to the Loan Default Dataset</h2>
+   
+    <p>
+      In order to determine cutoff values for identifying high or low default rates, 
+      the concept of a Z-test was applied. Assuming repeated sampling with <span style="color: var(--color-accent)"><strong>a size of 500</strong></span>, 
+      the sampling distribution centers around the population mean (<span style="color: var(--color-accent)"><strong>8.1%</strong></span>) and follows a normal distribution. 
+      The middle 95% range (<span style="color: var(--color-accent)"><strong>5.7%-10.5%</strong></span>) was used as the cutoff, flagging subgroups outside this range as unusually high or low.
+    </p>
+
+    <div style="max-width: 100%; text-align: center;">
+      <img src="ztest.png" alt="ztest" style="width: 100%; max-width: 700px; height: auto;"/>
+    </div>
+
+    <hr>
+
+    <h2>Which Groups Are High or Low Risk?</h2>
+
+    <p>  
+      <strong>Groups With Low Default Risk (Below 5.7%) </strong>
+      <table>
+        <tr>
+          <th>Feature</th> <th>Group</th> <th>Default Rate</th>
+        </tr>
+        <tr>
+          <td>Occupation</td> <td>Accountant</td> <td style="color:#445A67; font-weight:bold">4.8%</td>
+        </tr>
+        <tr> 
+          <td>Education</td> <td>Higher Education</td> <td style="color:#445A67; font-weight:bold">5.4%</td>
+        </tr>
+        <tr> 
+          <td>Income Type</td> <td>Pensioner</td> <td style="color:#445A67; font-weight:bold">5.4%</td>
+        </tr>
+        <tr> 
+          <td>Credit Amount</td> <td>8/8 Quantile(1M-4M)</td> <td style="color:#445A67; font-weight:bold">5.4%</td>
+        </tr>
+      </table>
+    </p>
+
+
+
+    <p style="margin-top: 2rem">
+      <strong>Groups With High Default Risk (Above 10.5%)</strong>
+      <table>
+        <tr>
+          <th>Feature</th> <th>Group</th> <th>Default Rate</th>
+        </tr>
+        <tr>
+          <td>Occupation</td> <td>Laborers</td> <td style="color:#7A2917; font-weight:bold">10.6%</td>
+        </tr>
+        <tr>
+          <td>Credit Amount</td> <td>5/8 quantile (513K-646K)</td> <td style="color:#7A2917; font-weight:bold">10.7%</td>
+        </tr>
+        <tr>
+          <td>Occupation</td> <td>Security staff</td> <td style="color:#7A2917; font-weight:bold">10.7%</td>
+        </tr>
+        <tr>
+          <td>Education</td> <td>Lower secondary</td> <td style="color:#7A2917; font-weight:bold">10.9%</td>
+        </tr>
+        <tr>
+          <td>Occupation</td> <td>Waiters/barmen staff</td> <td style="color:#7A2917; font-weight:bold">11.3%</td>
+        </tr>
+        <tr>
+          <td>Occupation</td> <td>Drivers</td> <td style="color:#7A2917; font-weight:bold">11.3%</td>
+        </tr>
+        <tr>
+          <td>Housing Type</td> <td>With parents</td> <td style="color:#7A2917; font-weight:bold">11.7%</td>
+        </tr>
+        <tr>
+          <td>Housing Type</td> <td>Rented apartment</td> <td style="color:#7A2917; font-weight:bold">12.3%</td>
+        </tr>
+        <tr>
+          <td>Children</td> <td>Over 3</td> <td style="color:#7A2917; font-weight:bold">12.8%</td>
+        </tr>
+        <tr>
+          <td>Occupation</td> <td>Low-skill Laborers</td> <td style="color:#7A2917; font-weight:bold">17.2%</td>
+        </tr>
+      </table>      
+    </p>
+
+
+    <hr>
+
+    <h2>Project Summary</h2>
+
+    <p>
+      <ul>
+        <li>The project aims to identify feature groups with higher or lower default rates.</li>
+        <li style="margin-top:1rem">To define what rate is considered high or low, the concept of a Z-test is applied.</li>
+        <li style="margin-top:1rem">Based on preset thresholds, the analysis highlights groups with significantly higher or lower default risk.</li>
+      </ul>
+    </p>
+    
+    
+    <p style="text-align: center; margin-top: 3em; font-weight: bold; ;">
+      The end of the document
+    </p>
+
+
+
+    
+  </div>
+
+  <!-- Script for Offcanvas Menu -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const body = document.body;
+      const openBtn = document.getElementById('offcanvas-open-btn');
+      const closeBtn = document.getElementById('offcanvas-close-btn');
+      const overlay = document.getElementById('offcanvas-overlay');
+      const nav = document.getElementById('offcanvas-nav');
+
+      function openMenu() {
+        body.classList.add('offcanvas-is-active');
+        nav.setAttribute('aria-hidden', 'false');
+        openBtn.setAttribute('aria-expanded', 'true');
+        closeBtn.focus();
+      }
+
+      function closeMenu() {
+        body.classList.remove('offcanvas-is-active');
+        nav.setAttribute('aria-hidden', 'true');
+        openBtn.setAttribute('aria-expanded', 'false');
+      }
+
+      openBtn.addEventListener('click', openMenu);
+      closeBtn.addEventListener('click', closeMenu);
+      overlay.addEventListener('click', closeMenu);
+    });
+  </script>
+</body>
+</html>
