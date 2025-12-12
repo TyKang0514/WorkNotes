@@ -6,13 +6,15 @@
   <title>Taeyoon Kang Portfolio</title>
   <style>
     :root {
-      --color-background: #d9d4d0;
-      --color-surface: #beb8b3;
-      --color-text-primary: #333333;
+      --color-background: #F5F5F5;
+      --color-surface: #dddddd;
+      --color-text-primary: #000000;
       --color-text-secondary: #5f5f65;
+      --color-accent: #9e4b40;
+      --color-accent2: #155790;
       --color-overlay: rgba(0, 0, 0, 0.5);
       --offcanvas-width: 220px;
-      --font-family-serif: "Times New Roman", Times, serif;
+      --font-family-serif: "Time New Roman", Times, serif;
       --navbar-height: 70px;
       --transition-speed: 0.35s;
       --transition-curve: cubic-bezier(0.7, 0, 0.3, 1);
@@ -41,7 +43,7 @@
       align-items: center;
       height: var(--navbar-height);
       padding: 0 1.5rem;
-      background-color: #beb8b3;
+      background-color: var(--color-surface);
       box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     }
 
@@ -59,7 +61,7 @@
       width: var(--offcanvas-width);
       height: 100%;
       padding: 1.5rem;
-      background-color: #beb8b3;
+      background-color: #DEDEDE;
       transform: translateX(-100%);
       transition: transform var(--transition-speed) var(--transition-curve);
       will-change: transform;
@@ -164,7 +166,7 @@
       width: 100%;
       text-align: left;
       padding: 1rem;
-      background-color: #beb8b3;
+      background-color: var(--color-surface);
       color: #333333;
       border: none;
       font-size: 1.1rem;
@@ -176,14 +178,14 @@
     }
 
     .collapsible-btn:hover {
-      background-color: #a9a29d;
+      background-color: #B0B0B0;
     }
 
     .collapsible-content {
       display: none;
       padding: 1rem;
       margin-top: 0.5rem;
-      background-color: #f5f1e9;
+      background-color: #ffffff;
       border-radius: 10px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
@@ -209,12 +211,12 @@
       <button class="icon-button" id="offcanvas-open-btn" aria-label="Open menu" aria-haspopup="true" aria-controls="offcanvas-nav">
         <svg viewBox="0 0 24 24"><path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" /></svg>
       </button>
-      <h1 style="font-size: 1.25rem; margin-left: 1rem;">Worknote by Taeyoon Kang</h1>
+      <h1 style="font-size: 1.25rem; margin-left: 1rem;">Work Notes by TY</h1>
     </header>
 
     <main class="main-content">
       <section id="about" class="section active">
-        <h2>🙏Thanks For Coming</h2>
+        <h2>Thanks For Coming</h2>
         
         <p> 
             I’m Taeyoon (TY) Kang, currently working on my Master’s degree in Business Analytics. 
@@ -224,9 +226,7 @@
         </p>
 
         <p>
-            This webpage is a collection of work I found interesting or worth sharing, created from a set of information often called <strong>DATA</strong>.
-            Sometimes, I want to share the findings that came out of each piece of work. 
-            Othertimes, it’s the methods I used to turn data into stories—tools that can help solve problems in business or everyday life.
+            This webpage is a record of my work, where I applied the methods or approaches I have developed in data analytics.
         </p>
         
         <p style="margin-bottom: 4rem;">
@@ -253,11 +253,11 @@
           <button class="collapsible-btn" onclick="toggleProject(this)">Analysis of World Cup Match Outcomes</button>
           <div class="collapsible-content">
             <a class="project-link" href="https://tykang0514.github.io/WorkNotes/worldcup/worldcup" >
-              <span style="color: #9e4b40; font-weight: bold;">Can We Predict the Winner of a Match in World Cup?</span>
+              <span style="color: var(--color-accent); font-weight: bold;">Can We Predict the Winner of a Match in World Cup?</span>
             </a>
             <div style="margin-top: 0.5rem;">
             
-              <p style="color: #516c83;">
+              <p style="color: var(--color-accent2);">
                 <strong>Data:</strong> World Cup Match Results (1930 - 2022)<br>
                 <strong>Tools Used:</strong> Python, Tableau
               </p>
@@ -278,11 +278,11 @@
           <button class="collapsible-btn" onclick="toggleProject(this)">Account Receivable Dashboard</button>
           <div class="collapsible-content">
             <a class="project-link" href="https://tykang0514.github.io/WorkNotes/AR/AR" >
-              <span style="color: #9e4b40; font-weight: bold;">Who Is Not Paying?</span>
+              <span style="color: var(--color-accent);">Who Is Not Paying?</span>
             </a>
             <div style="margin-top: 0.5rem;">
               
-              <p style="color: #516c83;"> 
+              <p style="color: var(--color-accent2);"> 
                 <strong>Data:</strong> Mock data (customer info and financial transaction records)<br>
                 <strong>Tools Used:</strong> SQL, Tableau
               </p>
@@ -304,10 +304,10 @@
           <button class="collapsible-btn" onclick="toggleProject(this)">Z-Test Application on Loan Defaulters </button>
           <div class="collapsible-content">
             <a class="project-link" href="https://tykang0514.github.io/WorkNotes/loanDefault/loan.html" target="_blank" >
-              <span style="color: #9e4b40; font-weight: bold;">Who Is More Likely to Default on Their Loan? </span>
+              <span style="color: var(--color-accent); font-weight: bold;">Who Is More Likely to Default on Their Loan? </span>
             </a>
             <div style="margin-top: 0.5rem;">
-                <p style="color: #516c83;"> 
+                <p style="color: var(--color-accent2);"> 
                     <strong>Data:</strong> Loan Application<br>
                     <strong>Tools Used:</strong> Python (Pandas, Scipy, Matplotlib)
                 </p>
@@ -326,11 +326,11 @@
             
           <div class="collapsible-content">
             <a class="project-link" href="https://tykang0514.github.io/WorkNotes/caliH/CaliHousing.html">
-              <span style="color: #9e4b40; font-weight: bold;">Are Coastal Homes Really More Expensive?</span>
+              <span style="color: var(--color-accent); font-weight: bold;">Are Coastal Homes Really More Expensive?</span>
             </a>
             <div style="margin-top: 0.5rem;">
               
-              <p style="color: #516c83;"> 
+              <p style="color: var(--color-accent2);"> 
                 <strong>Data:</strong> 1990 California Housing Prices<br>
                 <strong>Tools Used:</strong> Python (Pandas, Scipy, Matplotlib)
               </p>
