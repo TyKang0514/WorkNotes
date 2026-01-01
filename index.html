@@ -226,7 +226,7 @@
         </p>
 
         <p>
-            This webpage is a record of my work, where I applied the methods or approaches I have developed in data analytics.
+            This webpage is a record of my work, where I applied the methods or approaches I have been developing.
         </p>
         
         <p style="margin-bottom: 4rem;">
@@ -250,74 +250,113 @@
         <h2>Projects</h2>
 
         <div class="collapsible-project">
+          <button class="collapsible-btn" onclick="toggleProject(this)">Data Warehouse for Business Risk Monitoring</button>
+          <div class="collapsible-content">
+
+            <a class="project-link" href="" >
+              <span style="color: var(--color-accent2); font-weight: bold;">See Full Project</span>
+            </a>  
+
+            <p>
+              <strong>Data:</strong> Synthetic Financial Record (General Ledger)<br>
+              <strong>Tools Used:</strong> <em>SQL, Google BigQuery, dbt</em>
+            </p>
+          
+            <p>
+              This project demonstrates an end-to-end analysis process, 
+              from setting up a cloud data warehouse to building an analysis-ready data mart through an ELT process. 
+              Using synthetic financial data, analytical queries are used to monitor risks in receivables, payables, and customer sales trends.
+            </p>
+
+          
+          </div>
+        </div>
+
+        <div class="collapsible-project">
           <button class="collapsible-btn" onclick="toggleProject(this)">Analysis of World Cup Match Outcomes</button>
           <div class="collapsible-content">
+            
             <a class="project-link" href="https://tykang0514.github.io/WorkNotes/worldcup/worldcup" >
-              <span style="color: var(--color-accent); font-weight: bold;">Can We Predict the Winner of a Match in World Cup?</span>
+              <span style="color: var(--color-accent2); font-weight: bold;">See Full Project</span>
             </a>
-            <div style="margin-top: 0.5rem;">
             
-              <p style="color: var(--color-accent2);">
-                <strong>Data:</strong> World Cup Match Results (1930 - 2022)<br>
-                <strong>Tools Used:</strong> Python, Tableau
-              </p>
-            
-              <p>
-                There is always one of our friends saying, 'Let's bet on the match!'.
-                This work is to identify some factors that help predicting the outcome of World Cup matches, 
-                based on features from every single match in history.
-              </p>
+            <p>
+              <strong>Data:</strong> World Cup Match Results (1930 - 2022)<br>
+              <strong>Tools Used:</strong> <em>Python, Tableau </em>
+            </p>
 
-              <p><i>*This report was created using Tableau Public and is optimized for viewing on a PC screen.</i></p>
+            <p>
+              <strong>Can We Predict the Winner of a Match in World Cup?</strong>
+            </p> 
+
+            <p>
+              There is always one of our friends saying, 'Let's bet on the match!'.
+              This work is to identify some factors that help predicting the outcome of World Cup matches, 
+              based on features from every single match in history.
+            </p>
+
+            <p><i>*This report was created using Tableau Public and is optimized for viewing on a PC screen.</i></p>
             
-            </div>
           </div>
         </div>
 
         <div class="collapsible-project">
           <button class="collapsible-btn" onclick="toggleProject(this)">Account Receivable Dashboard</button>
           <div class="collapsible-content">
+
             <a class="project-link" href="https://tykang0514.github.io/WorkNotes/AR/AR" >
-              <span style="color: var(--color-accent);">Who Is Not Paying?</span>
+              <span style="color: var(--color-accent2);">See Full Project</span>
             </a>
-            <div style="margin-top: 0.5rem;">
-              
-              <p style="color: var(--color-accent2);"> 
-                <strong>Data:</strong> Mock data (customer info and financial transaction records)<br>
-                <strong>Tools Used:</strong> SQL, Tableau
-              </p>
+            
+            <p> 
+              <strong>Data:</strong> Mock data (customer info and financial transaction records)<br>
+              <strong>Tools Used:</strong> <em>SQL, Tableau</em>
+            </p>
 
-              <p>
-                This project imagines a real-life business situation and builds a dashboard to keep track of who hasn’t paid yet. 
-                It helps spot which customers still owe money, so the business can follow up and manage cash flow better.
-              </p>
+            <p>
+              <strong>Who is Not Paying?</strong>
+            </p>
 
-              <p>
-                <i>*This dashboard was created using Tableau Public and is best viewed on a PC screen.</i>
-              </p>
+            <p>
+              This project imagines a real-life business situation and builds a dashboard to keep track of who hasn’t paid yet. 
+              It helps spot which customers still owe money, so the business can follow up and manage cash flow better.
+            </p>
 
-            </div>
+            <p>
+              <i>*This dashboard was created using Tableau Public and is best viewed on a PC screen.</i>
+            </p>
+
+            
           </div>
         </div>
 
         <div class="collapsible-project">
-          <button class="collapsible-btn" onclick="toggleProject(this)">Z-Test Application on Loan Defaulters </button>
+          
+          <button class="collapsible-btn" onclick="toggleProject(this)">
+            Z-Test Application on Loan Defaulters 
+          </button>
+          
           <div class="collapsible-content">
-            <a class="project-link" href="https://tykang0514.github.io/WorkNotes/loanDefault/loan.html" target="_blank" >
-              <span style="color: var(--color-accent); font-weight: bold;">Who Is More Likely to Default on Their Loan? </span>
-            </a>
-            <div style="margin-top: 0.5rem;">
-                <p style="color: var(--color-accent2);"> 
-                    <strong>Data:</strong> Loan Application<br>
-                    <strong>Tools Used:</strong> Python (Pandas, Scipy, Matplotlib)
-                </p>
 
-                <p>
-                    Using a loan defaulter dataset, this project identifies groups with common features that have higher or lower default rates than the overall population. 
-                    The Z-test, a common statistical method for inference, is applied to determine which default rates can be considered significantly high or low.
-                </p>
+            <a class="project-link" href="https://tykang0514.github.io/WorkNotes/loanDefault/loan.html" target="_blank" >
+              <span style="color: var(--color-accent2); font-weight: bold;">See Full Project</span>
+            </a>
             
-            </div>
+            <p> 
+                <strong>Data:</strong> Loan Application<br>
+                <strong>Tools Used:</strong> <em>Python (Pandas, Scipy, Matplotlib)</em>
+            </p>
+
+            <p>
+              <strong>Who Is More Likely to Default on Their Loan?</strong>
+            </p>
+
+            <p>
+              Using a loan defaulter dataset, this project identifies groups with common features that have higher or lower default rates than the overall population. 
+              The Z-test, a common statistical method for inference, is applied to determine which default rates can be considered significantly high or low.
+            </p>
+            
+            
           </div>
         </div>
 
@@ -325,22 +364,28 @@
           <button class="collapsible-btn" onclick="toggleProject(this)">T-Test Application on California Housing Prices</button>
             
           <div class="collapsible-content">
+
             <a class="project-link" href="https://tykang0514.github.io/WorkNotes/caliH/CaliHousing.html">
-              <span style="color: var(--color-accent); font-weight: bold;">Are Coastal Homes Really More Expensive?</span>
+              <span style="color: var(--color-accent2); font-weight: bold;">See Full Project</span>
             </a>
-            <div style="margin-top: 0.5rem;">
-              
-              <p style="color: var(--color-accent2);"> 
-                <strong>Data:</strong> 1990 California Housing Prices<br>
-                <strong>Tools Used:</strong> Python (Pandas, Scipy, Matplotlib)
-              </p>
-              <p>
-                If we want to understand something about a group — like housing prices in a certain area — we usually rely on a sample. 
-                That’s where inferential statistics come in, and the t-test is one commonly used method. 
-                In this project, t-tests are used to examine housing prices in specific areas, based on the 1990 California housing dataset.              
-              </p>
             
-            </div>
+            <p> 
+              <strong>Data:</strong> 1990 California Housing Prices<br>
+              <strong>Tools Used:</strong> <em>Python (Pandas, Scipy, Matplotlib)</em>
+            </p>
+
+            <p>
+              <strong>Are Coastal Homes Really More Expensive?</strong>
+            </p>
+
+            <p>
+              If we want to understand something about a group — like housing prices in a certain area — we usually rely on a sample. 
+              That’s where inferential statistics come in, and the t-test is one commonly used method. 
+              In this project, t-tests are used to examine housing prices in specific areas, based on the 1990 California housing dataset.              
+            </p>
+
+            
+        
           </div>
         </div>
 
