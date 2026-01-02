@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Datawarehouse for Risk Monitoring</title>
+
+  <style>
+    :root {
+      --color-background: #F5F5F5;
+      --color-surface: #dddddd;
+      --color-text-primary: #000000;
+      --color-text-secondary: #5f5f65;
+      --color-accent: #9e4b40;
+      --color-accent2: #155790;
+      --color-overlay: rgba(1, 1, 1, 0.5);
+
+      --offcanvas-width: 220px;
+      --navbar-height: 70px;
+      --transition-speed: 0.35s;
+      --transition-curve: cubic-bezier(0.7, 0, 0.3, 1);
+
+      --font-family-serif: "Times New Roman", Times, serif;
+    }
+
+    html {
+      font-size: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: var(--font-family-serif);
+      background-color: var(--color-background);
+      color: var(--color-text-primary);
+    }
+
+    em {
+      font-family: Helvetica;
+    }
+
+    /* ---------- Header ---------- */
+    .main-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: var(--navbar-height);
+      padding: 0 1.5rem;
+      background-color: var(--color-surface);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: var(--color-accent);
+    }
+
+    .icon-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      background: transparent;
+      padding: 0.5rem;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    .icon-button svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .icon-button:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    /* ---------- Offcanvas ---------- */
+    .offcanvas-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 2000;
+      width: var(--offcanvas-width);
+      height: 100%;
+      padding: 1.5rem;
+      background-color: var(--color-surface);
+      transform: translateX(-100%);
+      transition: transform var(--transition-speed) var(--transition-curve);
+    }
+
+    .offcanvas-nav__header {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 2rem;
+    }
+
+    .offcanvas-nav__list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .offcanvas-nav__link {
+      display: block;
+      padding: 0.75rem 0;
+      font-size: 1.1rem;
+      color: #000;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .offcanvas-nav__link:hover {
+      text-decoration: underline;
+    }
+
+    .offcanvas-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1500;
+      width: 100vw;
+      height: 100vh;
+      background-color: var(--color-overlay);
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity var(--transition-speed) ease,
+                  visibility var(--transition-speed) ease;
+    }
+
+    body.offcanvas-is-active .offcanvas-nav {
+      transform: translateX(0);
+    }
+
+    body.offcanvas-is-active .offcanvas-overlay {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    /* ---------- Content ---------- */
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 1.5rem;
+    }
+
+    /* h1, h2 {
+      margin-top: 3rem;
+      margin-bottom: 0.5rem; 
+    }
+
+    h3, h4 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem; 
+    }
+
+    h5, h6 {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem; 
+    } */
+
+
+    /* ---------- Collapsible Query ---------- */
+    .query-collapsible {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      /*background-color: var(--color-surface);*/
+      /*border-radius: 6px;*/
+    }
+
+    .query-collapsible summary {
+      cursor: pointer;
+      /* font-weight: bold; */
+      color: var(--color-accent2);
+    }
+
+    .query-collapsible summary:hover {
+      text-decoration: underline;
+    }
+
+    .query-collapsible pre {
+      margin-top: 0.75rem;
+      padding: 1rem;
+      background-color: #ffffff;
+      border-radius: 4px;
+      overflow-x: auto;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: var(--color-accent2);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      html {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Offcanvas Navigation -->
+  <div class="offcanvas-overlay" id="offcanvas-overlay"></div>
+
+  <nav class="offcanvas-nav" id="offcanvas-nav" aria-hidden="true">
+    <div class="offcanvas-nav__header">
+      <button class="icon-button" id="offcanvas-close-btn" aria-label="Close menu">
+        <svg viewBox="0 0 24 24">
+          <path fill="currentColor"
+            d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+        </svg>
+      </button>
+    </div>
+
+    <ul class="offcanvas-nav__list">
+      <li><a class="offcanvas-nav__link" href="#about">About</a></li>
+      <li><a class="offcanvas-nav__link" href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="main-header">
+    <button class="icon-button" id="offcanvas-open-btn"
+            aria-label="Open menu"
+            aria-haspopup="true"
+            aria-controls="offcanvas-nav">
+      <svg viewBox="0 0 24 24">
+        <path fill="currentColor"
+          d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+      </svg>
+    </button>
+
+    <div class="nav-title">Data Warehousing for Business Risk</div>
+  </header>
+
+  <!-- Content -->
+  <div class="content">
+
+    <h1>
+      Data Warehousing for Business Risk Monitoring
+    </h1>
+
+    <section id="overview">
+      <h2> Project Overview </h2>
+
+      <p>
+        The project aims to build a <strong>data warehouse</strong> on a cloud setting that can serve for <strong>business risk monitoring</strong>. 
+        Assuming an organization uses an ERP system, it starts with the General Ledger — the company’s main record of financial transactions — as the source 
+        and transforms it into analysis-ready models that help answer key questions, such as:       
+      </p>
+
+      <ul>
+        <strong>
+          <li>Are We Getting Paid on Time?</li>
+          <li>Are We Paying on Time?</li>
+          <li>Any Customers With Declining Sales?</li>
+       </strong>
+      </ul>
+
+    </section>
+
+    <hr>
+
+    <section id="process">
+    
+      <h2>Process</h2>
+
+      <div style="max-width: 100%; text-align: center;">
+        <img src="img/pipeline.png" alt="pipe line" style="width: 90%; max-width: 700px; height: auto;"/>
+      </div>
+
+      <p>
+        This project uses <em>Google BigQuery</em> as the data warehousing platform and <em>dbt</em> as the data transformation tool. 
+        The overall data pipeline follows an ELT (Extract, Load, Transform) approach.
+      </p>
+      <ul>
+        <li>
+          <strong>Part 1. Extract and Load</strong>
+          <p>
+            Source data is extracted from the ERP system and loaded into tables in the target data warehouse, <em>Google BigQuery</em>.
+          </p>
+        </li>
+
+        <li>
+          <strong>Part 2. Transform</strong>
+          <p>
+            Using <em>dbt</em>, the source data is transformed within the warehouse into a data mart following a star schema, 
+            consisting of one fact table and multiple dimension tables.
+          </p>
+        </li>
+
+        <li>
+          <strong>Part 3. Analyze</strong>
+          <p>
+            Analytical queries are designed to answer key business questions, 
+            such as identifying overdue receivables, unpaid payables, and declining sales.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <section id="part1">
+
+      <h2> Part 1. Extract and Load</h2>
+      
+      <h3>Extract and Load Source Data (General Ledger)</h3>
+      
+      <p>
+        <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/gl_datasource.csv" target="_blank" >🔗 Data Source (CSV) </a>  
+      </p>
+
+      <p>
+        <strong>The raw general ledger (GL) is loaded into the data warehouse (<i>Google BigQuery</i>)</strong>. 
+        In practice, GL data is typically extracted from an ERP system via an API as part of the ELT process. 
+        For this project, we assume the GL data was provided as a CSV file and uploaded into BigQuery. 
+        The dataset is synthetic and contains journal-level transactions (e.g., date, account, debit, credit) covering January to June 2025.
+      </p>
+      
+      <div style="max-width: 100%; text-align: center">
+        <img src="img/rawdata.png" alt="raw data" style="width: 80%; max-width: 700px; height: auto; margin-bottom: 1rem;"/>
+      </div>
+    </section>
+
+    <hr>
+    
+    <section id="part2">
+      <h2>Part 2. Transform</h2>
+
+      <h3> Source Data to Staging Table</h3>
+
+      <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/stg_gl.csv" target="_blank" >🔗 Staging Table (CSV) </a>  
+
+      <p>
+        <strong>Source data in the data warehouse is transformed into a staging table using <em>dbt</em></strong>. 
+        The staging table represents an initial cleaned and standardized version of the raw data, with the following transformations applied:
+      </p>
+
+      
+      <ul>
+        <li>
+          Convert the date columns from STRING to DATE format.
+        </li>
+        <li>
+          Create a unique identifier for each transaction 
+          (in the raw data, a combination of journal_no and line_no uniquely identifies each row).
+        </li>
+      </ul>
+
+      <details class="query-collapsible">
+        <summary>Query for Staging Table</summary>
+        <pre>
+          <code>
+  WITH
+    source_data as (SELECT * FROM {{ source("raw", "source_gl") }}),
+
+    gl_clean as (
+      SELECT
+          -- Generate a unique surrogate key for each transaction
+          {{ dbt_utils.generate_surrogate_key(["journal_no", "line_no"]) }}
+          as transaction_id,
+
+          -- Convert string dates to DATE type
+          parse_date('%Y.%m.%d', date) as transaction_date,
+
+          journal_no,
+          line_no,
+          account_id,
+          account_name,
+          COALESCE(` debit `,0) as debit,
+          COALESCE(` credit `,0) as credit,
+          customer_id,
+          customer_name,
+          inv_no,
+          vendor_id,
+          vendor_name,
+          vend_inv_no,
+          term,
+          -- Convert string dates to DATE type
+          parse_date('%Y.%m.%d', due_date) as due_date
+
+      FROM source_data
+    )
+
+  SELECT *
+  FROM gl_clean
+  ORDER BY journal_no, line_no
+
+          </code>
+        </pre>
+      </details>
+
+      
+      <h3> Staging Table into Data Mart </h3>
+
+      <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/fact_transaction.csv" target="_blank" >🔗 fact_transaction Table (CSV) </a> <br>
+      <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/dim_customer.csv" target="_blank" >🔗 dim_customer Table (CSV) </a> <br>
+      <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/dim_vendor.csv" target="_blank" >🔗 dim_vendor Table (CSV) </a> 
+
+
+      <p>
+        A data mart is a subset of a data warehouse designed to support a specific business subject, which in this project is business risk monitoring. 
+        <strong>The data mart is designed using a dimensional model with one fact table and multiple dimension tables</strong>. 
+        Analytical queries are performed on these tables within the data mart.
+      </p>
+
+      <details class="query-collapsible">
+        <summary>Query for dim_customer Table</summary>
+        <pre>
+          <code>
+  WITH customer_term AS (
+    SELECT
+        customer_id,
+        customer_name,
+        MAX(term) AS term  -- pick the maximum term when some are blank
+    FROM {{ ref('stg_gl') }}
+    WHERE customer_id IS NOT NULL
+    GROUP BY customer_id, customer_name
+  )
+
+  SELECT *
+  FROM customer_term
+  ORDER BY customer_name
+
+          </code>
+        </pre>
+      </details>
+
+      <details class="query-collapsible">
+        <summary>Query for dim_vendor Table</summary>
+        <pre>
+          <code>
+  WITH vendor_term AS (
+    SELECT
+      vendor_id,
+      vendor_name,
+      MAX(term) AS term  -- pick the maximum term when some are blank
+    FROM {{ ref('stg_gl') }}
+    WHERE vendor_id IS NOT NULL
+    GROUP BY vendor_id, vendor_name
+  )
+
+  SELECT *
+  FROM vendor_term
+  ORDER BY vendor_id
+          </code>
+        </pre>
+      </details>
+
+      <details class="query-collapsible">
+        <summary>Query for fact_transaction Table</summary>
+        <pre>
+          <code>
+  WITH src AS (
+    SELECT *
+    FROM {{ ref('stg_gl') }}
+  ),
+
+  dim_customer AS (
+    SELECT *
+    FROM {{ ref('dim_customer') }}
+  ),
+
+  dim_vendor AS (
+    SELECT *
+    FROM {{ ref('dim_vendor') }}
+  ),
+
+  final AS (
+    SELECT
+      -- Fact table primary key: transaction_id from staging
+      s.transaction_id,
+      
+      -- Transaction details
+      s.transaction_date,
+      s.journal_no,
+      s.line_no,
+      s.account_id,
+      s.account_name,
+      s.`debit`,
+      s.`credit`,
+      
+      -- Foreign keys
+      c.customer_id AS customer_fk,
+      v.vendor_id AS vendor_fk,
+
+      -- transaction details
+      s.inv_no,
+      s.vend_inv_no,
+      -- s.due_date
+
+    FROM src s
+    LEFT JOIN dim_customer c
+      ON s.customer_id = c.customer_id
+    LEFT JOIN dim_vendor v
+      ON s.vendor_id = v.vendor_id
+  )
+
+  SELECT *
+  FROM final
+  ORDER BY journal_no, line_no
+          </code>
+        </pre>
+      </details>
+
+
+      <h3> Transformation Summary </h3>
+      <div style="max-width: 100%; text-align: center">
+        <img src="img/linage.png" alt="linage" style="width: 90%; max-width: 700px; height: auto; margin-bottom: 1rem;"/>
+      </div>
+    
+    </section>
+
+    <hr>
+
+    <section id="part3">
+
+      <h2>Part 3. Analyze</h2>
+      <p>
+        With the data mart in place within the data warehouse, 
+        <strong>analytical queries can now be designed on its tables</strong> to answer business questions using <strong>tabular results</strong>.
+      </p>
+      <p>
+        The reference date for the analysis is <i>June 30, 2025</i>, which is assumed to be the current date.
+      </p>
+
+    
+      <div style="max-width: 100%; text-align: center">
+        <img src="img/diagram.png" alt="diagram" style="width: 60%; max-width: 700px; height: auto;"/>
+      </div>
+
+
+      <h3 style="margin-top: 3rem">
+        Analytic Question 1: Are We Getting Paid on Time?
+      </h3>
+
+      
+      <p>
+        In business, collecting cash on time is just as important as generating revenue.
+        The first analytic question examines whether the organization is getting paid on time by customers.
+        In other words, it checks for any delays in accounts receivable.
+      </p>
+
+      <h4>About Query</h4>
+
+      <details class="query-collapsible">
+        <summary>Query for Analytic Question 1</summary>
+        <pre>
+          <code>
+  WITH invoice AS (
+    SELECT
+      ft.inv_no,
+      MIN(transaction_date) AS charged_date,
+      MAX(ft.customer_fk) AS customer_id,
+      SUM(ft.debit) AS charged,
+      SUM(ft.credit) AS collected,
+      SUM(ft.debit) - SUM(ft.credit) AS residue
+    FROM {{ ref('fact_transaction') }} ft
+    GROUP BY ft.inv_no
+    HAVING residue > 0
+  ),
+
+  invoice_with_due AS (
+    SELECT 
+      i.*,
+      dc.customer_name,
+      dc.term,
+      LAST_DAY(
+        DATE_ADD(i.charged_date, INTERVAL CAST(dc.term / 30 AS INT64) MONTH)
+      ) AS due_date,
+
+      DATE_DIFF(
+        DATE '2025-06-30',
+        LAST_DAY(
+          DATE_ADD(i.charged_date, INTERVAL CAST(dc.term / 30 AS INT64) MONTH)
+        ),
+        DAY
+      ) AS days_past_due
+    FROM invoice i
+    JOIN {{ ref('dim_customer') }} dc
+      ON i.customer_id = dc.customer_id
+  )
+
+  SELECT
+    inv_no, customer_id, customer_name, 
+    charged_date, term, due_date, days_past_due,
+    charged, collected, residue
+  FROM invoice_with_due
+  WHERE days_past_due >= 0
+  ORDER BY days_past_due DESC
+          </code>
+        </pre>
+      </details>
+
+      <ul>
+        <li>Each row represents a single invoice with its remaining balance.</li>
+        <li>The due date is calculated based on each customer’s payment terms (from the customer dimension table).</li>
+        <li>The number of days since the invoice was charged is calculated as of the reference date, <i>2025-06-30</i>.</li>
+      </ul>
+
+      
+      <h4>Findings </h4>
+
+      <div style="max-width: 100%; text-align: center;">
+        <img src="img/receivables.png" alt="pipe line" style="width: 90%; max-width: 700px; height: auto;"/>
+      </div>
+
+      <ul style="color: var(--color-accent)">
+        <li>
+          Customer <i>Beta Solution</i> has not paid three invoices, two of which are more than 30 days past due.
+        </li>
+        <li>
+          Customer <i>Falcon Tech</i> was scheduled to pay its April invoice today (<i>2025-06-30</i>), but payment has not yet been received.
+        </li>
+      </ul>
+
+      <h3 style="margin-top: 3rem">
+        Analytic Question 2: Are We Paying on Time?
+      </h3>
+
+      <p>
+        This time, we are going to see if the organization is missing payments to vendors.
+        In other words, it checks for any delays in accounts payable.
+      </p>
+
+      
+
+      <h4>About Query </h4>
+
+      <details class="query-collapsible">
+        <summary>Query for Analytic Question 2</summary>
+        <pre>
+          <code>
+
+  WITH invoice AS (
+    SELECT
+      ft.vend_inv_no,
+      MIN(transaction_date) AS invoice_date,
+      MAX(ft.vendor_fk) AS vendor_id,
+      SUM(ft.credit) AS charged,
+      SUM(ft.debit) AS paid,
+      SUM(ft.credit) - SUM(ft.debit) AS residue
+    FROM {{ ref('fact_transaction') }} ft
+    GROUP BY ft.vend_inv_no
+    HAVING residue > 0
+  ),
+
+  invoice_with_due AS (
+    SELECT 
+      i.*,
+      dv.vendor_name,
+      dv.term,
+      LAST_DAY(
+        DATE_ADD(i.invoice_date, INTERVAL CAST(dv.term / 30 AS INT64) MONTH)
+      ) AS due_date,
+
+      DATE_DIFF(
+        DATE '2025-06-30',
+
+        LAST_DAY(
+          DATE_ADD(i.invoice_date, INTERVAL CAST(dv.term / 30 AS INT64) MONTH)
+        ),
+        DAY
+      ) AS days_past_due
+    FROM invoice i
+    JOIN {{ ref('dim_vendor') }} dv
+      ON i.vendor_id = dv.vendor_id
+  )
+
+  SELECT vend_inv_no, vendor_name, 
+    invoice_date, term, due_date, days_past_due,
+    charged, paid, residue
+  FROM invoice_with_due
+  WHERE days_past_due >= 0
+  ORDER BY days_past_due DESC          
+
+          </code>
+        </pre>
+      </details>
+
+      <ul>
+        <li>Each row represents a single invoice (issued by vendors) with its remaining balance.</li>
+        <li>The due date is calculated based on each vendor's payment terms (from the vendor dimension table).</li>
+        <li>The number of days since the invoice was charged is calculated as of the reference date, <i>2025-06-30</i>.</li>
+      </ul>
+
+      
+
+
+      <h4>Findings </h4>
+
+      <div style="max-width: 100%; text-align: center;">
+        <img src="img/payables.png" alt="pipe line" style="width: 90%; max-width: 700px; height: auto;"/>
+      </div>
+
+      <ul style="color: var(--color-accent)">
+        <li>
+          A minor issue: payment to vendor <i>Ironclad Equipments</i> hasn’t been processed yet.
+          It was due as of the analysis date (<i>2025-06-30</i>), and may have been overlooked by staff.
+        </li>
+      </ul>
+
+
+      <h3 style="margin-top: 3rem">
+        Analytic Question 3: Any Customers With Declining Sales?
+      </h3>
+
+      <p>
+        This analysis looks for customers with noticeable changes in revenue 
+        by comparing average sales from the previous five months to sales in the last month.
+      </p>
+
+      
+      <h4>About Query </h4>
+
+      <details class="query-collapsible">
+        <summary>Query for Analytic Question 3</summary>
+        <pre>
+          <code>
+  WITH monthly_revenue AS (
+    SELECT
+      customer_fk,
+      DATE_TRUNC(transaction_date, MONTH) AS revenue_month,
+      SUM(credit) - SUM(debit) AS revenue
+    FROM {{ ref('fact_transaction') }}
+    WHERE account_name = 'Revenue'
+    GROUP BY customer_fk, revenue_month
+  ),
+
+  customer_revenue AS (
+    SELECT
+      mr.customer_fk,
+      MAX(dc.customer_name) AS customer_name,
+
+      -- Average revenue for the last 5 months (excluding current month)
+      AVG(
+        CASE
+          WHEN mr.revenue_month >= DATE_SUB(DATE_TRUNC(DATE '2025-06-30', MONTH), INTERVAL 5 MONTH)
+            AND mr.revenue_month &lt; DATE_TRUNC(DATE '2025-06-30', MONTH)
+          THEN mr.revenue
+        END
+      ) AS avg_revenue_last_5_months,
+
+      -- Revenue for the current month
+      SUM(
+        CASE
+          WHEN mr.revenue_month = DATE_TRUNC(DATE '2025-06-30', MONTH)
+          THEN mr.revenue
+        END
+      ) AS revenue_this_month
+
+    FROM monthly_revenue mr
+    LEFT JOIN {{ ref('dim_customer') }} dc
+      ON mr.customer_fk = dc.customer_id
+    GROUP BY mr.customer_fk
+  )
+
+  SELECT
+    customer_name,
+    avg_revenue_last_5_months,
+    revenue_this_month,
+    -- Percentage change vs 5-month average
+    ROUND(
+      SAFE_DIVIDE(
+        revenue_this_month - avg_revenue_last_5_months,
+        avg_revenue_last_5_months
+      ) * 100, 0
+    ) AS pct_change_vs_5mo_avg
+  FROM customer_revenue
+  ORDER BY customer_fk
+          </code>
+        </pre>
+      </details>
+
+
+      <ul>
+        <li>Each row represents a customer with average sales for the previous five months 
+          (Jan–May 2025) compared to sales in June 2025.</li>
+      </ul>
+
+      <h4> Findings</h4>
+
+      <div style="max-width: 100%; text-align: center;">
+        <img src="img/sales.png" alt="pipe line" style="width: 60%; max-width: 700px; height: auto;"/>
+      </div>
+
+      <ul style="color: var(--color-accent)">
+        <li>
+          One customer stands out—<i>Grandline Logistics</i>—as it shows a noticeable decline in sales, 
+          with the most recent month falling below the trend of previous months.
+        </li>
+      </ul>
+    
+    </section>
+
+    <hr>
+
+    
+    <section id="conclusion">
+      <h2>Conclusion</h2>
+      <p>
+        This project demonstrates an end-to-end analytics workflow:
+      </p>
+      <ul>
+        <li>
+          Building a <strong>data warehouse</strong> in <em>Google BigQuery</em> using synthetic financial data.
+        </li>
+        <li>
+          Creating a <strong>data mart</strong> with <em>dbt</em>.
+        </li>
+        <li>
+          Designing <strong>analytical queries</strong> to support business risk analysis.
+        </li>
+      </ul>
+      
+      <p>
+        As it stands, this work can be directly used for business risk monitoring.
+        If needed, it can be further extended into a risk monitoring dashboard
+        for ongoing and visual reporting.
+      </p>
+    </section>
+
+
+    <p style="text-align: center; margin-top: 3em; font-weight: bold; ;">
+      The End of the Document
+    </p>
+
+  </div>
+
+  <!-- Offcanvas Script -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const body = document.body;
+      const openBtn = document.getElementById('offcanvas-open-btn');
+      const closeBtn = document.getElementById('offcanvas-close-btn');
+      const overlay = document.getElementById('offcanvas-overlay');
+      const nav = document.getElementById('offcanvas-nav');
+
+      function openMenu() {
+        body.classList.add('offcanvas-is-active');
+        nav.setAttribute('aria-hidden', 'false');
+        openBtn.setAttribute('aria-expanded', 'true');
+        closeBtn.focus();
+      }
+
+      function closeMenu() {
+        body.classList.remove('offcanvas-is-active');
+        nav.setAttribute('aria-hidden', 'true');
+        openBtn.setAttribute('aria-expanded', 'false');
+      }
+
+      openBtn.addEventListener('click', openMenu);
+      closeBtn.addEventListener('click', closeMenu);
+      overlay.addEventListener('click', closeMenu);
+    });
+  </script>
+
+</body>
+</html>
+
