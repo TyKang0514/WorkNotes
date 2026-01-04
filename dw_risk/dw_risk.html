@@ -20,11 +20,11 @@
       --transition-speed: 0.35s;
       --transition-curve: cubic-bezier(0.7, 0, 0.3, 1);
 
-      --font-family-serif: "Times New Roman", Times, serif;
+      --font-family-serif: sans-serif, Times, serif;
     }
 
     html {
-      font-size: 18px;
+      font-size: 16px;
     }
 
     * {
@@ -34,18 +34,14 @@
     html, body {
       margin: 0;
       padding: 0;
-      line-height: 1.4;
+      line-height: 1.5;
       height: 100%;
       font-family: var(--font-family-serif);
       background-color: var(--color-background);
       color: var(--color-text-primary);
     }
 
-    em {
-      font-family: sans-serif;
-      font-style: normal;
-    }
-
+    
     /* ---------- Header ---------- */
     .main-header {
       display: flex;
@@ -152,34 +148,34 @@
       padding: 1.5rem;
     }
 
-    /* h1, h2 {
-      margin-top: 3rem;
+    h1, h2 {
+      margin-top: 2.5rem;
       margin-bottom: 0.5rem; 
     }
 
     h3, h4 {
-      margin-top: 1.5rem;
+      margin-top: 2rem;
       margin-bottom: 0.5rem; 
     }
 
     h5, h6 {
-      margin-top: 0.5rem;
+      margin-top: 1.5rem;
       margin-bottom: 0.5rem; 
-    } */
+    } 
 
 
     /* ---------- Collapsible Query ---------- */
     .query-collapsible {
-      margin-top: 0.5rem;
+      /*margin-top: 0.5rem;
       margin-bottom: 0.5rem;
-      /*background-color: var(--color-surface);*/
-      /*border-radius: 6px;*/
+      background-color: var(--color-surface);
+      border-radius: 6px;*/
     }
 
     .query-collapsible summary {
       cursor: pointer;
-      /* font-weight: bold; */
-      color: var(--color-accent2);
+      font-weight: bold;
+      /* color: var(--color-accent2) */ ;
     }
 
     .query-collapsible summary:hover {
@@ -274,7 +270,7 @@
 
     </section>
 
-    <hr>
+    
 
     <section id="process">
     
@@ -288,33 +284,27 @@
         This project uses <em>Google BigQuery</em> as the data warehousing platform and <em>dbt</em> as the data transformation tool. 
         The overall data pipeline follows an ELT (Extract, Load, Transform) approach.
       </p>
-      <ul>
-        <li>
-          <strong>Part 1. Extract and Load</strong>
-          <p>
-            Source data is extracted from the ERP system and loaded into tables in the target data warehouse, <em>Google BigQuery</em>.
-          </p>
-        </li>
+      
+      <p>
+        <strong>Part 1. Extract and Load</strong> <br>
+        Source data is extracted from the ERP system and loaded into tables in the target data warehouse, <em>Google BigQuery</em>.
+      </p>
+      
+      <p>
+        <strong>Part 2. Transform</strong> <br>
+        Using <em>dbt</em>, the source data is transformed within the warehouse into a data mart following a star schema, 
+        consisting of one fact table and multiple dimension tables.
+      </p> 
 
-        <li>
-          <strong>Part 2. Transform</strong>
-          <p>
-            Using <em>dbt</em>, the source data is transformed within the warehouse into a data mart following a star schema, 
-            consisting of one fact table and multiple dimension tables.
-          </p>
-        </li>
-
-        <li>
-          <strong>Part 3. Analyze</strong>
-          <p>
-            Analytical queries are designed to answer key business questions, 
-            such as identifying overdue receivables, unpaid payables, and declining sales.
-          </p>
-        </li>
-      </ul>
+      <p>
+        <strong>Part 3. Analyze</strong> <br>
+        Analytical queries are designed to answer key business questions, 
+        such as identifying overdue receivables, unpaid payables, and declining sales.
+      </p>
+      
     </section>
 
-    <hr>
+    
 
     <section id="part1">
 
@@ -322,10 +312,6 @@
       
       <h3>Extract and Load Source Data (General Ledger)</h3>
       
-      <p>
-        <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/gl_datasource.csv" target="_blank" >🔗 Data Source (CSV) </a>  
-      </p>
-
       <p>
         <strong>The raw general ledger (GL) is loaded into the data warehouse (<em>Google BigQuery</em>)</strong>. 
         In practice, GL data is typically extracted from an ERP system via an API as part of the ELT process. 
@@ -338,14 +324,17 @@
       </div>
     </section>
 
-    <hr>
+    <p>
+      <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/gl_datasource.csv" target="_blank" >🔗 Data Source (CSV) </a>  
+    </p>
+
+
+
     
     <section id="part2">
       <h2>Part 2. Transform</h2>
 
-      <h3> Source Data to Staging Table</h3>
-
-      <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/stg_gl.csv" target="_blank" >🔗 Staging Table (CSV) </a>  
+      <h3> Source Data to Staging Table</h3>  
 
       <p>
         <strong>Source data in the data warehouse is transformed into a staging table using <em>dbt</em></strong>. 
@@ -401,18 +390,18 @@
   SELECT *
   FROM gl_clean
   ORDER BY journal_no, line_no
-
           </code>
         </pre>
       </details>
 
+      <p>
+        <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/stg_gl.csv" target="_blank" >🔗 Staging Table (CSV) </a>
+      </p>
+
+      
+
       
       <h3> Staging Table into Data Mart </h3>
-
-      <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/fact_transaction.csv" target="_blank" >🔗 fact_transaction Table (CSV) </a> <br>
-      <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/dim_customer.csv" target="_blank" >🔗 dim_customer Table (CSV) </a> <br>
-      <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/dim_vendor.csv" target="_blank" >🔗 dim_vendor Table (CSV) </a> 
-
 
       <p>
         A data mart is a subset of a data warehouse designed to support a specific business subject, which in this project is business risk monitoring. 
@@ -437,7 +426,6 @@
   SELECT *
   FROM customer_term
   ORDER BY customer_name
-
           </code>
         </pre>
       </details>
@@ -519,15 +507,20 @@
         </pre>
       </details>
 
+      <p>
+        <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/dim_customer.csv" target="_blank" >🔗 dim_customer (CSV) </a> <br>
+        <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/dim_vendor.csv" target="_blank" >🔗 dim_vendor (CSV) </a> <br>
+        <a href="https://github.com/TyKang0514/WorkNotes/blob/eb4212588702c25ae05967f7d14b2f85438193a7/dw_risk/csv/fact_transaction.csv" target="_blank" >🔗 fact_transaction (CSV) </a>
+      </p>
+
 
       <h3> Transformation Summary </h3>
       <div style="max-width: 100%; text-align: center">
-        <img src="img/linage.png" alt="linage" style="width: 90%; max-width: 700px; height: auto; margin-bottom: 1rem;"/>
+        <img src="img/linage.png" alt="linage" style="width: 90%; max-width: 700px; height: auto; margin-top: 1rem; margin-bottom: 1rem;"/>
       </div>
-    
     </section>
 
-    <hr>
+    
 
     <section id="part3">
 
@@ -557,7 +550,6 @@
         In other words, it checks for any delays in accounts receivable.
       </p>
 
-      <h4>About Query</h4>
 
       <details class="query-collapsible">
         <summary>Query for Analytic Question 1</summary>
@@ -639,9 +631,6 @@
         In other words, it checks for any delays in accounts payable.
       </p>
 
-      
-
-      <h4>About Query </h4>
 
       <details class="query-collapsible">
         <summary>Query for Analytic Question 2</summary>
@@ -726,8 +715,7 @@
         by comparing average sales from the previous five months to sales in the last month.
       </p>
 
-      
-      <h4>About Query </h4>
+    
 
       <details class="query-collapsible">
         <summary>Query for Analytic Question 3</summary>
@@ -809,7 +797,7 @@
     
     </section>
 
-    <hr>
+    
 
     
     <section id="conclusion">
