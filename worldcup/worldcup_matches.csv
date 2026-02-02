@@ -1,0 +1,965 @@
+Year,Host,Date,Round,Attendance,Venue,home_team,home_score,home_penalty,away_team,away_score,away_penalty,home_goal_min,home_own_goal_min,home_penalty_goal_min,away_goal_min,away_own_goal_min,away_penalty_goal_min,match_win,penalty_win,firstGoal,home_rank,away_rank
+2022,Qatar,2022.12.18,Final,88966,"Lusail Iconic Stadium, Lusail",Argentina,3,4,France,3,2,"[36, 108]",[],[23],[81],[],"[80, 118]",draw,home,home,3,4
+2022,Qatar,2022.12.17,Third-place match,44137,"Khalifa International Stadium, Doha",Croatia,2,,Morocco,1,,"[7, 42]",[],[],[9],[],[],home,,home,12,22
+2022,Qatar,2022.12.14,Semi-finals,68294,"Al Bayt Stadium, Al Khor",France,2,,Morocco,0,,"[5, 79]",[],[],[],[],[],home,,home,4,22
+2022,Qatar,2022.12.13,Semi-finals,88966,"Lusail Iconic Stadium, Lusail",Argentina,3,,Croatia,0,,"[39, 69]",[],[34],[],[],[],home,,home,3,12
+2022,Qatar,2022.12.10,Quarter-finals,44198,"Al Thumama Stadium, ath-Thum_ma",Morocco,1,,Portugal,0,,[42],[],[],[],[],[],home,,home,22,9
+2022,Qatar,2022.12.10,Quarter-finals,68895,"Al Bayt Stadium, Al Khor",England,1,,France,2,,[],[],[54],"[17, 78]",[],[],away,,away,5,4
+2022,Qatar,2022.12.9,Quarter-finals,43893,"Education City Stadium, Doha",Croatia,1,4,Brazil,1,2,[117],[],[],[106],[],[],draw,home,away,12,1
+2022,Qatar,2022.12.9,Quarter-finals,88235,"Lusail Iconic Stadium, Lusail",Netherlands,2,3,Argentina,2,4,"[83, 101]",[],[],[35],[],[73],draw,away,away,8,3
+2022,Qatar,2022.12.6,Round of 16,44667,"Education City Stadium, Doha",Morocco,0,3,Spain,0,0,[],[],[],[],[],[],draw,home,,22,7
+2022,Qatar,2022.12.6,Round of 16,83720,"Lusail Iconic Stadium, Lusail",Portugal,6,,Switzerland,1,,"[17, 33, 51, 55, 67, 92]",[],[],[58],[],[],home,,home,9,15
+2022,Qatar,2022.12.5,Round of 16,42523,"Al Janoub Stadium, Al Wakrah",Japan,1,1,Croatia,1,3,[43],[],[],[55],[],[],draw,away,home,24,12
+2022,Qatar,2022.12.5,Round of 16,43847,"Stadium 974, Doha",Brazil,4,,Korea Republic,1,,"[7, 29, 36]",[],[11],[76],[],[],home,,home,1,28
+2022,Qatar,2022.12.4,Round of 16,40989,"Al Thumama Stadium, ath-Thum_ma",France,3,,Poland,1,,"[44, 74, 91]",[],[],[],[],[99],home,,home,4,26
+2022,Qatar,2022.12.4,Round of 16,65985,"Al Bayt Stadium, Al Khor",England,3,,Senegal,0,,"[39, 48, 57]",[],[],[],[],[],home,,home,5,18
+2022,Qatar,2022.12.3,Round of 16,44846,"Khalifa International Stadium, Doha",Netherlands,3,,United States,1,,"[10, 46, 81]",[],[],[76],[],[],home,,home,8,16
+2022,Qatar,2022.12.3,Round of 16,45032,"Ahmed bin Ali Stadium, Umm al-Af_'ī",Argentina,2,,Australia,1,,"[35, 57]",[],[],[],[77],[],home,,home,3,38
+2022,Qatar,2022.12.2,Group stage,44097,"Education City Stadium, Doha",Korea Republic,2,,Portugal,1,,"[27, 91]",[],[],[5],[],[],home,,away,28,9
+2022,Qatar,2022.12.2,Group stage,43443,"Al Janoub Stadium, Al Wakrah",Ghana,0,,Uruguay,2,,[],[],[],"[26, 32]",[],[],away,,away,61,14
+2022,Qatar,2022.12.2,Group stage,85986,"Lusail Iconic Stadium, Lusail",Cameroon,1,,Brazil,0,,[92],[],[],[],[],[],home,,home,43,1
+2022,Qatar,2022.12.2,Group stage,41378,"Stadium 974, Doha",Serbia,2,,Switzerland,3,,"[26, 35]",[],[],"[20, 44, 48]",[],[],away,,away,21,15
+2022,Qatar,2022.12.1,Group stage,43102,"Al Thumama Stadium, ath-Thum_ma",Canada,1,,Morocco,2,,[],[40],[],"[4, 23]",[],[],away,,away,41,22
+2022,Qatar,2022.12.1,Group stage,43984,"Ahmed bin Ali Stadium, Umm al-Af_'ī",Croatia,0,,Belgium,0,,[],[],[],[],[],[],draw,,,12,2
+2022,Qatar,2022.12.1,Group stage,67054,"Al Bayt Stadium, Al Khor",Costa Rica,2,,Germany,4,,[58],[70],[],"[10, 73, 85, 90]",[],[],away,,away,31,11
+2022,Qatar,2022.12.1,Group stage,44851,"Khalifa International Stadium, Doha",Japan,2,,Spain,1,,"[48, 51]",[],[],[12],[],[],home,,away,24,7
+2022,Qatar,2022.11.30,Group stage,41232,"Al Janoub Stadium, Al Wakrah",Australia,1,,Denmark,0,,[60],[],[],[],[],[],home,,home,38,10
+2022,Qatar,2022.11.30,Group stage,43627,"Education City Stadium, Doha",Tunisia,1,,France,0,,[58],[],[],[],[],[],home,,home,30,4
+2022,Qatar,2022.11.30,Group stage,84985,"Lusail Iconic Stadium, Lusail",Saudi Arabia,1,,Mexico,2,,[95],[],[],"[47, 52]",[],[],away,,away,51,13
+2022,Qatar,2022.11.30,Group stage,44089,"Stadium 974, Doha",Poland,0,,Argentina,2,,[],[],[],"[46, 67]",[],[],away,,away,26,3
+2022,Qatar,2022.11.29,Group stage,44569,"Khalifa International Stadium, Doha",Ecuador,1,,Senegal,2,,[67],[],[],[70],[],[44],away,,away,44,18
+2022,Qatar,2022.11.29,Group stage,66784,"Al Bayt Stadium, Al Khor",Netherlands,2,,Qatar,0,,"[26, 49]",[],[],[],[],[],home,,home,8,50
+2022,Qatar,2022.11.29,Group stage,42127,"Al Thumama Stadium, ath-Thum_ma",IR Iran,0,,United States,1,,[],[],[],[38],[],[],away,,away,20,16
+2022,Qatar,2022.11.29,Group stage,44297,"Ahmed bin Ali Stadium, Umm al-Af_'ī",Wales,0,,England,3,,[],[],[],"[50, 52, 68]",[],[],away,,away,19,5
+2022,Qatar,2022.11.28,Group stage,39789,"Al Janoub Stadium, Al Wakrah",Cameroon,3,,Serbia,3,,"[29, 64, 66]",[],[],"[46, 48, 53]",[],[],draw,,home,43,21
+2022,Qatar,2022.11.28,Group stage,43983,"Education City Stadium, Doha",Korea Republic,2,,Ghana,3,,"[58, 61]",[],[],"[24, 34, 68]",[],[],away,,away,28,61
+2022,Qatar,2022.11.28,Group stage,43649,"Stadium 974, Doha",Brazil,1,,Switzerland,0,,[83],[],[],[],[],[],home,,home,1,15
+2022,Qatar,2022.11.28,Group stage,88668,"Lusail Iconic Stadium, Lusail",Portugal,2,,Uruguay,0,,[54],[],[93],[],[],[],home,,home,9,14
+2022,Qatar,2022.11.27,Group stage,41479,"Ahmed bin Ali Stadium, Umm al-Af_'ī",Japan,0,,Costa Rica,1,,[],[],[],[81],[],[],away,,away,24,31
+2022,Qatar,2022.11.27,Group stage,43738,"Al Thumama Stadium, ath-Thum_ma",Belgium,0,,Morocco,2,,[],[],[],"[73, 92]",[],[],away,,away,2,22
+2022,Qatar,2022.11.27,Group stage,44374,"Khalifa International Stadium, Doha",Croatia,4,,Canada,1,,"[36, 44, 70, 94]",[],[],[2],[],[],home,,away,12,41
+2022,Qatar,2022.11.27,Group stage,68895,"Al Bayt Stadium, Al Khor",Spain,1,,Germany,1,,[62],[],[],[83],[],[],draw,,home,7,11
+2022,Qatar,2022.11.26,Group stage,41823,"Al Janoub Stadium, Al Wakrah",Tunisia,0,,Australia,1,,[],[],[],[23],[],[],away,,away,30,38
+2022,Qatar,2022.11.26,Group stage,44259,"Education City Stadium, Doha",Poland,2,,Saudi Arabia,0,,"[39, 82]",[],[],[],[],[],home,,home,26,51
+2022,Qatar,2022.11.26,Group stage,42860,"Stadium 974, Doha",France,2,,Denmark,1,,"[61, 86]",[],[],[68],[],[],home,,home,4,10
+2022,Qatar,2022.11.26,Group stage,88966,"Lusail Iconic Stadium, Lusail",Argentina,2,,Mexico,0,,"[64, 87]",[],[],[],[],[],home,,home,3,13
+2022,Qatar,2022.11.25,Group stage,40875,"Ahmed bin Ali Stadium, Umm al-Af_'ī",Wales,0,,IR Iran,2,,[],[],[],"[99, 101]",[],[],away,,away,19,20
+2022,Qatar,2022.11.25,Group stage,41797,"Al Thumama Stadium, ath-Thum_ma",Qatar,1,,Senegal,3,,[78],[],[],"[41, 48, 84]",[],[],away,,away,50,18
+2022,Qatar,2022.11.25,Group stage,44833,"Khalifa International Stadium, Doha",Netherlands,1,,Ecuador,1,,[6],[],[],[49],[],[],draw,,home,8,44
+2022,Qatar,2022.11.25,Group stage,68463,"Al Bayt Stadium, Al Khor",England,0,,United States,0,,[],[],[],[],[],[],draw,,,5,16
+2022,Qatar,2022.11.24,Group stage,39089,"Al Janoub Stadium, Al Wakrah",Switzerland,1,,Cameroon,0,,[48],[],[],[],[],[],home,,home,15,43
+2022,Qatar,2022.11.24,Group stage,41663,"Education City Stadium, Doha",Uruguay,0,,Korea Republic,0,,[],[],[],[],[],[],draw,,,14,28
+2022,Qatar,2022.11.24,Group stage,42662,"Stadium 974, Doha",Portugal,3,,Ghana,2,,"[78, 80]",[],[65],"[73, 89]",[],[],home,,away,9,61
+2022,Qatar,2022.11.24,Group stage,88103,"Lusail Iconic Stadium, Lusail",Brazil,2,,Serbia,0,,"[62, 73]",[],[],[],[],[],home,,home,1,21
+2022,Qatar,2022.11.23,Group stage,59407,"Al Bayt Stadium, Al Khor",Morocco,0,,Croatia,0,,[],[],[],[],[],[],draw,,,22,12
+2022,Qatar,2022.11.23,Group stage,42608,"Khalifa International Stadium, Doha",Germany,1,,Japan,2,,[],[],[33],"[75, 83]",[],[],away,,away,11,24
+2022,Qatar,2022.11.23,Group stage,40013,"Al Thumama Stadium, ath-Thum_ma",Spain,7,,Costa Rica,0,,"[11, 21, 54, 74, 90, 92]",[],[31],[],[],[],home,,home,7,31
+2022,Qatar,2022.11.23,Group stage,40432,"Ahmed bin Ali Stadium, Umm al-Af_'ī",Belgium,1,,Canada,0,,[44],[],[],[],[],[],home,,home,2,41
+2022,Qatar,2022.11.22,Group stage,88012,"Lusail Iconic Stadium, Lusail",Argentina,1,,Saudi Arabia,2,,[],[],[10],"[48, 53]",[],[],away,,away,3,51
+2022,Qatar,2022.11.22,Group stage,42925,"Education City Stadium, Doha",Denmark,0,,Tunisia,0,,[],[],[],[],[],[],draw,,,10,30
+2022,Qatar,2022.11.22,Group stage,39369,"Stadium 974, Doha",Mexico,0,,Poland,0,,[],[],[],[],[],[],draw,,,13,26
+2022,Qatar,2022.11.22,Group stage,40875,"Al Janoub Stadium, Al Wakrah",France,4,,Australia,1,,"[27, 32, 68, 71]",[],[],[9],[],[],home,,away,4,38
+2022,Qatar,2022.11.21,Group stage,45334,"Khalifa International Stadium, Doha",England,6,,IR Iran,2,,"[35, 43, 46, 62, 71, 90]",[],[],[65],[],[103],home,,home,5,20
+2022,Qatar,2022.11.21,Group stage,41721,"Al Thumama Stadium, ath-Thum_ma",Senegal,0,,Netherlands,2,,[],[],[],"[84, 99]",[],[],away,,away,18,8
+2022,Qatar,2022.11.21,Group stage,43418,"Ahmed bin Ali Stadium, Umm al-Af_'ī",United States,1,,Wales,1,,[36],[],[],[],[],[82],draw,,home,16,19
+2022,Qatar,2022.11.20,Group stage,67372,"Al Bayt Stadium, Al Khor",Qatar,0,,Ecuador,2,,[],[],[],[31],[],[16],away,,away,50,44
+2018,Russia,2018.7.15,Final,78011,"Olimpiyskiy stadion Luzhniki, Moskva",France,4,,Croatia,2,,"[59, 65]",[18],[38],"[28, 69]",[],[],home,,home,7,20
+2018,Russia,2018.7.14,Third-place match,64406,"Gazprom Arena, Sankt-Petersburg",Belgium,2,,England,0,,"[4, 82]",[],[],[],[],[],home,,home,3,12
+2018,Russia,2018.7.11,Semi-finals,78011,"Olimpiyskiy stadion Luzhniki, Moskva",Croatia,2,,England,1,,"[68, 109]",[],[],[5],[],[],home,,away,20,12
+2018,Russia,2018.7.10,Semi-finals,64286,"Gazprom Arena, Sankt-Petersburg",France,1,,Belgium,0,,[51],[],[],[],[],[],home,,home,7,3
+2018,Russia,2018.7.7,Quarter-finals,39991,"Cosmos Arena, Samara",Sweden,0,,England,2,,[],[],[],"[30, 59]",[],[],away,,away,24,12
+2018,Russia,2018.7.7,Quarter-finals,44287,"Olimpiyskiy Stadion Fisht, Sochi",Russia,2,3,Croatia,2,4,"[31, 115]",[],[],"[39, 101]",[],[],draw,away,home,70,20
+2018,Russia,2018.7.6,Quarter-finals,43319,"Stadion Nizhny Novgorod, Nizhny Novgorod",Uruguay,0,,France,2,,[],[],[],"[40, 61]",[],[],away,,away,14,7
+2018,Russia,2018.7.6,Quarter-finals,42873,"Kazan Arena, Kazan",Brazil,1,,Belgium,2,,[76],[],[],[32],[13],[],away,,away,2,3
+2018,Russia,2018.7.3,Round of 16,64042,"Gazprom Arena, Sankt-Petersburg",Sweden,1,,Switzerland,0,,[66],[],[],[],[],[],home,,home,24,6
+2018,Russia,2018.7.3,Round of 16,44190,"Otkrytie Arena, Moskva",Colombia,1,3,England,1,4,[93],[],[],[],[],[57],draw,away,away,16,12
+2018,Russia,2018.7.2,Round of 16,41970,"Cosmos Arena, Samara",Brazil,2,,Mexico,0,,"[51, 88]",[],[],[],[],[],home,,home,2,15
+2018,Russia,2018.7.2,Round of 16,41466,"Rostov Arena, Rostov-na-Donu",Belgium,3,,Japan,2,,"[69, 74, 94]",[],[],"[48, 52]",[],[],home,,away,3,61
+2018,Russia,2018.7.1,Round of 16,78011,"Olimpiyskiy stadion Luzhniki, Moskva",Spain,1,3,Russia,1,4,[],[12],[],[],[],[42],draw,away,home,10,70
+2018,Russia,2018.7.1,Round of 16,40851,"Stadion Nizhny Novgorod, Nizhny Novgorod",Croatia,1,3,Denmark,1,2,[4],[],[],[1],[],[],draw,home,away,20,12
+2018,Russia,2018.6.30,Round of 16,42873,"Kazan Arena, Kazan",France,4,,Argentina,3,,"[57, 64, 68]",[],[13],"[41, 48, 93]",[],[],home,,away,7,5
+2018,Russia,2018.6.30,Round of 16,44287,"Olimpiyskiy Stadion Fisht, Sochi",Uruguay,2,,Portugal,1,,"[7, 62]",[],[],[55],[],[],home,,home,14,4
+2018,Russia,2018.6.28,Group stage,42189,"Volgograd Arena, Volgograd",Japan,0,,Poland,1,,[],[],[],[59],[],[],away,,away,61,8
+2018,Russia,2018.6.28,Group stage,41970,"Cosmos Arena, Samara",Senegal,0,,Colombia,1,,[],[],[],[74],[],[],away,,away,27,16
+2018,Russia,2018.6.28,Group stage,33973,"Kaliningrad Stadium, Kaliningrad",England,0,,Belgium,1,,[],[],[],[51],[],[],away,,away,12,3
+2018,Russia,2018.6.28,Group stage,37168,"Mordovia Arena, Saransk",Panama,1,,Tunisia,2,,[],[33],[],"[51, 66]",[],[],away,,home,55,21
+2018,Russia,2018.6.27,Group stage,41835,"Kazan Arena, Kazan",Korea Republic,2,,Germany,0,,"[93, 96]",[],[],[],[],[],home,,home,57,1
+2018,Russia,2018.6.27,Group stage,33061,"Stadion Central'nyj, Yekaterinburg",Mexico,0,,Sweden,3,,[],[],[],[50],[74],[62],away,,away,15,24
+2018,Russia,2018.6.27,Group stage,43319,"Stadion Nizhny Novgorod, Nizhny Novgorod",Switzerland,2,,Costa Rica,2,,"[31, 88]",[],[],[56],[93],[],draw,,home,6,23
+2018,Russia,2018.6.27,Group stage,44190,"Otkrytie Arena, Moskva",Serbia,0,,Brazil,2,,[],[],[],"[36, 68]",[],[],away,,away,34,2
+2018,Russia,2018.6.26,Group stage,44073,"Olimpiyskiy Stadion Fisht, Sochi",Australia,0,,Peru,2,,[],[],[],"[18, 50]",[],[],away,,away,36,11
+2018,Russia,2018.6.26,Group stage,78011,"Olimpiyskiy stadion Luzhniki, Moskva",Denmark,0,,France,0,,[],[],[],[],[],[],draw,,,12,7
+2018,Russia,2018.6.26,Group stage,43472,"Rostov Arena, Rostov-na-Donu",Iceland,1,,Croatia,2,,[],[],[76],"[53, 90]",[],[],away,,away,22,20
+2018,Russia,2018.6.26,Group stage,64468,"Gazprom Arena, Sankt-Petersburg",Nigeria,1,,Argentina,2,,[],[],[51],"[14, 86]",[],[],away,,away,48,5
+2018,Russia,2018.6.25,Group stage,36823,"Volgograd Arena, Volgograd",Saudi Arabia,2,,Egypt,1,,[95],[],[51],[22],[],[],home,,away,67,45
+2018,Russia,2018.6.25,Group stage,41970,"Cosmos Arena, Samara",Uruguay,3,,Russia,0,,"[10, 90]",[23],[],[],[],[],home,,home,14,70
+2018,Russia,2018.6.25,Group stage,33973,"Kaliningrad Stadium, Kaliningrad",Spain,2,,Morocco,2,,"[19, 91]",[],[],"[14, 81]",[],[],draw,,away,10,41
+2018,Russia,2018.6.25,Group stage,41685,"Mordovia Arena, Saransk",IR Iran,1,,Portugal,1,,[],[],[93],[45],[],[],draw,,away,37,4
+2018,Russia,2018.6.24,Group stage,43319,"Stadion Nizhny Novgorod, Nizhny Novgorod",England,6,,Panama,1,,"[8, 36, 40, 62]",[],"[22, 46]",[78],[],[],home,,home,12,55
+2018,Russia,2018.6.24,Group stage,32572,"Stadion Central'nyj, Yekaterinburg",Japan,2,,Senegal,2,,"[34, 78]",[],[],"[12, 71]",[],[],draw,,away,61,27
+2018,Russia,2018.6.24,Group stage,42873,"Kazan Arena, Kazan",Poland,0,,Colombia,3,,[],[],[],"[40, 70, 75]",[],[],away,,away,8,16
+2018,Russia,2018.6.23,Group stage,44190,"Otkrytie Arena, Moskva",Belgium,5,,Tunisia,2,,"[16, 48, 51, 90]",[],[6],"[18, 93]",[],[],home,,home,3,21
+2018,Russia,2018.6.23,Group stage,43472,"Rostov Arena, Rostov-na-Donu",Korea Republic,1,,Mexico,2,,[93],[],[],[66],[],[26],away,,away,57,15
+2018,Russia,2018.6.23,Group stage,44287,"Olimpiyskiy Stadion Fisht, Sochi",Germany,2,,Sweden,1,,"[48, 95]",[],[],[32],[],[],home,,away,1,24
+2018,Russia,2018.6.22,Group stage,64468,"Gazprom Arena, Sankt-Petersburg",Brazil,2,,Costa Rica,0,,"[91, 97]",[],[],[],[],[],home,,home,2,23
+2018,Russia,2018.6.22,Group stage,40904,"Volgograd Arena, Volgograd",Nigeria,2,,Iceland,0,,"[49, 75]",[],[],[],[],[],home,,home,48,22
+2018,Russia,2018.6.22,Group stage,33167,"Kaliningrad Stadium, Kaliningrad",Serbia,1,,Switzerland,2,,[5],[],[],"[52, 90]",[],[],away,,home,34,6
+2018,Russia,2018.6.21,Group stage,40727,"Cosmos Arena, Samara",Denmark,1,,Australia,1,,[7],[],[],[],[],[38],draw,,home,12,36
+2018,Russia,2018.6.21,Group stage,32789,"Stadion Central'nyj, Yekaterinburg",France,1,,Peru,0,,[34],[],[],[],[],[],home,,home,7,11
+2018,Russia,2018.6.21,Group stage,43319,"Stadion Nizhny Novgorod, Nizhny Novgorod",Argentina,0,,Croatia,3,,[],[],[],"[53, 80, 91]",[],[],away,,away,5,20
+2018,Russia,2018.6.20,Group stage,78011,"Olimpiyskiy stadion Luzhniki, Moskva",Portugal,1,,Morocco,0,,[4],[],[],[],[],[],home,,home,4,41
+2018,Russia,2018.6.20,Group stage,42678,"Rostov Arena, Rostov-na-Donu",Uruguay,1,,Saudi Arabia,0,,[23],[],[],[],[],[],home,,home,14,67
+2018,Russia,2018.6.20,Group stage,42718,"Kazan Arena, Kazan",IR Iran,0,,Spain,1,,[],[],[],[54],[],[],away,,away,37,10
+2018,Russia,2018.6.19,Group stage,40842,"Mordovia Arena, Saransk",Colombia,1,,Japan,2,,[39],[],[],[73],[],[6],away,,away,16,61
+2018,Russia,2018.6.19,Group stage,44190,"Otkrytie Arena, Moskva",Poland,1,,Senegal,2,,[86],[],[],[61],[38],[],away,,away,8,27
+2018,Russia,2018.6.19,Group stage,64468,"Gazprom Arena, Sankt-Petersburg",Russia,3,,Egypt,1,,"[59, 62]",[47],[],[],[],[73],home,,home,70,45
+2018,Russia,2018.6.18,Group stage,42300,"Stadion Nizhny Novgorod, Nizhny Novgorod",Sweden,1,,Korea Republic,0,,[],[],[65],[],[],[],home,,away,24,57
+2018,Russia,2018.6.18,Group stage,43257,"Olimpiyskiy Stadion Fisht, Sochi",Belgium,3,,Panama,0,,"[48, 69, 75]",[],[],[],[],[],home,,home,3,55
+2018,Russia,2018.6.18,Group stage,41064,"Volgograd Arena, Volgograd",Tunisia,1,,England,2,,[],[],[35],"[11, 91]",[],[],away,,away,21,12
+2018,Russia,2018.6.17,Group stage,41432,"Cosmos Arena, Samara",Costa Rica,0,,Serbia,1,,[],[],[],[56],[],[],away,,away,23,34
+2018,Russia,2018.6.17,Group stage,78011,"Olimpiyskiy stadion Luzhniki, Moskva",Germany,0,,Mexico,1,,[],[],[],[35],[],[],away,,away,1,15
+2018,Russia,2018.6.17,Group stage,43109,"Rostov Arena, Rostov-na-Donu",Brazil,1,,Switzerland,1,,[20],[],[],[50],[],[],draw,,home,2,6
+2018,Russia,2018.6.16,Group stage,41279,"Kazan Arena, Kazan",France,2,,Australia,1,,[],[80],[58],[],[],[62],home,,away,7,36
+2018,Russia,2018.6.16,Group stage,44190,"Otkrytie Arena, Moskva",Argentina,1,,Iceland,1,,[19],[],[],[23],[],[],draw,,home,5,22
+2018,Russia,2018.6.16,Group stage,40502,"Mordovia Arena, Saransk",Peru,0,,Denmark,1,,[],[],[],[59],[],[],away,,away,11,12
+2018,Russia,2018.6.16,Group stage,31136,"Kaliningrad Stadium, Kaliningrad",Croatia,2,,Nigeria,0,,[],[32],[71],[],[],[],home,,home,20,48
+2018,Russia,2018.6.15,Group stage,27015,"Stadion Central'nyj, Yekaterinburg",Egypt,0,,Uruguay,1,,[],[],[],[89],[],[],away,,away,45,14
+2018,Russia,2018.6.15,Group stage,62548,"Gazprom Arena, Sankt-Petersburg",Morocco,0,,IR Iran,1,,[],[],[],[],[95],[],away,,away,41,37
+2018,Russia,2018.6.15,Group stage,43866,"Olimpiyskiy Stadion Fisht, Sochi",Portugal,3,,Spain,3,,"[44, 88]",[],[4],"[24, 55, 58]",[],[],draw,,away,4,10
+2018,Russia,2018.6.14,Group stage,78011,"Olimpiyskiy stadion Luzhniki, Moskva",Russia,5,,Saudi Arabia,0,,"[12, 43, 71, 91, 95]",[],[],[],[],[],home,,home,70,67
+2014,Brazil,2014.7.13,Final,74738,"Estadio Jornalista Mário Filho, Rio de Janeiro",Germany,1,,Argentina,0,,[113],[],[],[],[],[],home,,home,2,5
+2014,Brazil,2014.7.12,Third-place match,68034,"Estádio Nacional de Brasília, Brasília",Brazil,0,,Netherlands,3,,[],[],[],"[17, 91]",[],[3],away,,away,3,15
+2014,Brazil,2014.7.9,Semi-finals,63267,"Arena Corinthians, São Paulo",Netherlands,0,2,Argentina,0,4,[],[],[],[],[],[],draw,away,,15,5
+2014,Brazil,2014.7.8,Semi-finals,58141,"Estádio Governador Magalhães Pinto, Belo Horizonte",Brazil,1,,Germany,7,,[90],[],[],"[11, 23, 24, 26, 29, 69, 79]",[],[],away,,away,3,2
+2014,Brazil,2014.7.5,Quarter-finals,68551,"Estádio Nacional de Brasília, Brasília",Argentina,1,,Belgium,0,,[8],[],[],[],[],[],home,,home,5,11
+2014,Brazil,2014.7.5,Quarter-finals,51179,"Itaipava Arena Fonte Nova, Salvador",Netherlands,0,4,Costa Rica,0,3,[],[],[],[],[],[],draw,home,,15,28
+2014,Brazil,2014.7.4,Quarter-finals,74240,"Estadio Jornalista Mário Filho, Rio de Janeiro",France,0,,Germany,1,,[],[],[],[13],[],[],away,,away,17,2
+2014,Brazil,2014.7.4,Quarter-finals,60342,"Estádio Castelão, Fortaleza",Brazil,2,,Colombia,1,,"[7, 69]",[],[],[],[],[80],home,,home,3,8
+2014,Brazil,2014.7.1,Round of 16,63255,"Arena Corinthians, São Paulo",Argentina,1,,Switzerland,0,,[118],[],[],[],[],[],home,,home,5,6
+2014,Brazil,2014.7.1,Round of 16,51227,"Itaipava Arena Fonte Nova, Salvador",Belgium,2,,United States,1,,"[93, 105]",[],[],[107],[],[],home,,home,11,13
+2014,Brazil,2014.6.30,Round of 16,67882,"Estádio Nacional de Brasília, Brasília",France,2,,Nigeria,0,,[79],[92],[],[],[],[],home,,home,17,44
+2014,Brazil,2014.6.30,Round of 16,43063,"Estádio José Pinheiro Borba, Porto Alegre",Germany,2,,Algeria,1,,"[92, 119]",[],[],[121],[],[],home,,home,2,22
+2014,Brazil,2014.6.29,Round of 16,58817,"Estádio Castelão, Fortaleza",Netherlands,2,,Mexico,1,,[88],[],[94],[48],[],[],home,,away,15,20
+2014,Brazil,2014.6.29,Round of 16,41242,"Itaipava Arena Pernambuco, Recife",Costa Rica,1,5,Greece,1,3,[52],[],[],[91],[],[],draw,home,home,28,12
+2014,Brazil,2014.6.28,Round of 16,57714,"Estádio Governador Magalhães Pinto, Belo Horizonte",Brazil,1,3,Chile,1,2,[18],[],[],[32],[],[],draw,home,home,3,14
+2014,Brazil,2014.6.28,Round of 16,73804,"Estadio Jornalista Mário Filho, Rio de Janeiro",Colombia,2,,Uruguay,0,,"[29, 50]",[],[],[],[],[],home,,home,8,7
+2014,Brazil,2014.6.26,Group stage,41876,"Itaipava Arena Pernambuco, Recife",United States,0,,Germany,1,,[],[],[],[55],[],[],away,,away,13,2
+2014,Brazil,2014.6.26,Group stage,67540,"Estádio Nacional de Brasília, Brasília",Portugal,2,,Ghana,1,,[80],[31],[],[57],[],[],home,,home,4,37
+2014,Brazil,2014.6.26,Group stage,61397,"Arena Corinthians, São Paulo",Korea Republic,0,,Belgium,1,,[],[],[],[77],[],[],away,,away,57,11
+2014,Brazil,2014.6.26,Group stage,39311,"Estádio Joaquim Américo Guimarães, Curitiba",Algeria,1,,Russia,1,,[60],[],[],[6],[],[],draw,,away,22,19
+2014,Brazil,2014.6.25,Group stage,48011,"Itaipava Arena Fonte Nova, Salvador",Bosnia and Herzegovina,3,,IR Iran,1,,"[23, 59, 83]",[],[],[82],[],[],home,,home,21,43
+2014,Brazil,2014.6.25,Group stage,43285,"Estádio José Pinheiro Borba, Porto Alegre",Nigeria,2,,Argentina,3,,"[4, 47]",[],[],"[3, 46, 50]",[],[],away,,away,44,5
+2014,Brazil,2014.6.25,Group stage,40322,"Arena da Amazônia, Manaus",Honduras,0,,Switzerland,3,,[],[],[],"[6, 31, 71]",[],[],away,,away,33,6
+2014,Brazil,2014.6.25,Group stage,73749,"Estadio Jornalista Mário Filho, Rio de Janeiro",Ecuador,0,,France,0,,[],[],[],[],[],[],draw,,,26,17
+2014,Brazil,2014.6.24,Group stage,57823,"Estádio Governador Magalhães Pinto, Belo Horizonte",Costa Rica,0,,England,0,,[],[],[],[],[],[],draw,,,28,10
+2014,Brazil,2014.6.24,Group stage,39706,"Arena das Dunas, Natal",Italy,0,,Uruguay,1,,[],[],[],[81],[],[],away,,away,9,7
+2014,Brazil,2014.6.24,Group stage,40340,"Arena Pantanal, Cuiabá",Japan,1,,Colombia,4,,[46],[],[],"[55, 82, 90]",[],[17],away,,away,46,8
+2014,Brazil,2014.6.24,Group stage,59095,"Estádio Castelão, Fortaleza",Greece,2,,Côte d'Ivoire,1,,[42],[],[93],[74],[],[],home,,home,12,23
+2014,Brazil,2014.6.23,Group stage,39375,"Estádio Joaquim Américo Guimarães, Curitiba",Australia,0,,Spain,3,,[],[],[],"[36, 69, 82]",[],[],away,,away,62,1
+2014,Brazil,2014.6.23,Group stage,62996,"Arena Corinthians, São Paulo",Netherlands,2,,Chile,0,,"[77, 92]",[],[],[],[],[],home,,home,15,14
+2014,Brazil,2014.6.23,Group stage,41212,"Itaipava Arena Pernambuco, Recife",Croatia,1,,Mexico,3,,[87],[],[],"[72, 75, 82]",[],[],away,,away,18,20
+2014,Brazil,2014.6.23,Group stage,69112,"Estádio Nacional de Brasília, Brasília",Cameroon,1,,Brazil,4,,[26],[],[],"[17, 35, 49, 84]",[],[],away,,away,56,3
+2014,Brazil,2014.6.22,Group stage,73819,"Estadio Jornalista Mário Filho, Rio de Janeiro",Belgium,1,,Russia,0,,[88],[],[],[],[],[],home,,home,11,19
+2014,Brazil,2014.6.22,Group stage,42732,"Estádio José Pinheiro Borba, Porto Alegre",Korea Republic,2,,Algeria,4,,"[50, 72]",[],[],"[26, 28, 38, 62]",[],[],away,,away,57,22
+2014,Brazil,2014.6.22,Group stage,40123,"Arena da Amazônia, Manaus",United States,2,,Portugal,2,,"[64, 81]",[],[],"[5, 95]",[],[],draw,,away,13,4
+2014,Brazil,2014.6.21,Group stage,57698,"Estádio Governador Magalhães Pinto, Belo Horizonte",Argentina,1,,IR Iran,0,,[91],[],[],[],[],[],home,,home,5,43
+2014,Brazil,2014.6.21,Group stage,59621,"Estádio Castelão, Fortaleza",Germany,2,,Ghana,2,,"[51, 71]",[],[],"[54, 63]",[],[],draw,,home,2,37
+2014,Brazil,2014.6.21,Group stage,40499,"Arena Pantanal, Cuiabá",Nigeria,1,,Bosnia and Herzegovina,0,,[29],[],[],[],[],[],home,,home,44,21
+2014,Brazil,2014.6.20,Group stage,40285,"Itaipava Arena Pernambuco, Recife",Italy,0,,Costa Rica,1,,[],[],[],[44],[],[],away,,away,9,28
+2014,Brazil,2014.6.20,Group stage,51003,"Itaipava Arena Fonte Nova, Salvador",Switzerland,2,,France,5,,"[81, 87]",[],[],"[17, 18, 40, 67, 73]",[],[],away,,away,6,17
+2014,Brazil,2014.6.20,Group stage,39224,"Estádio Joaquim Américo Guimarães, Curitiba",Honduras,1,,Ecuador,2,,[31],[],[],"[34, 65]",[],[],away,,home,33,26
+2014,Brazil,2014.6.19,Group stage,68748,"Estádio Nacional de Brasília, Brasília",Colombia,2,,Côte d'Ivoire,1,,"[64, 70]",[],[],[73],[],[],home,,home,8,23
+2014,Brazil,2014.6.19,Group stage,62575,"Arena Corinthians, São Paulo",Uruguay,2,,England,1,,"[39, 85]",[],[],[75],[],[],home,,home,7,10
+2014,Brazil,2014.6.19,Group stage,39485,"Arena das Dunas, Natal",Japan,0,,Greece,0,,[],[],[],[],[],[],draw,,,46,12
+2014,Brazil,2014.6.18,Group stage,42877,"Estádio José Pinheiro Borba, Porto Alegre",Australia,2,,Netherlands,3,,[21],[],[54],"[20, 58, 68]",[],[],away,,away,62,15
+2014,Brazil,2014.6.18,Group stage,74101,"Estadio Jornalista Mário Filho, Rio de Janeiro",Spain,0,,Chile,2,,[],[],[],"[20, 43]",[],[],away,,away,1,14
+2014,Brazil,2014.6.18,Group stage,39982,"Arena da Amazônia, Manaus",Cameroon,0,,Croatia,4,,[],[],[],"[11, 48, 61, 73]",[],[],away,,away,56,18
+2014,Brazil,2014.6.17,Group stage,56800,"Estádio Governador Magalhães Pinto, Belo Horizonte",Belgium,2,,Algeria,1,,"[70, 80]",[],[],[],[],[25],home,,away,11,22
+2014,Brazil,2014.6.17,Group stage,60342,"Estádio Castelão, Fortaleza",Brazil,0,,Mexico,0,,[],[],[],[],[],[],draw,,,3,20
+2014,Brazil,2014.6.17,Group stage,37603,"Arena Pantanal, Cuiabá",Russia,1,,Korea Republic,1,,[74],[],[],[68],[],[],draw,,away,19,57
+2014,Brazil,2014.6.16,Group stage,51081,"Itaipava Arena Fonte Nova, Salvador",Germany,4,,Portugal,0,,"[32, 46, 78]",[],[12],[],[],[],home,,home,2,4
+2014,Brazil,2014.6.16,Group stage,39081,"Estádio Joaquim Américo Guimarães, Curitiba",IR Iran,0,,Nigeria,0,,[],[],[],[],[],[],draw,,,43,44
+2014,Brazil,2014.6.16,Group stage,39760,"Arena das Dunas, Natal",Ghana,1,,United States,2,,[82],[],[],"[1, 86]",[],[],away,,away,37,13
+2014,Brazil,2014.6.15,Group stage,68351,"Estádio Nacional de Brasília, Brasília",Switzerland,2,,Ecuador,1,,"[48, 93]",[],[],[22],[],[],home,,away,6,26
+2014,Brazil,2014.6.15,Group stage,43012,"Estádio José Pinheiro Borba, Porto Alegre",France,3,,Honduras,0,,[72],[48],[45],[],[],[],home,,home,17,33
+2014,Brazil,2014.6.15,Group stage,74738,"Estadio Jornalista Mário Filho, Rio de Janeiro",Argentina,2,,Bosnia and Herzegovina,1,,[65],[3],[],[85],[],[],home,,home,5,21
+2014,Brazil,2014.6.14,Group stage,57174,"Estádio Governador Magalhães Pinto, Belo Horizonte",Colombia,3,,Greece,0,,"[6, 58, 93]",[],[],[],[],[],home,,home,8,12
+2014,Brazil,2014.6.14,Group stage,58679,"Estádio Castelão, Fortaleza",Uruguay,1,,Costa Rica,3,,[],[],[24],"[54, 57, 84]",[],[],away,,away,7,28
+2014,Brazil,2014.6.14,Group stage,39800,"Arena da Amazônia, Manaus",England,1,,Italy,2,,[37],[],[],"[35, 50]",[],[],away,,away,10,9
+2014,Brazil,2014.6.14,Group stage,40267,"Itaipava Arena Pernambuco, Recife",Côte d'Ivoire,2,,Japan,1,,"[64, 66]",[],[],[16],[],[],home,,away,23,46
+2014,Brazil,2014.6.13,Group stage,39216,"Arena das Dunas, Natal",Mexico,1,,Cameroon,0,,[61],[],[],[],[],[],home,,home,20,56
+2014,Brazil,2014.6.13,Group stage,48173,"Itaipava Arena Fonte Nova, Salvador",Spain,1,,Netherlands,5,,[],[],[27],"[44, 53, 65, 72, 80]",[],[],away,,away,1,15
+2014,Brazil,2014.6.13,Group stage,40275,"Arena Pantanal, Cuiabá",Chile,3,,Australia,1,,"[12, 14, 92]",[],[],[35],[],[],home,,home,14,62
+2014,Brazil,2014.6.12,Group stage,62103,"Arena Corinthians, São Paulo",Brazil,3,,Croatia,1,,"[29, 91]",[],[71],[],[11],[],home,,away,3,18
+2010,South Africa,2010.7.11,Final,84490,"Soccer City, Johannesburg",Netherlands,0,,Spain,1,,[],[],[],[116],[],[],away,,away,4,2
+2010,South Africa,2010.7.10,Third-place match,36254,"Nelson Mandela Bay Stadium, Port Elizabeth",Uruguay,2,,Germany,3,,"[28, 51]",[],[],"[19, 56, 82]",[],[],away,,away,16,6
+2010,South Africa,2010.7.7,Semi-finals,60960,"Moses Mabhida Stadium, Durban",Germany,0,,Spain,1,,[],[],[],[73],[],[],away,,away,6,2
+2010,South Africa,2010.7.6,Semi-finals,62479,"Cape Town Stadium, Cape Town",Uruguay,2,,Netherlands,3,,"[41, 92]",[],[],"[18, 70, 73]",[],[],away,,away,16,4
+2010,South Africa,2010.7.3,Quarter-finals,64100,"Cape Town Stadium, Cape Town",Argentina,0,,Germany,4,,[],[],[],"[3, 68, 74, 89]",[],[],away,,away,7,6
+2010,South Africa,2010.7.3,Quarter-finals,55359,"Emirates Airline Park, Johannesburg",Paraguay,0,,Spain,1,,[],[],[],[83],[],[],away,,away,31,2
+2010,South Africa,2010.7.2,Quarter-finals,40186,"Nelson Mandela Bay Stadium, Port Elizabeth",Netherlands,2,,Brazil,1,,"[53, 68]",[],[],[10],[],[],home,,away,4,1
+2010,South Africa,2010.7.2,Quarter-finals,84017,"Soccer City, Johannesburg",Uruguay,1,4,Ghana,1,2,[55],[],[],[47],[],[],draw,home,away,16,32
+2010,South Africa,2010.6.29,Round of 16,36742,"Loftus Versfeld Stadium, Pretoria",Paraguay,0,5,Japan,0,3,[],[],[],[],[],[],draw,home,,31,45
+2010,South Africa,2010.6.29,Round of 16,62955,"Cape Town Stadium, Cape Town",Spain,1,,Portugal,0,,[63],[],[],[],[],[],home,,home,2,3
+2010,South Africa,2010.6.28,Round of 16,61962,"Moses Mabhida Stadium, Durban",Netherlands,2,,Slovakia,1,,"[18, 84]",[],[],[],[],[94],home,,home,4,34
+2010,South Africa,2010.6.28,Round of 16,54096,"Emirates Airline Park, Johannesburg",Brazil,3,,Chile,0,,"[35, 38, 59]",[],[],[],[],[],home,,home,1,18
+2010,South Africa,2010.6.27,Round of 16,40510,"Toyota Stadium, Bloemfontein",Germany,4,,England,1,,"[20, 32, 67, 70]",[],[],[37],[],[],home,,home,6,8
+2010,South Africa,2010.6.27,Round of 16,84377,"Soccer City, Johannesburg",Argentina,3,,Mexico,1,,"[26, 33, 52]",[],[],[71],[],[],home,,home,7,17
+2010,South Africa,2010.6.26,Round of 16,30597,"Nelson Mandela Bay Stadium, Port Elizabeth",Uruguay,2,,Korea Republic,1,,"[8, 80]",[],[],[68],[],[],home,,home,16,47
+2010,South Africa,2010.6.26,Round of 16,34976,"Royal Bafokeng Stadium, Phokeng",United States,1,,Ghana,2,,[],[],[62],"[5, 93]",[],[],away,,away,14,32
+2010,South Africa,2010.6.25,Group stage,62712,"Moses Mabhida Stadium, Durban",Portugal,0,,Brazil,0,,[],[],[],[],[],[],draw,,,3,1
+2010,South Africa,2010.6.25,Group stage,34763,"Mbombela Stadium, Nelspruit",Korea DPR,0,,Côte d'Ivoire,3,,[],[],[],"[14, 20, 82]",[],[],away,,away,105,27
+2010,South Africa,2010.6.25,Group stage,41958,"Loftus Versfeld Stadium, Pretoria",Chile,1,,Spain,2,,[47],[],[],"[24, 37]",[],[],away,,away,18,2
+2010,South Africa,2010.6.25,Group stage,28042,"Toyota Stadium, Bloemfontein",Switzerland,0,,Honduras,0,,[],[],[],[],[],[],draw,,,24,38
+2010,South Africa,2010.6.24,Group stage,34850,"Peter Mokaba Stadium, Polokwane",Paraguay,0,,New Zealand,0,,[],[],[],[],[],[],draw,,,31,78
+2010,South Africa,2010.6.24,Group stage,53412,"Emirates Airline Park, Johannesburg",Slovakia,3,,Italy,2,,"[25, 73, 89]",[],[],"[81, 92]",[],[],home,,home,34,5
+2010,South Africa,2010.6.24,Group stage,27967,"Royal Bafokeng Stadium, Phokeng",Denmark,1,,Japan,3,,[81],[],[],"[17, 30, 87]",[],[],away,,away,36,45
+2010,South Africa,2010.6.24,Group stage,63093,"Cape Town Stadium, Cape Town",Cameroon,1,,Netherlands,2,,[],[],[65],"[36, 83]",[],[],away,,away,19,4
+2010,South Africa,2010.6.23,Group stage,36893,"Nelson Mandela Bay Stadium, Port Elizabeth",Slovenia,0,,England,1,,[],[],[],[23],[],[],away,,away,25,8
+2010,South Africa,2010.6.23,Group stage,35827,"Loftus Versfeld Stadium, Pretoria",United States,1,,Algeria,0,,[91],[],[],[],[],[],home,,home,14,30
+2010,South Africa,2010.6.23,Group stage,83391,"Soccer City, Johannesburg",Ghana,0,,Germany,1,,[],[],[],[60],[],[],away,,away,32,6
+2010,South Africa,2010.6.23,Group stage,37836,"Mbombela Stadium, Nelspruit",Australia,2,,Serbia,1,,"[69, 73]",[],[],[84],[],[],home,,home,20,15
+2010,South Africa,2010.6.22,Group stage,33425,"Royal Bafokeng Stadium, Phokeng",Mexico,0,,Uruguay,1,,[],[],[],[43],[],[],away,,away,17,16
+2010,South Africa,2010.6.22,Group stage,39415,"Toyota Stadium, Bloemfontein",France,1,,South Africa,2,,[70],[],[],"[20, 37]",[],[],away,,away,9,83
+2010,South Africa,2010.6.22,Group stage,61874,"Moses Mabhida Stadium, Durban",Nigeria,2,,Korea Republic,2,,[12],[],[69],"[38, 49]",[],[],draw,,home,21,47
+2010,South Africa,2010.6.22,Group stage,38891,"Peter Mokaba Stadium, Polokwane",Greece,0,,Argentina,2,,[],[],[],"[77, 89]",[],[],away,,away,13,7
+2010,South Africa,2010.6.21,Group stage,63644,"Cape Town Stadium, Cape Town",Portugal,7,,Korea DPR,0,,"[29, 53, 56, 60, 81, 87, 89]",[],[],[],[],[],home,,home,3,105
+2010,South Africa,2010.6.21,Group stage,34872,"Nelson Mandela Bay Stadium, Port Elizabeth",Chile,1,,Switzerland,0,,[75],[],[],[],[],[],home,,home,18,24
+2010,South Africa,2010.6.21,Group stage,54386,"Emirates Airline Park, Johannesburg",Spain,2,,Honduras,0,,"[17, 51]",[],[],[],[],[],home,,home,2,38
+2010,South Africa,2010.6.20,Group stage,26643,"Toyota Stadium, Bloemfontein",Slovakia,0,,Paraguay,2,,[],[],[],"[27, 86]",[],[],away,,away,34,31
+2010,South Africa,2010.6.20,Group stage,38229,"Mbombela Stadium, Nelspruit",Italy,1,,New Zealand,1,,[],[],[29],[7],[],[],draw,,away,5,78
+2010,South Africa,2010.6.20,Group stage,84455,"Soccer City, Johannesburg",Brazil,3,,Côte d'Ivoire,1,,"[25, 50, 62]",[],[],[79],[],[],home,,home,1,27
+2010,South Africa,2010.6.19,Group stage,62010,"Moses Mabhida Stadium, Durban",Netherlands,1,,Japan,0,,[53],[],[],[],[],[],home,,home,4,45
+2010,South Africa,2010.6.19,Group stage,34812,"Royal Bafokeng Stadium, Phokeng",Ghana,1,,Australia,1,,[],[],[25],[11],[],[],draw,,away,32,20
+2010,South Africa,2010.6.19,Group stage,38074,"Loftus Versfeld Stadium, Pretoria",Cameroon,1,,Denmark,2,,[10],[],[],"[33, 61]",[],[],away,,home,19,36
+2010,South Africa,2010.6.18,Group stage,38294,"Nelson Mandela Bay Stadium, Port Elizabeth",Germany,0,,Serbia,1,,[],[],[],[38],[],[],away,,away,6,15
+2010,South Africa,2010.6.18,Group stage,45573,"Emirates Airline Park, Johannesburg",Slovenia,2,,United States,2,,"[13, 42]",[],[],"[48, 82]",[],[],draw,,home,25,14
+2010,South Africa,2010.6.18,Group stage,64100,"Cape Town Stadium, Cape Town",England,0,,Algeria,0,,[],[],[],[],[],[],draw,,,8,30
+2010,South Africa,2010.6.17,Group stage,82174,"Soccer City, Johannesburg",Argentina,4,,Korea Republic,1,,"[33, 76, 80]",[17],[],[46],[],[],home,,home,7,47
+2010,South Africa,2010.6.17,Group stage,31593,"Toyota Stadium, Bloemfontein",Greece,2,,Nigeria,1,,"[44, 71]",[],[],[16],[],[],home,,away,13,21
+2010,South Africa,2010.6.17,Group stage,35370,"Peter Mokaba Stadium, Polokwane",France,0,,Mexico,2,,[],[],[],[64],[],[79],away,,away,9,17
+2010,South Africa,2010.6.16,Group stage,32664,"Mbombela Stadium, Nelspruit",Honduras,0,,Chile,1,,[],[],[],[34],[],[],away,,away,38,18
+2010,South Africa,2010.6.16,Group stage,62453,"Moses Mabhida Stadium, Durban",Spain,0,,Switzerland,1,,[],[],[],[52],[],[],away,,away,2,24
+2010,South Africa,2010.6.16,Group stage,42658,"Loftus Versfeld Stadium, Pretoria",South Africa,0,,Uruguay,3,,[],[],[],"[24, 95]",[],[80],away,,away,83,16
+2010,South Africa,2010.6.15,Group stage,23871,"Royal Bafokeng Stadium, Phokeng",New Zealand,1,,Slovakia,1,,[93],[],[],[50],[],[],draw,,away,78,34
+2010,South Africa,2010.6.15,Group stage,37034,"Nelson Mandela Bay Stadium, Port Elizabeth",Côte d'Ivoire,0,,Portugal,0,,[],[],[],[],[],[],draw,,,27,3
+2010,South Africa,2010.6.15,Group stage,54331,"Emirates Airline Park, Johannesburg",Brazil,2,,Korea DPR,1,,"[55, 72]",[],[],[89],[],[],home,,home,1,105
+2010,South Africa,2010.6.14,Group stage,83465,"Soccer City, Johannesburg",Netherlands,2,,Denmark,0,,[85],[46],[],[],[],[],home,,home,4,36
+2010,South Africa,2010.6.14,Group stage,30620,"Toyota Stadium, Bloemfontein",Japan,1,,Cameroon,0,,[39],[],[],[],[],[],home,,home,45,19
+2010,South Africa,2010.6.14,Group stage,62869,"Cape Town Stadium, Cape Town",Italy,1,,Paraguay,1,,[63],[],[],[39],[],[],draw,,away,5,31
+2010,South Africa,2010.6.13,Group stage,30325,"Peter Mokaba Stadium, Polokwane",Algeria,0,,Slovenia,1,,[],[],[],[79],[],[],away,,away,30,25
+2010,South Africa,2010.6.13,Group stage,38833,"Loftus Versfeld Stadium, Pretoria",Serbia,0,,Ghana,1,,[],[],[],[],[],[85],away,,away,15,32
+2010,South Africa,2010.6.13,Group stage,62660,"Moses Mabhida Stadium, Durban",Germany,4,,Australia,0,,"[8, 26, 68, 70]",[],[],[],[],[],home,,home,6,20
+2010,South Africa,2010.6.12,Group stage,31513,"Nelson Mandela Bay Stadium, Port Elizabeth",Korea Republic,2,,Greece,0,,"[7, 52]",[],[],[],[],[],home,,home,47,13
+2010,South Africa,2010.6.12,Group stage,55686,"Emirates Airline Park, Johannesburg",Argentina,1,,Nigeria,0,,[6],[],[],[],[],[],home,,home,7,21
+2010,South Africa,2010.6.12,Group stage,38646,"Royal Bafokeng Stadium, Phokeng",England,1,,United States,1,,[4],[],[],[40],[],[],draw,,home,8,14
+2010,South Africa,2010.6.11,Group stage,84490,"Soccer City, Johannesburg",South Africa,1,,Mexico,1,,[55],[],[],[79],[],[],draw,,home,83,17
+2010,South Africa,2010.6.11,Group stage,64100,"Cape Town Stadium, Cape Town",Uruguay,0,,France,0,,[],[],[],[],[],[],draw,,,16,9
+2006,Germany,2006.7.9,Final,69000,"Olympiastadion Berlin, Berlin",Italy,1,5,France,1,3,[19],[],[],[],[],[7],draw,home,away,13,8
+2006,Germany,2006.7.8,Third-place match,52000,"Mercedes-Benz Arena, Stuttgart",Germany,3,,Portugal,1,,"[56, 78]",[60],[],[88],[],[],home,,home,19,7
+2006,Germany,2006.7.5,Semi-finals,66000,"Allianz Arena, München",Portugal,0,,France,1,,[],[],[],[],[],[33],away,,away,7,8
+2006,Germany,2006.7.4,Semi-finals,65000,"Signal Iduna Park, Dortmund",Germany,0,,Italy,2,,[],[],[],"[119, 121]",[],[],away,,away,19,13
+2006,Germany,2006.7.1,Quarter-finals,52000,"Veltins-Arena, Gelsenkirchen",England,0,1,Portugal,0,3,[],[],[],[],[],[],draw,away,,10,7
+2006,Germany,2006.7.1,Quarter-finals,48000,"Commerzbank-Arena, Frankfurt am Main",Brazil,0,,France,1,,[],[],[],[57],[],[],away,,away,1,8
+2006,Germany,2006.6.30,Quarter-finals,72000,"Olympiastadion Berlin, Berlin",Germany,1,4,Argentina,1,2,[80],[],[],[49],[],[],draw,home,away,19,9
+2006,Germany,2006.6.30,Quarter-finals,50000,"Volksparkstadion, Hamburg",Italy,3,,Ukraine,0,,"[6, 59, 69]",[],[],[],[],[],home,,home,13,45
+2006,Germany,2006.6.27,Round of 16,65000,"Signal Iduna Park, Dortmund",Brazil,3,,Ghana,0,,"[5, 46, 84]",[],[],[],[],[],home,,home,1,48
+2006,Germany,2006.6.27,Round of 16,43000,"HDI-Arena, Hannover",Spain,1,,France,3,,[],[],[28],"[41, 83, 92]",[],[],away,,away,5,8
+2006,Germany,2006.6.26,Round of 16,46000,"Fritz-Walter-Stadion, Kaiserslautern",Italy,1,,Australia,0,,[],[],[95],[],[],[],home,,away,13,42
+2006,Germany,2006.6.26,Round of 16,45000,"RheinEnergieSTADION, Köln",Switzerland,0,0,Ukraine,0,3,[],[],[],[],[],[],draw,away,,35,45
+2006,Germany,2006.6.25,Round of 16,52000,"Mercedes-Benz Arena, Stuttgart",England,1,,Ecuador,0,,[60],[],[],[],[],[],home,,home,10,39
+2006,Germany,2006.6.25,Round of 16,41000,"Max-Morlock-Stadion, Nürnberg",Portugal,1,,Netherlands,0,,[23],[],[],[],[],[],home,,home,7,3
+2006,Germany,2006.6.24,Round of 16,66000,"Allianz Arena, München",Germany,2,,Sweden,0,,"[4, 12]",[],[],[],[],[],home,,home,19,16
+2006,Germany,2006.6.24,Round of 16,43000,"Red Bull Arena, Leipzig",Argentina,2,,Mexico,1,,"[10, 98]",[],[],[6],[],[],home,,away,9,4
+2006,Germany,2006.6.23,Group stage,46000,"Fritz-Walter-Stadion, Kaiserslautern",Saudi Arabia,0,,Spain,1,,[],[],[],[36],[],[],away,,away,34,5
+2006,Germany,2006.6.23,Group stage,72000,"Olympiastadion Berlin, Berlin",Ukraine,1,,Tunisia,0,,[],[],[70],[],[],[],home,,away,45,21
+2006,Germany,2006.6.23,Group stage,45000,"RheinEnergieSTADION, Köln",Togo,0,,France,2,,[],[],[],"[55, 61]",[],[],away,,away,61,8
+2006,Germany,2006.6.23,Group stage,43000,"HDI-Arena, Hannover",Switzerland,2,,Korea Republic,0,,"[23, 77]",[],[],[],[],[],home,,home,35,29
+2006,Germany,2006.6.22,Group stage,41000,"Max-Morlock-Stadion, Nürnberg",Ghana,2,,United States,1,,[22],[],[47],[43],[],[],home,,home,48,5
+2006,Germany,2006.6.22,Group stage,50000,"Volksparkstadion, Hamburg",Czech Republic,0,,Italy,2,,[],[],[],"[26, 87]",[],[],away,,away,2,13
+2006,Germany,2006.6.22,Group stage,65000,"Signal Iduna Park, Dortmund",Japan,1,,Brazil,4,,[34],[],[],"[46, 53, 59, 81]",[],[],away,,home,18,1
+2006,Germany,2006.6.22,Group stage,52000,"Mercedes-Benz Arena, Stuttgart",Croatia,2,,Australia,2,,"[2, 56]",[],[],[79],[],[38],draw,,home,23,42
+2006,Germany,2006.6.21,Group stage,52000,"Veltins-Arena, Gelsenkirchen",Portugal,2,,Mexico,1,,[6],[],[24],[29],[],[],home,,home,7,4
+2006,Germany,2006.6.21,Group stage,38000,"Red Bull Arena, Leipzig",IR Iran,1,,Angola,1,,[75],[],[],[60],[],[],draw,,away,23,57
+2006,Germany,2006.6.21,Group stage,66000,"Allianz Arena, München",Côte d'Ivoire,3,,Serbia and Montenegro,2,,[67],[],"[37, 86]","[10, 20]",[],[],home,,away,32,44
+2006,Germany,2006.6.21,Group stage,48000,"Commerzbank-Arena, Frankfurt am Main",Netherlands,0,,Argentina,0,,[],[],[],[],[],[],draw,,,3,9
+2006,Germany,2006.6.20,Group stage,43000,"HDI-Arena, Hannover",Costa Rica,1,,Poland,2,,[25],[],[],"[33, 66]",[],[],away,,home,26,29
+2006,Germany,2006.6.20,Group stage,72000,"Olympiastadion Berlin, Berlin",Ecuador,0,,Germany,3,,[],[],[],"[4, 44, 57]",[],[],away,,away,39,19
+2006,Germany,2006.6.20,Group stage,46000,"Fritz-Walter-Stadion, Kaiserslautern",Paraguay,2,,Trinidad and Tobago,0,,[86],[25],[],[],[],[],home,,home,33,47
+2006,Germany,2006.6.20,Group stage,45000,"RheinEnergieSTADION, Köln",Sweden,2,,England,2,,"[51, 90]",[],[],"[34, 85]",[],[],draw,,away,16,10
+2006,Germany,2006.6.19,Group stage,65000,"Signal Iduna Park, Dortmund",Togo,0,,Switzerland,2,,[],[],[],"[16, 88]",[],[],away,,away,61,35
+2006,Germany,2006.6.19,Group stage,50000,"Volksparkstadion, Hamburg",Saudi Arabia,0,,Ukraine,4,,[],[],[],"[4, 36, 46, 84]",[],[],away,,away,34,45
+2006,Germany,2006.6.19,Group stage,52000,"Mercedes-Benz Arena, Stuttgart",Spain,3,,Tunisia,1,,"[71, 76]",[],[91],[8],[],[],home,,away,5,21
+2006,Germany,2006.6.18,Group stage,41000,"Max-Morlock-Stadion, Nürnberg",Japan,0,,Croatia,0,,[],[],[],[],[],[],draw,,,18,23
+2006,Germany,2006.6.18,Group stage,66000,"Allianz Arena, München",Brazil,2,,Australia,0,,"[49, 90]",[],[],[],[],[],home,,home,1,42
+2006,Germany,2006.6.18,Group stage,43000,"Red Bull Arena, Leipzig",France,1,,Korea Republic,1,,[9],[],[],[81],[],[],draw,,home,8,29
+2006,Germany,2006.6.17,Group stage,48000,"Commerzbank-Arena, Frankfurt am Main",Portugal,2,,IR Iran,0,,[63],[],[80],[],[],[],home,,home,7,23
+2006,Germany,2006.6.17,Group stage,45000,"RheinEnergieSTADION, Köln",Czech Republic,0,,Ghana,2,,[],[],[],"[2, 82]",[],[],away,,away,2,48
+2006,Germany,2006.6.17,Group stage,46000,"Fritz-Walter-Stadion, Kaiserslautern",Italy,1,,United States,1,,[22],[],[],[],[27],[],draw,,home,13,5
+2006,Germany,2006.6.16,Group stage,52000,"Veltins-Arena, Gelsenkirchen",Argentina,6,,Serbia and Montenegro,0,,"[6, 31, 41, 78, 84, 88]",[],[],[],[],[],home,,home,9,44
+2006,Germany,2006.6.16,Group stage,52000,"Mercedes-Benz Arena, Stuttgart",Netherlands,2,,Côte d'Ivoire,1,,"[23, 27]",[],[],[38],[],[],home,,home,3,32
+2006,Germany,2006.6.16,Group stage,43000,"HDI-Arena, Hannover",Mexico,0,,Angola,0,,[],[],[],[],[],[],draw,,,4,57
+2006,Germany,2006.6.15,Group stage,50000,"Veltins-Arena, Gelsenkirchen",Ecuador,3,,Costa Rica,0,,"[8, 54, 92]",[],[],[],[],[],home,,home,39,26
+2006,Germany,2006.6.15,Group stage,41000,"Max-Morlock-Stadion, Nürnberg",England,2,,Trinidad and Tobago,0,,"[83, 91]",[],[],[],[],[],home,,home,10,47
+2006,Germany,2006.6.15,Group stage,72000,"Olympiastadion Berlin, Berlin",Sweden,1,,Paraguay,0,,[89],[],[],[],[],[],home,,home,16,33
+2006,Germany,2006.6.14,Group stage,43000,"Red Bull Arena, Leipzig",Spain,4,,Ukraine,0,,"[13, 17, 81]",[],[48],[],[],[],home,,home,5,45
+2006,Germany,2006.6.14,Group stage,66000,"Allianz Arena, München",Tunisia,2,,Saudi Arabia,2,,"[23, 92]",[],[],"[57, 84]",[],[],draw,,home,21,34
+2006,Germany,2006.6.14,Group stage,65000,"Signal Iduna Park, Dortmund",Germany,1,,Poland,0,,[91],[],[],[],[],[],home,,home,19,29
+2006,Germany,2006.6.13,Group stage,48000,"Commerzbank-Arena, Frankfurt am Main",Korea Republic,2,,Togo,1,,"[54, 72]",[],[],[31],[],[],home,,away,29,61
+2006,Germany,2006.6.13,Group stage,52000,"Mercedes-Benz Arena, Stuttgart",France,0,,Switzerland,0,,[],[],[],[],[],[],draw,,,8,35
+2006,Germany,2006.6.13,Group stage,72000,"Olympiastadion Berlin, Berlin",Brazil,1,,Croatia,0,,[44],[],[],[],[],[],home,,home,1,23
+2006,Germany,2006.6.12,Group stage,46000,"Fritz-Walter-Stadion, Kaiserslautern",Australia,3,,Japan,1,,"[84, 89, 92]",[],[],[26],[],[],home,,away,42,18
+2006,Germany,2006.6.12,Group stage,52000,"Veltins-Arena, Gelsenkirchen",United States,0,,Czech Republic,3,,[],[],[],"[5, 36, 76]",[],[],away,,away,5,2
+2006,Germany,2006.6.12,Group stage,43000,"HDI-Arena, Hannover",Italy,2,,Ghana,0,,"[40, 83]",[],[],[],[],[],home,,home,13,48
+2006,Germany,2006.6.11,Group stage,37216,"Red Bull Arena, Leipzig",Serbia and Montenegro,0,,Netherlands,1,,[],[],[],[18],[],[],away,,away,44,3
+2006,Germany,2006.6.11,Group stage,41000,"Max-Morlock-Stadion, Nürnberg",Mexico,3,,IR Iran,1,,"[28, 76, 79]",[],[],[36],[],[],home,,home,4,23
+2006,Germany,2006.6.11,Group stage,45000,"RheinEnergieSTADION, Köln",Angola,0,,Portugal,1,,[],[],[],[4],[],[],away,,away,57,7
+2006,Germany,2006.6.10,Group stage,48000,"Commerzbank-Arena, Frankfurt am Main",England,1,,Paraguay,0,,[],[3],[],[],[],[],home,,home,10,33
+2006,Germany,2006.6.10,Group stage,62959,"Signal Iduna Park, Dortmund",Trinidad and Tobago,0,,Sweden,0,,[],[],[],[],[],[],draw,,,47,16
+2006,Germany,2006.6.10,Group stage,49480,"Volksparkstadion, Hamburg",Argentina,2,,Côte d'Ivoire,1,,"[24, 38]",[],[],[82],[],[],home,,home,9,32
+2006,Germany,2006.6.9,Group stage,64950,"Allianz Arena, München",Germany,4,,Costa Rica,2,,"[6, 17, 61, 87]",[],[],"[12, 73]",[],[],home,,home,19,26
+2006,Germany,2006.6.9,Group stage,52000,"Veltins-Arena, Gelsenkirchen",Poland,0,,Ecuador,2,,[],[],[],"[24, 80]",[],[],away,,away,29,39
+2002,"Korea Republic, Japan",2002.6.30,Final,69029,"Nissan Stadium, Yokohama",Germany,0,,Brazil,2,,[],[],[],"[67, 79]",[],[],away,,away,11,2
+2002,"Korea Republic, Japan",2002.6.29,Third-place match,63483,"Daegu Main Stadium, Daegu",Korea Republic,2,,Türkiye,3,,"[9, 93]",[],[],"[1, 13, 32]",[],[],away,,away,40,22
+2002,"Korea Republic, Japan",2002.6.26,Semi-finals,61058,"Saitama Stadium 2002, Saitama",Brazil,1,,Türkiye,0,,[49],[],[],[],[],[],home,,home,2,22
+2002,"Korea Republic, Japan",2002.6.25,Semi-finals,65625,"Seoul World Cup Stadium, Seoul",Germany,1,,Korea Republic,0,,[75],[],[],[],[],[],home,,home,11,40
+2002,"Korea Republic, Japan",2002.6.22,Quarter-finals,42114,"Guus Hiddink Stadium, Gwangju",Spain,0,3,Korea Republic,0,5,[],[],[],[],[],[],draw,away,,8,40
+2002,"Korea Republic, Japan",2002.6.22,Quarter-finals,44233,"Yanmar Stadium Nagai, Osaka",Senegal,0,,Türkiye,1,,[],[],[],[94],[],[],away,,away,42,22
+2002,"Korea Republic, Japan",2002.6.21,Quarter-finals,47436,"Daejeon World Cup Stadium, Daejeon",England,1,,Brazil,2,,[23],[],[],"[47, 50]",[],[],away,,home,12,2
+2002,"Korea Republic, Japan",2002.6.21,Quarter-finals,37337,"Munsu Cup Stadium, Ulsan",Germany,1,,United States,0,,[39],[],[],[],[],[],home,,home,11,13
+2002,"Korea Republic, Japan",2002.6.18,Round of 16,45666,"Miyagi Stadium, Rifu",Japan,0,,Türkiye,1,,[],[],[],[12],[],[],away,,away,32,22
+2002,"Korea Republic, Japan",2002.6.18,Round of 16,38588,"Daejeon World Cup Stadium, Daejeon",Korea Republic,2,,Italy,1,,"[88, 117]",[],[],[18],[],[],home,,away,40,6
+2002,"Korea Republic, Japan",2002.6.17,Round of 16,36380,"Jeonju World Cup Stadium, Jeonju",Mexico,0,,United States,2,,[],[],[],"[8, 65]",[],[],away,,away,7,13
+2002,"Korea Republic, Japan",2002.6.17,Round of 16,40440,"NOEVIR Stadium Kobe, Kobe",Brazil,2,,Belgium,0,,"[67, 87]",[],[],[],[],[],home,,home,2,23
+2002,"Korea Republic, Japan",2002.6.16,Round of 16,39747,"_ita Bank Dome, _ita",Sweden,1,,Senegal,2,,[11],[],[],"[37, 104]",[],[],away,,home,19,42
+2002,"Korea Republic, Japan",2002.6.16,Round of 16,38926,"Suwon World Cup Stadium, Suwon",Spain,1,3,Republic of Ireland,1,2,[8],[],[],[],[],[90],draw,home,home,8,15
+2002,"Korea Republic, Japan",2002.6.15,Round of 16,25176,"Jeju World Cup Stadium, Jeju",Germany,1,,Paraguay,0,,[88],[],[],[],[],[],home,,home,11,18
+2002,"Korea Republic, Japan",2002.6.15,Round of 16,40582,"Denka Big Swan Stadium, Niigata",Denmark,0,,England,3,,[],[],[],"[5, 22, 44]",[],[],away,,away,20,12
+2002,"Korea Republic, Japan",2002.6.14,Group stage,45213,"Yanmar Stadium Nagai, Osaka",Tunisia,0,,Japan,2,,[],[],[],"[48, 75]",[],[],away,,away,31,32
+2002,"Korea Republic, Japan",2002.6.14,Group stage,46640,"Shizuoka Stadium Ecopa, Fukuroi",Belgium,3,,Russia,2,,"[7, 78, 82]",[],[],"[52, 88]",[],[],home,,home,23,28
+2002,"Korea Republic, Japan",2002.6.14,Group stage,50239,"Incheon Munhak Stadium, Incheon",Portugal,0,,Korea Republic,1,,[],[],[],[70],[],[],away,,away,5,40
+2002,"Korea Republic, Japan",2002.6.14,Group stage,26482,"Daejeon World Cup Stadium, Daejeon",Poland,3,,United States,1,,"[3, 5, 66]",[],[],[83],[],[],home,,home,38,13
+2002,"Korea Republic, Japan",2002.6.13,Group stage,38524,"Suwon World Cup Stadium, Suwon",Costa Rica,2,,Brazil,5,,"[39, 56]",[],[],"[10, 13, 38, 62, 64]",[],[],away,,away,29,2
+2002,"Korea Republic, Japan",2002.6.13,Group stage,43605,"Seoul World Cup Stadium, Seoul",Türkiye,3,,China PR,0,,"[6, 9, 85]",[],[],[],[],[],home,,home,22,50
+2002,"Korea Republic, Japan",2002.6.13,Group stage,39291,"_ita Bank Dome, _ita",Mexico,1,,Italy,1,,[34],[],[],[85],[],[],draw,,home,7,6
+2002,"Korea Republic, Japan",2002.6.13,Group stage,65862,"Nissan Stadium, Yokohama",Ecuador,1,,Croatia,0,,[48],[],[],[],[],[],home,,home,36,21
+2002,"Korea Republic, Japan",2002.6.12,Group stage,45777,"Miyagi Stadium, Rifu",Sweden,1,,Argentina,1,,[59],[],[],[88],[],[],draw,,home,19,3
+2002,"Korea Republic, Japan",2002.6.12,Group stage,44864,"Yanmar Stadium Nagai, Osaka",Nigeria,0,,England,0,,[],[],[],[],[],[],draw,,,27,12
+2002,"Korea Republic, Japan",2002.6.12,Group stage,31024,"Daejeon World Cup Stadium, Daejeon",South Africa,2,,Spain,3,,"[31, 53]",[],[],"[4, 46, 56]",[],[],away,,away,37,8
+2002,"Korea Republic, Japan",2002.6.12,Group stage,30176,"Jeju World Cup Stadium, Jeju",Slovenia,1,,Paraguay,3,,[46],[],[],"[65, 73, 84]",[],[],away,,home,25,18
+2002,"Korea Republic, Japan",2002.6.11,Group stage,48100,"Incheon Munhak Stadium, Incheon",Denmark,2,,France,0,,"[22, 67]",[],[],[],[],[],home,,home,20,1
+2002,"Korea Republic, Japan",2002.6.11,Group stage,33681,"Suwon World Cup Stadium, Suwon",Senegal,3,,Uruguay,3,,"[20, 26, 38]",[],[],"[46, 69]",[],[88],draw,,home,42,24
+2002,"Korea Republic, Japan",2002.6.11,Group stage,65320,"Nissan Stadium, Yokohama",Saudi Arabia,0,,Republic of Ireland,3,,[],[],[],"[7, 61, 87]",[],[],away,,away,34,15
+2002,"Korea Republic, Japan",2002.6.11,Group stage,47085,"Shizuoka Stadium Ecopa, Fukuroi",Cameroon,0,,Germany,2,,[],[],[],"[50, 79]",[],[],away,,away,17,11
+2002,"Korea Republic, Japan",2002.6.10,Group stage,60778,"Daegu Main Stadium, Daegu",Korea Republic,1,,United States,1,,[78],[],[],[24],[],[],draw,,away,40,13
+2002,"Korea Republic, Japan",2002.6.10,Group stage,39700,"_ita Bank Dome, _ita",Tunisia,1,,Belgium,1,,[17],[],[],[13],[],[],draw,,away,31,23
+2002,"Korea Republic, Japan",2002.6.10,Group stage,31000,"Jeonju World Cup Stadium, Jeonju",Portugal,4,,Poland,0,,"[14, 65, 77, 88]",[],[],[],[],[],home,,home,5,38
+2002,"Korea Republic, Japan",2002.6.9,Group stage,45610,"Sapporo Dome, Sapporo",Mexico,2,,Ecuador,1,,"[28, 57]",[],[],[5],[],[],home,,away,7,36
+2002,"Korea Republic, Japan",2002.6.9,Group stage,42299,"Incheon Munhak Stadium, Incheon",Costa Rica,1,,Türkiye,1,,[86],[],[],[56],[],[],draw,,away,29,22
+2002,"Korea Republic, Japan",2002.6.9,Group stage,66108,"Nissan Stadium, Yokohama",Japan,1,,Russia,0,,[51],[],[],[],[],[],home,,home,32,28
+2002,"Korea Republic, Japan",2002.6.8,Group stage,47226,"Daegu Main Stadium, Daegu",South Africa,1,,Slovenia,0,,[4],[],[],[],[],[],home,,home,37,25
+2002,"Korea Republic, Japan",2002.6.8,Group stage,36472,"Kashima Soccer Stadium, Kashima",Italy,1,,Croatia,2,,[55],[],[],"[73, 76]",[],[],away,,home,6,21
+2002,"Korea Republic, Japan",2002.6.8,Group stage,36750,"Jeju World Cup Stadium, Jeju",Brazil,4,,China PR,0,,"[15, 32, 55]",[],[45],[],[],[],home,,home,2,50
+2002,"Korea Republic, Japan",2002.6.7,Group stage,36194,"NOEVIR Stadium Kobe, Kobe",Sweden,2,,Nigeria,1,,[35],[],[63],[27],[],[],home,,away,19,27
+2002,"Korea Republic, Japan",2002.6.7,Group stage,24000,"Jeonju World Cup Stadium, Jeonju",Spain,3,,Paraguay,1,,"[53, 69]",[],[83],[],[10],[],home,,away,8,18
+2002,"Korea Republic, Japan",2002.6.7,Group stage,35927,"Sapporo Dome, Sapporo",Argentina,0,,England,1,,[],[],[],[],[],[44],away,,away,3,12
+2002,"Korea Republic, Japan",2002.6.6,Group stage,43500,"Daegu Main Stadium, Daegu",Denmark,1,,Senegal,1,,[],[],[16],[52],[],[],draw,,away,20,42
+2002,"Korea Republic, Japan",2002.6.6,Group stage,52328,"Saitama Stadium 2002, Saitama",Cameroon,1,,Saudi Arabia,0,,[66],[],[],[],[],[],home,,home,17,34
+2002,"Korea Republic, Japan",2002.6.6,Group stage,38070,"Busan Sport Complex Asiad Stadium, Busan",France,0,,Uruguay,0,,[],[],[],[],[],[],draw,,,1,24
+2002,"Korea Republic, Japan",2002.6.5,Group stage,30957,"NOEVIR Stadium Kobe, Kobe",Russia,2,,Tunisia,0,,[59],[],[64],[],[],[],home,,home,28,31
+2002,"Korea Republic, Japan",2002.6.5,Group stage,37306,"Suwon World Cup Stadium, Suwon",United States,3,,Portugal,2,,"[4, 36]",[29],[],[39],[71],[],home,,home,13,5
+2002,"Korea Republic, Japan",2002.6.5,Group stage,35854,"Kashima Soccer Stadium, Kashima",Germany,1,,Republic of Ireland,1,,[19],[],[],[92],[],[],draw,,home,11,15
+2002,"Korea Republic, Japan",2002.6.4,Group stage,27217,"Guus Hiddink Stadium, Gwangju",China PR,0,,Costa Rica,2,,[],[],[],"[61, 65]",[],[],away,,away,50,29
+2002,"Korea Republic, Japan",2002.6.4,Group stage,55256,"Saitama Stadium 2002, Saitama",Japan,2,,Belgium,2,,"[59, 67]",[],[],"[57, 75]",[],[],draw,,away,32,23
+2002,"Korea Republic, Japan",2002.6.4,Group stage,48760,"Busan Sport Complex Asiad Stadium, Busan",Korea Republic,2,,Poland,0,,"[26, 53]",[],[],[],[],[],home,,home,40,38
+2002,"Korea Republic, Japan",2002.6.3,Group stage,32239,"Denka Big Swan Stadium, Niigata",Croatia,0,,Mexico,1,,[],[],[],[],[],[60],away,,away,21,7
+2002,"Korea Republic, Japan",2002.6.3,Group stage,33842,"Munsu Cup Stadium, Ulsan",Brazil,2,,Türkiye,1,,[50],[],[87],[47],[],[],home,,away,2,22
+2002,"Korea Republic, Japan",2002.6.3,Group stage,31081,"Sapporo Dome, Sapporo",Italy,2,,Ecuador,0,,"[7, 27]",[],[],[],[],[],home,,home,6,36
+2002,"Korea Republic, Japan",2002.6.2,Group stage,34050,"Kashima Soccer Stadium, Kashima",Argentina,1,,Nigeria,0,,[63],[],[],[],[],[],home,,home,3,27
+2002,"Korea Republic, Japan",2002.6.2,Group stage,25186,"Busan Sport Complex Asiad Stadium, Busan",Paraguay,2,,South Africa,2,,"[39, 55]",[],[],[63],[],[91],draw,,home,18,37
+2002,"Korea Republic, Japan",2002.6.2,Group stage,52721,"Saitama Stadium 2002, Saitama",England,1,,Sweden,1,,[24],[],[],[59],[],[],draw,,home,12,19
+2002,"Korea Republic, Japan",2002.6.2,Group stage,28588,"Guus Hiddink Stadium, Gwangju",Spain,3,,Slovenia,1,,"[44, 74]",[],[87],[82],[],[],home,,home,8,25
+2002,"Korea Republic, Japan",2002.6.1,Group stage,33679,"Denka Big Swan Stadium, Niigata",Republic of Ireland,1,,Cameroon,1,,[52],[],[],[39],[],[],draw,,away,15,17
+2002,"Korea Republic, Japan",2002.6.1,Group stage,30157,"Munsu Cup Stadium, Ulsan",Uruguay,1,,Denmark,2,,[47],[],[],"[45, 83]",[],[],away,,away,24,20
+2002,"Korea Republic, Japan",2002.6.1,Group stage,32218,"Sapporo Dome, Sapporo",Germany,8,,Saudi Arabia,0,,"[20, 25, 40, 46, 70, 72, 84, 92]",[],[],[],[],[],home,,home,11,34
+2002,"Korea Republic, Japan",2002.5.31,Group stage,62561,"Seoul World Cup Stadium, Seoul",France,0,,Senegal,1,,[],[],[],[30],[],[],away,,away,1,42
+1998,France,1998.7.12,Final,80000,"Stade de France, Paris",Brazil,0,,France,3,,[],[],[],"[27, 45, 90]",[],[],away,,away,1,18
+1998,France,1998.7.11,Third-place match,44000,"Parc des Princes, Paris",Netherlands,1,,Croatia,2,,[21],[],[],"[13, 35]",[],[],away,,away,25,19
+1998,France,1998.7.8,Semi-finals,80000,"Stade de France, Paris",France,2,,Croatia,1,,"[47, 70]",[],[],[46],[],[],home,,away,18,19
+1998,France,1998.7.7,Semi-finals,60000,"Orange Vélodrome, Marseille",Brazil,1,4,Netherlands,1,2,[46],[],[],[87],[],[],draw,home,home,1,25
+1998,France,1998.7.4,Quarter-finals,60000,"Orange Vélodrome, Marseille",Netherlands,2,,Argentina,1,,"[12, 89]",[],[],[17],[],[],home,,home,25,6
+1998,France,1998.7.4,Quarter-finals,43300,"Matmut Stadium de Gerland, Lyon",Germany,0,,Croatia,3,,[],[],[],"[45, 80, 85]",[],[],away,,away,2,19
+1998,France,1998.7.3,Quarter-finals,80000,"Stade de France, Paris",Italy,0,3,France,0,4,[],[],[],[],[],[],draw,away,,14,18
+1998,France,1998.7.3,Quarter-finals,49500,"Stade de la Beaujoire - Louis Fonteneau, Nantes",Brazil,3,,Denmark,2,,"[10, 27, 60]",[],[],"[2, 50]",[],[],home,,away,1,27
+1998,France,1998.6.30,Round of 16,31800,"Stade Jacques Chaban-Delmas, Bordeaux",Romania,0,,Croatia,1,,[],[],[],[],[],[45],away,,away,22,19
+1998,France,1998.6.30,Round of 16,30600,"Stade Geoffroy-Guichard, Saint-_tienne",Argentina,2,4,England,2,3,[45],[],[5],[16],[],[9],draw,home,away,6,5
+1998,France,1998.6.29,Round of 16,29800,"Stade de la Mosson, Montpellier",Germany,2,,Mexico,1,,"[75, 86]",[],[],[47],[],[],home,,away,2,4
+1998,France,1998.6.29,Round of 16,33000,"Stadium Municipal, Toulouse",Netherlands,2,,FR Yugoslavia,1,,"[38, 90]",[],[],[48],[],[],home,,home,25,8
+1998,France,1998.6.28,Round of 16,31800,"Stade Bollaert-Delelis, Lens",France,1,,Paraguay,0,,[114],[],[],[],[],[],home,,home,18,29
+1998,France,1998.6.28,Round of 16,77000,"Stade de France, Paris",Nigeria,1,,Denmark,4,,[77],[],[],"[3, 12, 60, 76]",[],[],away,,away,74,27
+1998,France,1998.6.27,Round of 16,55000,"Orange Vélodrome, Marseille",Italy,1,,Norway,0,,[18],[],[],[],[],[],home,,home,14,7
+1998,France,1998.6.27,Round of 16,45500,"Parc des Princes, Paris",Brazil,4,,Chile,1,,"[11, 26, 70]",[],[45],[68],[],[],home,,home,1,9
+1998,France,1998.6.26,Group stage,31800,"Stade Jacques Chaban-Delmas, Bordeaux",Argentina,1,,Croatia,0,,[36],[],[],[],[],[],home,,home,6,19
+1998,France,1998.6.26,Group stage,39100,"Matmut Stadium de Gerland, Lyon",Japan,1,,Jamaica,2,,[74],[],[],"[39, 54]",[],[],away,,away,12,30
+1998,France,1998.6.26,Group stage,80000,"Stade de France, Paris",Romania,1,,Tunisia,1,,[72],[],[],[],[],[10],draw,,away,22,21
+1998,France,1998.6.26,Group stage,42000,"Stade Bollaert-Delelis, Lens",Colombia,0,,England,2,,[],[],[],"[20, 29]",[],[],away,,away,10,5
+1998,France,1998.6.25,Group stage,30600,"Stade Geoffroy-Guichard, Saint-_tienne",Netherlands,2,,Mexico,2,,"[4, 18]",[],[],"[75, 90]",[],[],draw,,home,25,4
+1998,France,1998.6.25,Group stage,45500,"Parc des Princes, Paris",Belgium,1,,Korea Republic,1,,[7],[],[],[71],[],[],draw,,home,36,20
+1998,France,1998.6.25,Group stage,38500,"Stade de la Beaujoire - Louis Fonteneau, Nantes",United States,0,,FR Yugoslavia,1,,[],[],[],[4],[],[],away,,away,11,8
+1998,France,1998.6.25,Group stage,35500,"Stade de la Mosson, Montpellier",Germany,2,,IR Iran,0,,"[50, 58]",[],[],[],[],[],home,,home,2,42
+1998,France,1998.6.24,Group stage,31800,"Stade Jacques Chaban-Delmas, Bordeaux",South Africa,2,,Saudi Arabia,2,,[18],[],[90],[],[],"[45, 74]",draw,,home,24,34
+1998,France,1998.6.24,Group stage,39100,"Matmut Stadium de Gerland, Lyon",France,2,,Denmark,1,,[57],[],[12],[],[],[42],home,,away,18,27
+1998,France,1998.6.24,Group stage,41275,"Stade Bollaert-Delelis, Lens",Spain,6,,Bulgaria,1,,"[18, 55, 81, 90]",[88],[6],[58],[],[],home,,home,15,35
+1998,France,1998.6.24,Group stage,33400,"Stadium Municipal, Toulouse",Nigeria,1,,Paraguay,3,,[11],[],[],"[1, 59, 86]",[],[],away,,away,74,29
+1998,France,1998.6.23,Group stage,80000,"Stade de France, Paris",Italy,2,,Austria,1,,"[49, 90]",[],[],[],[],[90],home,,home,14,31
+1998,France,1998.6.23,Group stage,39500,"Stade de la Beaujoire - Louis Fonteneau, Nantes",Chile,1,,Cameroon,1,,[20],[],[],[56],[],[],draw,,home,9,49
+1998,France,1998.6.23,Group stage,57000,"Orange Vélodrome, Marseille",Brazil,1,,Norway,2,,[78],[],[],[83],[],[89],away,,home,1,7
+1998,France,1998.6.23,Group stage,36000,"Stade Geoffroy-Guichard, Saint-_tienne",Scotland,0,,Morocco,3,,[],[],[],"[23, 47, 85]",[],[],away,,away,41,13
+1998,France,1998.6.22,Group stage,35500,"Stade de la Mosson, Montpellier",Colombia,1,,Tunisia,0,,[83],[],[],[],[],[],home,,home,10,21
+1998,France,1998.6.22,Group stage,33140,"Stadium Municipal, Toulouse",Romania,2,,England,1,,"[47, 90]",[],[],[83],[],[],home,,home,22,5
+1998,France,1998.6.21,Group stage,41275,"Stade Bollaert-Delelis, Lens",Germany,2,,FR Yugoslavia,2,,[80],[72],[],"[13, 54]",[],[],draw,,away,2,8
+1998,France,1998.6.21,Group stage,45500,"Parc des Princes, Paris",Argentina,5,,Jamaica,0,,"[32, 55, 72, 79]",[],[83],[],[],[],home,,home,6,30
+1998,France,1998.6.21,Group stage,43300,"Matmut Stadium de Gerland, Lyon",United States,1,,IR Iran,2,,[87],[],[],"[40, 84]",[],[],away,,away,11,42
+1998,France,1998.6.20,Group stage,35500,"Stade de la Beaujoire - Louis Fonteneau, Nantes",Japan,0,,Croatia,1,,[],[],[],[77],[],[],away,,away,12,19
+1998,France,1998.6.20,Group stage,31800,"Stade Jacques Chaban-Delmas, Bordeaux",Belgium,2,,Mexico,2,,"[43, 47]",[],[],[62],[],[55],draw,,home,36,4
+1998,France,1998.6.20,Group stage,55000,"Orange Vélodrome, Marseille",Netherlands,5,,Korea Republic,0,,"[38, 42, 71, 80, 83]",[],[],[],[],[],home,,home,25,20
+1998,France,1998.6.19,Group stage,48000,"Parc des Princes, Paris",Nigeria,1,,Bulgaria,0,,[26],[],[],[],[],[],home,,home,74,35
+1998,France,1998.6.19,Group stage,36000,"Stade Geoffroy-Guichard, Saint-_tienne",Spain,0,,Paraguay,0,,[],[],[],[],[],[],draw,,,15,29
+1998,France,1998.6.18,Group stage,33500,"Stadium Municipal, Toulouse",South Africa,1,,Denmark,1,,[52],[],[],[13],[],[],draw,,away,24,27
+1998,France,1998.6.18,Group stage,80000,"Stade de France, Paris",France,4,,Saudi Arabia,0,,"[36, 68, 77, 85]",[],[],[],[],[],home,,home,18,34
+1998,France,1998.6.17,Group stage,36000,"Stade Geoffroy-Guichard, Saint-_tienne",Chile,1,,Austria,1,,[70],[],[],[90],[],[],draw,,home,9,31
+1998,France,1998.6.17,Group stage,35500,"Stade de la Mosson, Montpellier",Italy,3,,Cameroon,0,,"[7, 75, 89]",[],[],[],[],[],home,,home,14,49
+1998,France,1998.6.16,Group stage,31800,"Stade Jacques Chaban-Delmas, Bordeaux",Scotland,1,,Norway,1,,[66],[],[],[46],[],[],draw,,away,41,7
+1998,France,1998.6.16,Group stage,38500,"Stade de la Beaujoire - Louis Fonteneau, Nantes",Brazil,3,,Morocco,0,,"[9, 45, 50]",[],[],[],[],[],home,,home,1,13
+1998,France,1998.6.15,Group stage,54587,"Orange Vélodrome, Marseille",England,2,,Tunisia,0,,"[43, 89]",[],[],[],[],[],home,,home,5,21
+1998,France,1998.6.15,Group stage,43300,"Matmut Stadium de Gerland, Lyon",Romania,1,,Colombia,0,,[45],[],[],[],[],[],home,,home,22,10
+1998,France,1998.6.15,Group stage,49000,"Parc des Princes, Paris",Germany,2,,United States,0,,"[9, 65]",[],[],[],[],[],home,,home,2,11
+1998,France,1998.6.14,Group stage,33500,"Stadium Municipal, Toulouse",Argentina,1,,Japan,0,,[28],[],[],[],[],[],home,,home,6,12
+1998,France,1998.6.14,Group stage,36000,"Stade Geoffroy-Guichard, Saint-_tienne",FR Yugoslavia,1,,IR Iran,0,,[73],[],[],[],[],[],home,,home,8,42
+1998,France,1998.6.14,Group stage,38100,"Stade Bollaert-Delelis, Lens",Jamaica,1,,Croatia,3,,[45],[],[],"[27, 53, 69]",[],[],away,,away,30,19
+1998,France,1998.6.13,Group stage,38000,"Stade de la Beaujoire - Louis Fonteneau, Nantes",Spain,2,,Nigeria,3,,"[21, 47]",[],[],"[24, 78]",[73],[],away,,home,15,74
+1998,France,1998.6.13,Group stage,39100,"Matmut Stadium de Gerland, Lyon",Korea Republic,1,,Mexico,3,,[28],[],[],"[51, 74, 84]",[],[],away,,home,20,4
+1998,France,1998.6.13,Group stage,77000,"Stade de France, Paris",Netherlands,0,,Belgium,0,,[],[],[],[],[],[],draw,,,25,36
+1998,France,1998.6.12,Group stage,27650,"Stade de la Mosson, Montpellier",Paraguay,0,,Bulgaria,0,,[],[],[],[],[],[],draw,,,29,35
+1998,France,1998.6.12,Group stage,38100,"Stade Bollaert-Delelis, Lens",Saudi Arabia,0,,Denmark,1,,[],[],[],[69],[],[],away,,away,34,27
+1998,France,1998.6.12,Group stage,55000,"Orange Vélodrome, Marseille",France,3,,South Africa,0,,"[34, 90]",[77],[],[],[],[],home,,home,18,24
+1998,France,1998.6.11,Group stage,35200,"Stade Jacques Chaban-Delmas, Bordeaux",Italy,2,,Chile,2,,[10],[],[85],"[45, 49]",[],[],draw,,home,14,9
+1998,France,1998.6.11,Group stage,36500,"Stadium Municipal, Toulouse",Cameroon,1,,Austria,1,,[77],[],[],[90],[],[],draw,,home,49,31
+1998,France,1998.6.10,Group stage,80000,"Stade de France, Paris",Brazil,2,,Scotland,1,,[5],[73],[],[],[],[38],home,,home,1,41
+1998,France,1998.6.10,Group stage,29750,"Stade de la Mosson, Montpellier",Morocco,2,,Norway,2,,"[38, 59]",[],[],[60],[45],[],draw,,home,13,7
+1994,United States,1994.7.17,Final,94194,"Rose Bowl, Los Angeles",Brazil,0,3,Italy,0,2,[],[],[],[],[],[],draw,home,,3,4
+1994,United States,1994.7.16,Third-place match,91500,"Rose Bowl, Los Angeles",Sweden,4,,Bulgaria,0,,"[8, 30, 37, 40]",[],[],[],[],[],home,,home,10,29
+1994,United States,1994.7.13,Semi-finals,74110,"Giants Stadium, New York/New Jersey",Bulgaria,1,,Italy,2,,[],[],[44],"[21, 25]",[],[],away,,away,29,4
+1994,United States,1994.7.13,Semi-finals,91856,"Rose Bowl, Los Angeles",Sweden,0,,Brazil,1,,[],[],[],[80],[],[],away,,away,10,3
+1994,United States,1994.7.10,Quarter-finals,72000,"Giants Stadium, New York/New Jersey",Bulgaria,2,,Germany,1,,"[75, 78]",[],[],[],[],[47],home,,away,29,1
+1994,United States,1994.7.10,Quarter-finals,83500,"Stanford Stadium, San Francisco",Romania,2,4,Sweden,2,5,"[88, 101]",[],[],"[78, 115]",[],[],draw,away,away,7,10
+1994,United States,1994.7.9,Quarter-finals,53400,"Foxboro Stadium, Boston",Italy,2,,Spain,1,,"[25, 88]",[],[],[58],[],[],home,,home,4,5
+1994,United States,1994.7.9,Quarter-finals,63500,"Cotton Bowl, Dallas",Netherlands,2,,Brazil,3,,"[64, 76]",[],[],"[53, 63, 81]",[],[],away,,away,2,3
+1994,United States,1994.7.5,Round of 16,54367,"Foxboro Stadium, Boston",Nigeria,1,,Italy,2,,[25],[],[],[88],[],[102],away,,home,11,4
+1994,United States,1994.7.5,Round of 16,71030,"Giants Stadium, New York/New Jersey",Mexico,1,1,Bulgaria,1,3,[],[],[18],[6],[],[],draw,away,away,16,29
+1994,United States,1994.7.4,Round of 16,61355,"Citrus Bowl, Orlando",Netherlands,2,,Republic of Ireland,0,,"[11, 41]",[],[],[],[],[],home,,home,2,14
+1994,United States,1994.7.4,Round of 16,84147,"Stanford Stadium, San Francisco",Brazil,1,,United States,0,,[72],[],[],[],[],[],home,,home,3,23
+1994,United States,1994.7.3,Round of 16,60277,"Cotton Bowl, Dallas",Saudi Arabia,1,,Sweden,3,,[85],[],[],"[6, 51, 88]",[],[],away,,away,34,10
+1994,United States,1994.7.3,Round of 16,90469,"Rose Bowl, Los Angeles",Romania,3,,Argentina,2,,"[11, 18, 58]",[],[],[75],[],[16],home,,home,7,8
+1994,United States,1994.7.2,Round of 16,60246,"Soldier Field, Chicago",Germany,3,,Belgium,2,,"[6, 11, 40]",[],[],"[8, 90]",[],[],home,,home,1,27
+1994,United States,1994.7.2,Round of 16,53121,"RFK Stadium, Washington Dc",Spain,3,,Switzerland,0,,"[15, 74]",[],[86],[],[],[],home,,home,5,12
+1994,United States,1994.6.30,Group stage,53001,"Foxboro Stadium, Boston",Greece,0,,Nigeria,2,,[],[],[],"[45, 90]",[],[],away,,away,31,11
+1994,United States,1994.6.30,Group stage,63998,"Cotton Bowl, Dallas",Argentina,0,,Bulgaria,2,,[],[],[],"[61, 90]",[],[],away,,away,8,29
+1994,United States,1994.6.29,Group stage,60578,"Citrus Bowl, Orlando",Morocco,1,,Netherlands,2,,[47],[],[],"[43, 77]",[],[],away,,away,28,2
+1994,United States,1994.6.29,Group stage,52959,"RFK Stadium, Washington Dc",Belgium,0,,Saudi Arabia,1,,[],[],[],[5],[],[],away,,away,27,34
+1994,United States,1994.6.28,Group stage,52535,"RFK Stadium, Washington Dc",Italy,1,,Mexico,1,,[48],[],[],[57],[],[],draw,,home,4,16
+1994,United States,1994.6.28,Group stage,72404,"Giants Stadium, New York/New Jersey",Republic of Ireland,0,,Norway,0,,[],[],[],[],[],[],draw,,,14,6
+1994,United States,1994.6.28,Group stage,74914,"Stanford Stadium, San Francisco",Russia,6,,Cameroon,1,,"[15, 41, 72, 75, 81]",[],[44],[46],[],[],home,,home,19,24
+1994,United States,1994.6.28,Group stage,77217,"Pontiac Silverdome, Detroit",Brazil,1,,Sweden,1,,[46],[],[],[23],[],[],draw,,away,3,10
+1994,United States,1994.6.27,Group stage,63998,"Cotton Bowl, Dallas",Germany,3,,Korea Republic,2,,"[12, 20, 37]",[],[],"[52, 63]",[],[],home,,home,1,37
+1994,United States,1994.6.27,Group stage,63089,"Soldier Field, Chicago",Bolivia,1,,Spain,3,,[67],[],[],"[66, 70]",[],[19],away,,away,43,5
+1994,United States,1994.6.26,Group stage,63160,"Soldier Field, Chicago",Bulgaria,4,,Greece,0,,"[65, 90]",[],"[5, 55]",[],[],[],home,,home,29,31
+1994,United States,1994.6.26,Group stage,93869,"Rose Bowl, Los Angeles",United States,0,,Romania,1,,[],[],[],[18],[],[],away,,away,23,7
+1994,United States,1994.6.26,Group stage,83401,"Stanford Stadium, San Francisco",Switzerland,0,,Colombia,2,,[],[],[],"[44, 90]",[],[],away,,away,12,17
+1994,United States,1994.6.25,Group stage,62387,"Citrus Bowl, Orlando",Belgium,1,,Netherlands,0,,[65],[],[],[],[],[],home,,home,27,2
+1994,United States,1994.6.25,Group stage,76322,"Giants Stadium, New York/New Jersey",Saudi Arabia,2,,Morocco,1,,[45],[],[7],[26],[],[],home,,away,34,28
+1994,United States,1994.6.25,Group stage,54453,"Foxboro Stadium, Boston",Argentina,2,,Nigeria,1,,"[21, 28]",[],[],[8],[],[],home,,away,8,11
+1994,United States,1994.6.24,Group stage,60790,"Citrus Bowl, Orlando",Mexico,2,,Republic of Ireland,1,,"[42, 65]",[],[],[84],[],[],home,,home,16,14
+1994,United States,1994.6.24,Group stage,83401,"Stanford Stadium, San Francisco",Brazil,3,,Cameroon,0,,"[39, 66, 73]",[],[],[],[],[],home,,home,3,24
+1994,United States,1994.6.24,Group stage,71528,"Pontiac Silverdome, Detroit",Sweden,3,,Russia,1,,"[59, 81]",[],[37],[],[],[4],home,,away,10,19
+1994,United States,1994.6.23,Group stage,74624,"Giants Stadium, New York/New Jersey",Italy,1,,Norway,0,,[69],[],[],[],[],[],home,,home,4,6
+1994,United States,1994.6.23,Group stage,54453,"Foxboro Stadium, Boston",Korea Republic,0,,Bolivia,0,,[],[],[],[],[],[],draw,,,37,43
+1994,United States,1994.6.22,Group stage,61428,"Pontiac Silverdome, Detroit",Romania,1,,Switzerland,4,,[35],[],[],"[16, 52, 65, 72]",[],[],away,,away,7,12
+1994,United States,1994.6.22,Group stage,93869,"Rose Bowl, Los Angeles",United States,2,,Colombia,1,,[52],[35],[],[90],[],[],home,,home,23,17
+1994,United States,1994.6.21,Group stage,54456,"Foxboro Stadium, Boston",Argentina,4,,Greece,0,,"[2, 44, 60]",[],[90],[],[],[],home,,home,8,31
+1994,United States,1994.6.21,Group stage,63113,"Soldier Field, Chicago",Germany,1,,Spain,1,,[48],[],[],[14],[],[],draw,,away,1,5
+1994,United States,1994.6.21,Group stage,44132,"Cotton Bowl, Dallas",Nigeria,3,,Bulgaria,0,,"[21, 43, 55]",[],[],[],[],[],home,,home,11,29
+1994,United States,1994.6.20,Group stage,81061,"Stanford Stadium, San Francisco",Brazil,2,,Russia,0,,[26],[],[52],[],[],[],home,,home,3,19
+1994,United States,1994.6.20,Group stage,50535,"RFK Stadium, Washington Dc",Netherlands,2,,Saudi Arabia,1,,"[50, 86]",[],[],[18],[],[],home,,away,2,34
+1994,United States,1994.6.19,Group stage,61219,"Citrus Bowl, Orlando",Belgium,1,,Morocco,0,,[11],[],[],[],[],[],home,,home,27,28
+1994,United States,1994.6.19,Group stage,52395,"RFK Stadium, Washington Dc",Norway,1,,Mexico,0,,[84],[],[],[],[],[],home,,home,6,16
+1994,United States,1994.6.19,Group stage,93194,"Rose Bowl, Los Angeles",Cameroon,2,,Sweden,2,,"[31, 47]",[],[],"[8, 75]",[],[],draw,,away,24,10
+1994,United States,1994.6.18,Group stage,73425,"Pontiac Silverdome, Detroit",United States,1,,Switzerland,1,,[44],[],[],[39],[],[],draw,,away,23,12
+1994,United States,1994.6.18,Group stage,75338,"Giants Stadium, New York/New Jersey",Italy,0,,Republic of Ireland,1,,[],[],[],[11],[],[],away,,away,4,14
+1994,United States,1994.6.18,Group stage,91856,"Rose Bowl, Los Angeles",Colombia,1,,Romania,3,,[43],[],[],"[15, 34, 89]",[],[],away,,away,17,7
+1994,United States,1994.6.17,Group stage,63117,"Soldier Field, Chicago",Germany,1,,Bolivia,0,,[61],[],[],[],[],[],home,,home,1,43
+1994,United States,1994.6.17,Group stage,56247,"Cotton Bowl, Dallas",Spain,2,,Korea Republic,2,,"[51, 55]",[],[],"[85, 90]",[],[],draw,,home,5,37
+1990,Italy,1990.7.8,Final,73603,"Stadio Olimpico, Rome",West Germany,1,,Argentina,0,,[],[],[85],[],[],[],home,,away,,
+1990,Italy,1990.7.7,Third-place match,51426,"Stadio San Nicola, Bari",Italy,2,,England,1,,[71],[],[86],[81],[],[],home,,home,,
+1990,Italy,1990.7.4,Semi-finals,62628,"Stadio delle Alpi, Turin",West Germany,1,4,England,1,3,[60],[],[],[80],[],[],draw,home,home,,
+1990,Italy,1990.7.3,Semi-finals,59978,"San Paolo, Naples",Italy,1,3,Argentina,1,4,[17],[],[],[67],[],[],draw,away,home,,
+1990,Italy,1990.7.1,Quarter-finals,73347,"Giuseppe Meazza, Milan",West Germany,1,,Czechoslovakia,0,,[],[],[25],[],[],[],home,,away,,
+1990,Italy,1990.7.1,Quarter-finals,55205,"San Paolo, Naples",England,3,,Cameroon,2,,[25],[],"[83, 105]",[65],[],[61],home,,home,,
+1990,Italy,1990.6.30,Quarter-finals,38971,"Comunale, Florence",Yugoslavia,0,2,Argentina,0,3,[],[],[],[],[],[],draw,away,,,
+1990,Italy,1990.6.30,Quarter-finals,73303,"Stadio Olimpico, Rome",Italy,1,,Republic of Ireland,0,,[38],[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.26,Round of 16,35500,"Marc Antonio Bentegodi, Verona",Spain,1,,Yugoslavia,2,,[84],[],[],"[78, 93]",[],[],away,,away,,
+1990,Italy,1990.6.26,Round of 16,34520,"Renato Dall Ara, Bologna",England,1,,Belgium,0,,[119],[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.25,Round of 16,31818,"Luigi Ferraris, Genoa",Republic of Ireland,0,5,Romania,0,4,[],[],[],[],[],[],draw,home,,,
+1990,Italy,1990.6.25,Round of 16,73303,"Stadio Olimpico, Rome",Italy,2,,Uruguay,0,,"[65, 83]",[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.24,Round of 16,61381,"Stadio delle Alpi, Turin",Brazil,0,,Argentina,1,,[],[],[],[81],[],[],away,,away,,
+1990,Italy,1990.6.24,Round of 16,74559,"Giuseppe Meazza, Milan",West Germany,2,,Netherlands,1,,"[51, 85]",[],[],[],[],[89],home,,home,,
+1990,Italy,1990.6.23,Round of 16,50026,"San Paolo, Naples",Cameroon,2,,Colombia,1,,"[106, 108]",[],[],[115],[],[],home,,home,,
+1990,Italy,1990.6.23,Round of 16,47673,"Stadio San Nicola, Bari",Czechoslovakia,4,,Costa Rica,1,,"[12, 63, 76, 82]",[],[],[55],[],[],home,,home,,
+1990,Italy,1990.6.21,Group stage,35950,"Marc Antonio Bentegodi, Verona",Belgium,1,,Spain,2,,[29],[],[],[38],[],[26],away,,away,,
+1990,Italy,1990.6.21,Group stage,29039,"Friuli, Udine",Korea Republic,0,,Uruguay,1,,[],[],[],[90],[],[],away,,away,,
+1990,Italy,1990.6.21,Group stage,33288,"Della Favorita, Palermo",Republic of Ireland,1,,Netherlands,1,,[71],[],[],[11],[],[],draw,,away,,
+1990,Italy,1990.6.21,Group stage,34959,"Sant Elia, Cagliari",England,1,,Egypt,0,,[58],[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.20,Group stage,30223,"Luigi Ferraris, Genoa",Sweden,1,,Costa Rica,2,,[32],[],[],"[75, 87]",[],[],away,,home,,
+1990,Italy,1990.6.20,Group stage,62502,"Stadio delle Alpi, Turin",Brazil,1,,Scotland,0,,[81],[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.19,Group stage,72510,"Giuseppe Meazza, Milan",West Germany,1,,Colombia,1,,[88],[],[],[90],[],[],draw,,home,,
+1990,Italy,1990.6.19,Group stage,27833,"Renato Dall Ara, Bologna",Yugoslavia,4,,United Arab Emirates,1,,"[5, 9, 46, 90]",[],[],[22],[],[],home,,home,,
+1990,Italy,1990.6.19,Group stage,34857,"Comunale, Florence",Austria,2,,United States,1,,"[49, 63]",[],[],[83],[],[],home,,home,,
+1990,Italy,1990.6.19,Group stage,73303,"Stadio Olimpico, Rome",Italy,2,,Czechoslovakia,0,,"[9, 78]",[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.18,Group stage,52733,"San Paolo, Naples",Argentina,1,,Romania,1,,[62],[],[],[68],[],[],draw,,home,,
+1990,Italy,1990.6.18,Group stage,37307,"Stadio San Nicola, Bari",Cameroon,0,,Soviet Union,4,,[],[],[],"[20, 29, 52, 63]",[],[],away,,away,,
+1990,Italy,1990.6.17,Group stage,33288,"Della Favorita, Palermo",Republic of Ireland,0,,Egypt,0,,[],[],[],[],[],[],draw,,,,
+1990,Italy,1990.6.17,Group stage,33759,"Marc Antonio Bentegodi, Verona",Belgium,3,,Uruguay,1,,"[15, 24, 47]",[],[],[73],[],[],home,,home,,
+1990,Italy,1990.6.17,Group stage,32733,"Dacia Arena, Udine",Korea Republic,1,,Spain,3,,[43],[],[],"[23, 61, 81]",[],[],away,,away,,
+1990,Italy,1990.6.16,Group stage,58007,"Stadio delle Alpi, Turin",Brazil,1,,Costa Rica,0,,[33],[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.16,Group stage,35267,"Sant Elia, Cagliari",England,0,,Netherlands,0,,[],[],[],[],[],[],draw,,,,
+1990,Italy,1990.6.16,Group stage,31823,"Luigi Ferraris, Genoa",Sweden,1,,Scotland,2,,[86],[],[],[11],[],[81],away,,away,,
+1990,Italy,1990.6.15,Group stage,38962,"Comunale, Florence",Austria,0,,Czechoslovakia,1,,[],[],[],[],[],[31],away,,away,,
+1990,Italy,1990.6.15,Group stage,71169,"Giuseppe Meazza, Milan",West Germany,5,,United Arab Emirates,1,,"[35, 37, 47, 58, 75]",[],[],[46],[],[],home,,home,,
+1990,Italy,1990.6.14,Group stage,32257,"Renato Dall Ara, Bologna",Yugoslavia,1,,Colombia,0,,[75],[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.14,Group stage,38687,"Stadio San Nicola, Bari",Cameroon,2,,Romania,1,,"[76, 86]",[],[],[88],[],[],home,,home,,
+1990,Italy,1990.6.14,Group stage,73423,"Stadio Olimpico, Rome",Italy,1,,United States,0,,[11],[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.13,Group stage,35713,"Dacia Arena, Udine",Uruguay,0,,Spain,0,,[],[],[],[],[],[],draw,,,,
+1990,Italy,1990.6.13,Group stage,55759,"San Paolo, Naples",Argentina,2,,Soviet Union,0,,"[27, 79]",[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.12,Group stage,32790,"Marc Antonio Bentegodi, Verona",Belgium,2,,Korea Republic,0,,"[53, 64]",[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.12,Group stage,33288,"Della Favorita, Palermo",Netherlands,1,,Egypt,1,,[58],[],[],[],[],[83],draw,,home,,
+1990,Italy,1990.6.11,Group stage,30867,"Luigi Ferraris, Genoa",Costa Rica,1,,Scotland,0,,[49],[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.11,Group stage,35238,"Sant Elia, Cagliari",England,1,,Republic of Ireland,1,,[9],[],[],[73],[],[],draw,,home,,
+1990,Italy,1990.6.10,Group stage,33266,"Comunale, Florence",United States,1,,Czechoslovakia,5,,[60],[],[],"[26, 50, 78, 90]",[],[40],away,,away,,
+1990,Italy,1990.6.10,Group stage,74765,"Giuseppe Meazza, Milan",West Germany,4,,Yugoslavia,1,,"[28, 39, 64, 70]",[],[],[55],[],[],home,,home,,
+1990,Italy,1990.6.10,Group stage,62628,"Stadio delle Alpi, Turin",Brazil,2,,Sweden,1,,"[40, 63]",[],[],[79],[],[],home,,home,,
+1990,Italy,1990.6.9,Group stage,30791,"Renato Dall Ara, Bologna",United Arab Emirates,0,,Colombia,2,,[],[],[],"[50, 85]",[],[],away,,away,,
+1990,Italy,1990.6.9,Group stage,42907,"Stadio San Nicola, Bari",Soviet Union,0,,Romania,2,,[],[],[],[41],[],[55],away,,away,,
+1990,Italy,1990.6.9,Group stage,73303,"Stadio Olimpico, Rome",Italy,1,,Austria,0,,[78],[],[],[],[],[],home,,home,,
+1990,Italy,1990.6.8,Group stage,73780,"Giuseppe Meazza, Milan",Argentina,0,,Cameroon,1,,[],[],[],[67],[],[],away,,away,,
+1986,Mexico,1986.6.29,Final,114600,"Estadio Azteca, Mexico City",Argentina,3,,West Germany,2,,"[23, 56, 84]",[],[],"[74, 81]",[],[],home,,home,,
+1986,Mexico,1986.6.28,Third-place match,21000,"Cuauhtemoc, Puebla",France,4,,Belgium,2,,"[27, 43, 104]",[],[111],"[11, 73]",[],[],home,,away,,
+1986,Mexico,1986.6.25,Semi-finals,45000,"Jalisco, Guadalajara",France,0,,West Germany,2,,[],[],[],"[9, 90]",[],[],away,,away,,
+1986,Mexico,1986.6.25,Semi-finals,114500,"Estadio Azteca, Mexico City",Argentina,2,,Belgium,0,,"[51, 63]",[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.22,Quarter-finals,114580,"Estadio Azteca, Mexico City",Argentina,2,,England,1,,"[51, 55]",[],[],[81],[],[],home,,home,,
+1986,Mexico,1986.6.22,Quarter-finals,45000,"Cuauhtemoc, Puebla",Spain,1,4,Belgium,1,5,[85],[],[],[35],[],[],draw,away,away,,
+1986,Mexico,1986.6.21,Quarter-finals,65000,"Jalisco, Guadalajara",Brazil,1,3,France,1,4,[17],[],[],[41],[],[],draw,away,home,,
+1986,Mexico,1986.6.21,Quarter-finals,41700,"Estadio Universitario, Monterrey",West Germany,0,4,Mexico,0,1,[],[],[],[],[],[],draw,home,,,
+1986,Mexico,1986.6.18,Round of 16,98728,"Estadio Azteca, Mexico City",England,3,,Paraguay,0,,"[31, 56, 72]",[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.18,Round of 16,38500,"Estadio Corregidora, Queretaro",Denmark,1,,Spain,5,,[],[],[33],"[43, 57, 80]",[],"[68, 89]",away,,away,,
+1986,Mexico,1986.6.17,Round of 16,70000,"Estadio Olï¿½mpico Universitario, Mexico City",Italy,0,,France,2,,[],[],[],"[15, 57]",[],[],away,,away,,
+1986,Mexico,1986.6.17,Round of 16,19800,"Estadio Universitario, Monterrey",Morocco,0,,West Germany,1,,[],[],[],[88],[],[],away,,away,,
+1986,Mexico,1986.6.16,Round of 16,45000,"Jalisco, Guadalajara",Brazil,4,,Poland,0,,"[55, 79]",[],"[30, 83]",[],[],[],home,,home,,
+1986,Mexico,1986.6.16,Round of 16,26000,"Cuauhtemoc, Puebla",Argentina,1,,Uruguay,0,,[42],[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.15,Round of 16,114580,"Estadio Azteca, Mexico City",Mexico,2,,Bulgaria,0,,"[34, 61]",[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.15,Round of 16,32277,"Nou Camp - Estadio Leï¿½n, Leon",Soviet Union,3,,Belgium,4,,"[27, 70]",[],[111],"[56, 77, 102, 110]",[],[],away,,home,,
+1986,Mexico,1986.6.13,Group stage,20000,"Neza, Nezahualcoyotl",Scotland,0,,Uruguay,0,,[],[],[],[],[],[],draw,,,,
+1986,Mexico,1986.6.13,Group stage,36000,"Estadio Corregidora, Queretaro",Denmark,2,,West Germany,0,,[62],[],[43],[],[],[],home,,home,,
+1986,Mexico,1986.6.12,Group stage,23980,"Tecnologico, Monterrey",Algeria,0,,Spain,3,,[],[],[],"[15, 68, 70]",[],[],away,,away,,
+1986,Mexico,1986.6.12,Group stage,51000,"Jalisco, Guadalajara",Northern Ireland,0,,Brazil,3,,[],[],[],"[15, 42, 87]",[],[],away,,away,,
+1986,Mexico,1986.6.11,Group stage,16000,"Bombonera - Estadio Nemesio Diez, Toluca",Paraguay,2,,Belgium,2,,"[50, 76]",[],[],"[30, 59]",[],[],draw,,away,,
+1986,Mexico,1986.6.11,Group stage,103763,"Estadio Azteca, Mexico City",Iraq,0,,Mexico,1,,[],[],[],[54],[],[],away,,away,,
+1986,Mexico,1986.6.11,Group stage,22700,"Tecnologico, Monterrey",England,3,,Poland,0,,"[9, 14, 34]",[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.11,Group stage,28000,"Tres de Marzo, Guadalajara",Portugal,1,,Morocco,3,,[79],[],[],"[19, 27, 62]",[],[],away,,away,,
+1986,Mexico,1986.6.10,Group stage,65000,"Estadio Olï¿½mpico Universitario, Mexico City",Argentina,2,,Bulgaria,0,,"[3, 76]",[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.10,Group stage,20000,"Cuauhtemoc, Puebla",Korea Republic,2,,Italy,3,,"[62, 83]",[],[],"[17, 73]",[82],[],away,,away,,
+1986,Mexico,1986.6.9,Group stage,14200,"Estadio Irapuato, Irapuato",Soviet Union,2,,Canada,0,,"[58, 74]",[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.9,Group stage,31420,"Nou Camp - Estadio Leï¿½n, Leon",Hungary,0,,France,3,,[],[],[],"[29, 62, 84]",[],[],away,,away,,
+1986,Mexico,1986.6.8,Group stage,30000,"Estadio Corregidora, Queretaro",West Germany,2,,Scotland,1,,"[22, 50]",[],[],[18],[],[],home,,away,,
+1986,Mexico,1986.6.8,Group stage,20000,"Bombonera - Estadio Nemesio Diez, Toluca",Iraq,1,,Belgium,2,,[59],[],[],[16],[],[21],away,,away,,
+1986,Mexico,1986.6.8,Group stage,26500,"Neza, Nezahualcoyotl",Denmark,6,,Uruguay,1,,"[11, 41, 52, 67, 80, 88]",[],[],[],[],[45],home,,home,,
+1986,Mexico,1986.6.7,Group stage,114600,"Estadio Azteca, Mexico City",Mexico,1,,Paraguay,1,,[3],[],[],[85],[],[],draw,,home,,
+1986,Mexico,1986.6.7,Group stage,28000,"Tres de Marzo, Guadalajara",Northern Ireland,1,,Spain,2,,[47],[],[],"[2, 18]",[],[],away,,away,,
+1986,Mexico,1986.6.7,Group stage,19915,"Estadio Universitario, Monterrey",Poland,1,,Portugal,0,,[68],[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.6,Group stage,48000,"Jalisco, Guadalajara",Brazil,1,,Algeria,0,,[66],[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.6,Group stage,13800,"Estadio Irapuato, Irapuato",Hungary,2,,Canada,0,,"[2, 75]",[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.6,Group stage,20200,"Tecnologico, Monterrey",England,0,,Morocco,0,,[],[],[],[],[],[],draw,,,,
+1986,Mexico,1986.6.5,Group stage,32000,"Cuauhtemoc, Puebla",Italy,1,,Argentina,1,,[],[],[6],[34],[],[],draw,,away,,
+1986,Mexico,1986.6.5,Group stage,36540,"Nou Camp - Estadio Leï¿½n, Leon",France,1,,Soviet Union,1,,[62],[],[],[53],[],[],draw,,away,,
+1986,Mexico,1986.6.5,Group stage,45000,"Estadio Olï¿½mpico Universitario, Mexico City",Korea Republic,1,,Bulgaria,1,,[70],[],[],[11],[],[],draw,,away,,
+1986,Mexico,1986.6.4,Group stage,24000,"Bombonera - Estadio Nemesio Diez, Toluca",Paraguay,1,,Iraq,0,,[35],[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.4,Group stage,30500,"Estadio Corregidora, Queretaro",Uruguay,1,,West Germany,1,,[4],[],[],[84],[],[],draw,,home,,
+1986,Mexico,1986.6.4,Group stage,18000,"Neza, Nezahualcoyotl",Scotland,0,,Denmark,1,,[],[],[],[57],[],[],away,,away,,
+1986,Mexico,1986.6.3,Group stage,110000,"Estadio Azteca, Mexico City",Belgium,1,,Mexico,2,,[45],[],[],"[23, 39]",[],[],away,,away,,
+1986,Mexico,1986.6.3,Group stage,22000,"Tres de Marzo, Guadalajara",Algeria,1,,Northern Ireland,1,,[59],[],[],[6],[],[],draw,,away,,
+1986,Mexico,1986.6.3,Group stage,23000,"Tecnologico, Monterrey",Portugal,1,,England,0,,[75],[],[],[],[],[],home,,home,,
+1986,Mexico,1986.6.2,Group stage,16500,"Estadio Irapuato, Irapuato",Soviet Union,6,,Hungary,0,,"[2, 4, 66, 80]",[73],[24],[],[],[],home,,home,,
+1986,Mexico,1986.6.2,Group stage,60000,"Estadio Olï¿½mpico Universitario, Mexico City",Argentina,3,,Korea Republic,1,,"[6, 18, 46]",[],[],[73],[],[],home,,home,,
+1986,Mexico,1986.6.2,Group stage,19900,"Estadio Universitario, Monterrey",Morocco,0,,Poland,0,,[],[],[],[],[],[],draw,,,,
+1986,Mexico,1986.6.1,Group stage,35748,"Jalisco, Guadalajara",Spain,0,,Brazil,1,,[],[],[],[62],[],[],away,,away,,
+1986,Mexico,1986.6.1,Group stage,65500,"Nou Camp - Estadio Leï¿½n, Leon",Canada,0,,France,1,,[],[],[],[79],[],[],away,,away,,
+1986,Mexico,1986.5.31,Group stage,96000,"Estadio Azteca, Mexico City",Bulgaria,1,,Italy,1,,[85],[],[],[43],[],[],draw,,away,,
+1982,Spain,1982.7.11,Final,90000,"Santiago Bernabeu, Madrid",Italy,3,,West Germany,1,,"[57, 69, 81]",[],[],[83],[],[],home,,home,,
+1982,Spain,1982.7.10,Third-place match,28000,"Jose Rico Perez, Alicante",Poland,3,,France,2,,"[40, 44, 46]",[],[],"[13, 72]",[],[],home,,away,,
+1982,Spain,1982.7.8,Semi-finals,50000,"Camp Nou, Barcelona",Poland,0,,Italy,2,,[],[],[],"[22, 73]",[],[],away,,away,,
+1982,Spain,1982.7.8,Semi-finals,70000,"Ramon Sanchez Pizjuan, Seville",West Germany,3,5,France,3,4,"[17, 102, 108]",[],[],"[92, 98]",[],[26],draw,home,home,,
+1982,Spain,1982.7.5,Second group stage,44000,"Sarria, Barcelona",Italy,3,,Brazil,2,,"[5, 25, 74]",[],[],"[12, 68]",[],[],home,,home,,
+1982,Spain,1982.7.5,Second group stage,75000,"Santiago Bernabeu, Madrid",Spain,0,,England,0,,[],[],[],[],[],[],draw,,,,
+1982,Spain,1982.7.4,Second group stage,37000,"Vicente Calderon, Madrid",France,4,,Northern Ireland,1,,"[33, 46, 68, 80]",[],[],[75],[],[],home,,home,,
+1982,Spain,1982.7.4,Second group stage,65000,"Camp Nou, Barcelona",Poland,0,,Soviet Union,0,,[],[],[],[],[],[],draw,,,,
+1982,Spain,1982.7.2,Second group stage,44000,"Sarria, Barcelona",Argentina,1,,Brazil,3,,[89],[],[],"[11, 66, 75]",[],[],away,,away,,
+1982,Spain,1982.7.2,Second group stage,90089,"Santiago Bernabeu, Madrid",West Germany,2,,Spain,1,,"[50, 75]",[],[],[82],[],[],home,,home,,
+1982,Spain,1982.7.1,Second group stage,20000,"Vicente Calderon, Madrid",Austria,2,,Northern Ireland,2,,"[50, 68]",[],[],"[27, 75]",[],[],draw,,away,,
+1982,Spain,1982.7.1,Second group stage,45000,"Camp Nou, Barcelona",Belgium,0,,Soviet Union,1,,[],[],[],[48],[],[],away,,away,,
+1982,Spain,1982.6.29,Second group stage,43000,"Sarria, Barcelona",Italy,2,,Argentina,1,,"[57, 67]",[],[],[83],[],[],home,,home,,
+1982,Spain,1982.6.29,Second group stage,75000,"Santiago Bernabeu, Madrid",West Germany,0,,England,0,,[],[],[],[],[],[],draw,,,,
+1982,Spain,1982.6.28,Second group stage,37000,"Vicente Calderon, Madrid",Austria,0,,France,1,,[],[],[],[39],[],[],away,,away,,
+1982,Spain,1982.6.28,Second group stage,65000,"Camp Nou, Barcelona",Poland,3,,Belgium,0,,"[4, 26, 53]",[],[],[],[],[],home,,home,,
+1982,Spain,1982.6.25,First group stage,39700,"San Mames, Bilbao",England,1,,Kuwait,0,,[27],[],[],[],[],[],home,,home,,
+1982,Spain,1982.6.25,First group stage,41000,"El Molinon, Gijon",West Germany,1,,Austria,0,,[10],[],[],[],[],[],home,,home,,
+1982,Spain,1982.6.25,First group stage,49562,"Luis Casanova, Valencia",Northern Ireland,1,,Spain,0,,[47],[],[],[],[],[],home,,home,,
+1982,Spain,1982.6.24,First group stage,28000,"Jose Zorrilla, Valladolid",France,1,,Czechoslovakia,1,,[66],[],[],[],[],[84],draw,,home,,
+1982,Spain,1982.6.24,First group stage,16000,"Carlos Tartiere, Oviedo",Algeria,3,,Chile,2,,"[7, 31, 35]",[],[],[73],[],[59],home,,home,,
+1982,Spain,1982.6.24,First group stage,25000,"La Romareda, Zaragoza",Honduras,0,,Yugoslavia,1,,[],[],[],[],[],[88],away,,away,,
+1982,Spain,1982.6.23,First group stage,20000,"Estadio Municipal de Balaï¿½dos, Vigo",Italy,1,,Cameroon,1,,[60],[],[],[61],[],[],draw,,home,,
+1982,Spain,1982.6.23,First group stage,32500,"Jose Rico Perez, Alicante",Argentina,2,,El Salvador,0,,[54],[],[22],[],[],[],home,,home,,
+1982,Spain,1982.6.23,First group stage,43000,"Benito Villamarin, Seville",Brazil,4,,New Zealand,0,,"[28, 31, 64, 70]",[],[],[],[],[],home,,home,,
+1982,Spain,1982.6.22,First group stage,25000,"Riazor, La Coruï¿½A",Poland,5,,Peru,1,,"[55, 58, 61, 68, 76]",[],[],[83],[],[],home,,home,,
+1982,Spain,1982.6.22,First group stage,37000,"Nuevo Estadio, Elche",Belgium,1,,Hungary,1,,[76],[],[],[27],[],[],draw,,away,,
+1982,Spain,1982.6.22,First group stage,45000,"La Rosaleda, Malaga",Soviet Union,2,,Scotland,2,,"[59, 84]",[],[],"[15, 86]",[],[],draw,,away,,
+1982,Spain,1982.6.21,First group stage,22000,"Carlos Tartiere, Oviedo",Algeria,0,,Austria,2,,[],[],[],"[55, 67]",[],[],away,,away,,
+1982,Spain,1982.6.21,First group stage,30043,"Jose Zorrilla, Valladolid",France,4,,Kuwait,1,,"[31, 43, 48, 89]",[],[],[75],[],[],home,,home,,
+1982,Spain,1982.6.21,First group stage,15000,"La Romareda, Zaragoza",Honduras,1,,Northern Ireland,1,,[60],[],[],[9],[],[],draw,,away,,
+1982,Spain,1982.6.20,First group stage,42000,"El Molinon, Gijon",West Germany,4,,Chile,1,,"[9, 57, 66, 83]",[],[],[90],[],[],home,,home,,
+1982,Spain,1982.6.20,First group stage,41123,"San Mames, Bilbao",England,2,,Czechoslovakia,0,,[62],[66],[],[],[],[],home,,home,,
+1982,Spain,1982.6.20,First group stage,48000,"Luis Casanova, Valencia",Spain,2,,Yugoslavia,1,,[66],[],[14],[10],[],[],home,,away,,
+1982,Spain,1982.6.19,First group stage,19000,"Riazor, La Coruï¿½A",Poland,0,,Cameroon,0,,[],[],[],[],[],[],draw,,,,
+1982,Spain,1982.6.19,First group stage,19000,"La Rosaleda, Malaga",Soviet Union,3,,New Zealand,0,,"[24, 48, 68]",[],[],[],[],[],home,,home,,
+1982,Spain,1982.6.19,First group stage,15000,"Nuevo Estadio, Elche",Belgium,1,,El Salvador,0,,[19],[],[],[],[],[],home,,home,,
+1982,Spain,1982.6.18,First group stage,25000,"Estadio Municipal de Balaï¿½dos, Vigo",Italy,1,,Peru,1,,[18],[],[],[83],[],[],draw,,home,,
+1982,Spain,1982.6.18,First group stage,47379,"Benito Villamarin, Seville",Brazil,4,,Scotland,1,,"[33, 48, 63, 87]",[],[],[18],[],[],home,,away,,
+1982,Spain,1982.6.18,First group stage,32093,"Jose Rico Perez, Alicante",Argentina,4,,Hungary,1,,"[26, 28, 57, 60]",[],[],[76],[],[],home,,home,,
+1982,Spain,1982.6.17,First group stage,22500,"Carlos Tartiere, Oviedo",Chile,0,,Austria,1,,[],[],[],[22],[],[],away,,away,,
+1982,Spain,1982.6.17,First group stage,25000,"Jose Zorrilla, Valladolid",Czechoslovakia,1,,Kuwait,1,,[],[],[21],[57],[],[],draw,,away,,
+1982,Spain,1982.6.17,First group stage,25000,"La Romareda, Zaragoza",Yugoslavia,0,,Northern Ireland,0,,[],[],[],[],[],[],draw,,,,
+1982,Spain,1982.6.16,First group stage,44172,"San Mames, Bilbao",England,3,,France,1,,"[1, 67, 83]",[],[],[24],[],[],home,,home,,
+1982,Spain,1982.6.16,First group stage,42000,"El Molinon, Gijon",West Germany,1,,Algeria,2,,[67],[],[],"[54, 68]",[],[],away,,away,,
+1982,Spain,1982.6.16,First group stage,49562,"Luis Casanova, Valencia",Spain,1,,Honduras,1,,[],[],[65],[7],[],[],draw,,away,,
+1982,Spain,1982.6.15,First group stage,11000,"Riazor, La Coruï¿½A",Peru,0,,Cameroon,0,,[],[],[],[],[],[],draw,,,,
+1982,Spain,1982.6.15,First group stage,23000,"Nuevo Estadio, Elche",Hungary,10,,El Salvador,1,,"[4, 11, 23, 50, 54, 69, 70, 72, 76, 83]",[],[],[64],[],[],home,,home,,
+1982,Spain,1982.6.15,First group stage,36000,"La Rosaleda, Malaga",Scotland,5,,New Zealand,2,,"[18, 29, 32, 73, 79]",[],[],"[54, 64]",[],[],home,,home,,
+1982,Spain,1982.6.14,First group stage,33000,"Estadio Municipal de Balaï¿½dos, Vigo",Italy,0,,Poland,0,,[],[],[],[],[],[],draw,,,,
+1982,Spain,1982.6.14,First group stage,68000,"Ramon Sanchez Pizjuan, Seville",Brazil,2,,Soviet Union,1,,"[75, 88]",[],[],[34],[],[],home,,away,,
+1982,Spain,1982.6.13,First group stage,95000,"Camp Nou, Barcelona",Argentina,0,,Belgium,1,,[],[],[],[62],[],[],away,,away,,
+1978,Argentina,1978.6.25,Final,71483,"El Monumental - Estadio Monumental Antonio Vespuci, Buenos Aires",Argentina,3,,Netherlands,1,,"[38, 105, 115]",[],[],[82],[],[],home,,home,,
+1978,Argentina,1978.6.24,Third-place match,69659,"El Monumental - Estadio Monumental Antonio Vespuci, Buenos Aires",Brazil,2,,Italy,1,,"[64, 72]",[],[],[38],[],[],home,,away,,
+1978,Argentina,1978.6.21,Second round,67433,"El Monumental - Estadio Monumental Antonio Vespuci, Buenos Aires",Netherlands,2,,Italy,1,,"[50, 75]",[],[],[],[18],[],home,,away,,
+1978,Argentina,1978.6.21,Second round,38318,"Estadio Olï¿½mpico Chateau Carreras, Cordoba",Austria,3,,West Germany,2,,"[66, 87]",[59],[],"[19, 68]",[],[],home,,away,,
+1978,Argentina,1978.6.21,Second round,39586,"San Martin, Mendoza",Brazil,3,,Poland,1,,"[12, 57, 63]",[],[],[45],[],[],home,,home,,
+1978,Argentina,1978.6.21,Second round,37315,"Arroyito - Estadio Dr. Lisandro de la Torre, Rosario",Argentina,6,,Peru,0,,"[21, 43, 48, 50, 67, 72]",[],[],[],[],[],home,,home,,
+1978,Argentina,1978.6.18,Second round,35288,"San Martin, Mendoza",Poland,1,,Peru,0,,[65],[],[],[],[],[],home,,home,,
+1978,Argentina,1978.6.18,Second round,40750,"Estadio Olï¿½mpico Chateau Carreras, Cordoba",West Germany,2,,Netherlands,2,,"[3, 70]",[],[],"[27, 84]",[],[],draw,,home,,
+1978,Argentina,1978.6.18,Second round,66695,"El Monumental - Estadio Monumental Antonio Vespuci, Buenos Aires",Italy,1,,Austria,0,,[14],[],[],[],[],[],home,,home,,
+1978,Argentina,1978.6.18,Second round,37326,"Arroyito - Estadio Dr. Lisandro de la Torre, Rosario",Argentina,0,,Brazil,0,,[],[],[],[],[],[],draw,,,,
+1978,Argentina,1978.6.14,Second round,25050,"Estadio Olï¿½mpico Chateau Carreras, Cordoba",Netherlands,5,,Austria,1,,"[6, 36, 53, 82]",[],[35],[79],[],[],home,,home,,
+1978,Argentina,1978.6.14,Second round,67547,"El Monumental - Estadio Monumental Antonio Vespuci, Buenos Aires",West Germany,0,,Italy,0,,[],[],[],[],[],[],draw,,,,
+1978,Argentina,1978.6.14,Second round,31278,"San Martin, Mendoza",Brazil,3,,Peru,0,,"[15, 28]",[],[73],[],[],[],home,,home,,
+1978,Argentina,1978.6.14,Second round,37091,"Arroyito - Estadio Dr. Lisandro de la Torre, Rosario",Argentina,2,,Poland,0,,"[16, 71]",[],[],[],[],[],home,,home,,
+1978,Argentina,1978.6.11,First round,35221,"Estadio Josï¿½ Marï¿½a Minella, Mar Del Plata",Brazil,1,,Austria,0,,[40],[],[],[],[],[],home,,home,,
+1978,Argentina,1978.6.11,First round,42132,"Jose Amalfitani, Buenos Aires",Spain,1,,Sweden,0,,[75],[],[],[],[],[],home,,home,,
+1978,Argentina,1978.6.11,First round,21262,"Estadio Olï¿½mpico Chateau Carreras, Cordoba",Peru,4,,IR Iran,1,,"[2, 79]",[],"[36, 39]",[41],[],[],home,,home,,
+1978,Argentina,1978.6.11,First round,35130,"San Martin, Mendoza",Scotland,3,,Netherlands,2,,"[44, 68]",[],[47],[71],[],[34],home,,away,,
+1978,Argentina,1978.6.10,First round,23127,"Estadio Josï¿½ Marï¿½a Minella, Mar Del Plata",France,3,,Hungary,1,,"[22, 37, 42]",[],[],[41],[],[],home,,home,,
+1978,Argentina,1978.6.10,First round,22651,"Arroyito - Estadio Dr. Lisandro de la Torre, Rosario",Poland,3,,Mexico,1,,"[43, 56, 84]",[],[],[52],[],[],home,,home,,
+1978,Argentina,1978.6.10,First round,30667,"Estadio Olï¿½mpico Chateau Carreras, Cordoba",West Germany,0,,Tunisia,0,,[],[],[],[],[],[],draw,,,,
+1978,Argentina,1978.6.10,First round,71712,"El Monumental - Estadio Monumental Antonio Vespuci, Buenos Aires",Italy,1,,Argentina,0,,[67],[],[],[],[],[],home,,home,,
+1978,Argentina,1978.6.7,First round,41424,"Jose Amalfitani, Buenos Aires",Austria,1,,Sweden,0,,[],[],[42],[],[],[],home,,away,,
+1978,Argentina,1978.6.7,First round,34771,"Estadio Josï¿½ Marï¿½a Minella, Mar Del Plata",Brazil,0,,Spain,0,,[],[],[],[],[],[],draw,,,,
+1978,Argentina,1978.6.7,First round,28125,"San Martin, Mendoza",Netherlands,0,,Peru,0,,[],[],[],[],[],[],draw,,,,
+1978,Argentina,1978.6.7,First round,7938,"Estadio Olï¿½mpico Chateau Carreras, Cordoba",Scotland,1,,IR Iran,1,,[],[43],[],[60],[],[],draw,,home,,
+1978,Argentina,1978.6.6,First round,26533,"Estadio Josï¿½ Marï¿½a Minella, Mar Del Plata",Italy,3,,Hungary,1,,"[34, 36, 60]",[],[],[],[],[81],home,,home,,
+1978,Argentina,1978.6.6,First round,35258,"Estadio Olï¿½mpico Chateau Carreras, Cordoba",West Germany,6,,Mexico,0,,"[15, 30, 38, 44, 73, 89]",[],[],[],[],[],home,,home,,
+1978,Argentina,1978.6.6,First round,9624,"Arroyito - Estadio Dr. Lisandro de la Torre, Rosario",Poland,1,,Tunisia,0,,[43],[],[],[],[],[],home,,home,,
+1978,Argentina,1978.6.6,First round,71666,"El Monumental - Estadio Monumental Antonio Vespuci, Buenos Aires",Argentina,2,,France,1,,[73],[],[45],[60],[],[],home,,away,,
+1978,Argentina,1978.6.3,First round,32569,"Estadio Josï¿½ Marï¿½a Minella, Mar Del Plata",Sweden,1,,Brazil,1,,[37],[],[],[45],[],[],draw,,home,,
+1978,Argentina,1978.6.3,First round,40841,"Jose Amalfitani, Buenos Aires",Austria,2,,Spain,1,,"[9, 76]",[],[],[21],[],[],home,,home,,
+1978,Argentina,1978.6.3,First round,37927,"Estadio Olï¿½mpico Chateau Carreras, Cordoba",Peru,3,,Scotland,1,,"[43, 71, 77]",[],[],[14],[],[],home,,away,,
+1978,Argentina,1978.6.3,First round,33431,"San Martin, Mendoza",Netherlands,3,,IR Iran,0,,[62],[],"[40, 79]",[],[],[],home,,home,,
+1978,Argentina,1978.6.2,First round,42373,"Estadio Josï¿½ Marï¿½a Minella, Mar Del Plata",Italy,2,,France,1,,"[29, 54]",[],[],[1],[],[],home,,away,,
+1978,Argentina,1978.6.2,First round,17396,"Arroyito - Estadio Dr. Lisandro de la Torre, Rosario",Tunisia,3,,Mexico,1,,"[55, 79, 87]",[],[],[],[],[45],home,,away,,
+1978,Argentina,1978.6.2,First round,71615,"El Monumental - Estadio Monumental Antonio Vespuci, Buenos Aires",Argentina,2,,Hungary,1,,"[15, 83]",[],[],[10],[],[],home,,away,,
+1978,Argentina,1978.6.1,First round,67579,"El Monumental - Estadio Monumental Antonio Vespuci, Buenos Aires",West Germany,0,,Poland,0,,[],[],[],[],[],[],draw,,,,
+1974,Germany,1974.7.7,Final,78200,"Olympiastadion, Munich",Netherlands,1,,West Germany,2,,[],[],[2],[43],[],[25],away,,away,,
+1974,Germany,1974.7.6,Third-place match,77100,"Olympiastadion, Munich",Brazil,0,,Poland,1,,[],[],[],[76],[],[],away,,away,,
+1974,Germany,1974.7.3,Second round,62000,"Waldstadion, Frankfurt/Main",Poland,0,,West Germany,1,,[],[],[],[76],[],[],away,,away,,
+1974,Germany,1974.7.3,Second round,53700,"Westfalenstadion, Dortmund",Netherlands,2,,Brazil,0,,"[50, 65]",[],[],[],[],[],home,,home,,
+1974,Germany,1974.7.3,Second round,54254,"Parkstadion, Gelsenkirchen",Argentina,1,,Germany DR,1,,[20],[],[],[14],[],[],draw,,away,,
+1974,Germany,1974.7.3,Second round,41300,"Rheinstadion, Dï¿½Sseldorf",Sweden,2,,Yugoslavia,1,,"[29, 85]",[],[],[27],[],[],home,,away,,
+1974,Germany,1974.6.30,Second round,58000,"Waldstadion, Frankfurt/Main",Poland,2,,Yugoslavia,1,,[62],[],[24],[43],[],[],home,,away,,
+1974,Germany,1974.6.30,Second round,39400,"Niedersachsenstadion, Hanover",Argentina,1,,Brazil,2,,[35],[],[],"[32, 49]",[],[],away,,away,,
+1974,Germany,1974.6.30,Second round,68348,"Parkstadion, Gelsenkirchen",Germany DR,0,,Netherlands,2,,[],[],[],"[7, 59]",[],[],away,,away,,
+1974,Germany,1974.6.30,Second round,67800,"Rheinstadion, Dï¿½Sseldorf",West Germany,4,,Sweden,2,,"[51, 52, 76]",[],[89],"[24, 53]",[],[],home,,away,,
+1974,Germany,1974.6.26,Second round,67385,"Rheinstadion, Dï¿½Sseldorf",Yugoslavia,0,,West Germany,2,,[],[],[],"[39, 82]",[],[],away,,away,,
+1974,Germany,1974.6.26,Second round,59863,"Niedersachsenstadion, Hanover",Brazil,1,,Germany DR,0,,[60],[],[],[],[],[],home,,home,,
+1974,Germany,1974.6.26,Second round,44955,"Neckarstadion, Stuttgart",Sweden,0,,Poland,1,,[],[],[],[43],[],[],away,,away,,
+1974,Germany,1974.6.26,Second round,56548,"Parkstadion, Gelsenkirchen",Netherlands,4,,Argentina,0,,"[10, 25, 73, 90]",[],[],[],[],[],home,,home,,
+1974,Germany,1974.6.23,First round,53300,"Westfalenstadion, Dortmund",Bulgaria,1,,Netherlands,4,,[],[78],[],"[71, 88]",[],"[5, 45]",away,,away,,
+1974,Germany,1974.6.23,First round,70100,"Neckarstadion, Stuttgart",Poland,2,,Italy,1,,"[38, 44]",[],[],[85],[],[],home,,home,,
+1974,Germany,1974.6.23,First round,28300,"Rheinstadion, Dï¿½Sseldorf",Sweden,3,,Uruguay,0,,"[46, 74, 77]",[],[],[],[],[],home,,home,,
+1974,Germany,1974.6.23,First round,25900,"Olympiastadion, Munich",Argentina,4,,Haiti,1,,"[15, 18, 55, 68]",[],[],[63],[],[],home,,home,,
+1974,Germany,1974.6.22,First round,56000,"Waldstadion, Frankfurt/Main",Scotland,1,,Yugoslavia,1,,[88],[],[],[81],[],[],draw,,away,,
+1974,Germany,1974.6.22,First round,17400,"Olympiastadion, Berlin West",Australia,0,,Chile,0,,[],[],[],[],[],[],draw,,,,
+1974,Germany,1974.6.22,First round,36200,"Parkstadion, Gelsenkirchen",Zaire,0,,Brazil,3,,[],[],[],"[12, 66, 79]",[],[],away,,away,,
+1974,Germany,1974.6.22,First round,60200,"Volksparkstadion, Hamburg",Germany DR,1,,West Germany,0,,[77],[],[],[],[],[],home,,home,,
+1974,Germany,1974.6.19,First round,25300,"Olympiastadion, Munich",Haiti,0,,Poland,7,,[],[],[],"[17, 18, 30, 31, 34, 50, 87]",[],[],away,,away,,
+1974,Germany,1974.6.19,First round,13400,"Niedersachsenstadion, Hanover",Bulgaria,1,,Uruguay,1,,[75],[],[],[87],[],[],draw,,home,,
+1974,Germany,1974.6.19,First round,53700,"Westfalenstadion, Dortmund",Netherlands,0,,Sweden,0,,[],[],[],[],[],[],draw,,,,
+1974,Germany,1974.6.19,First round,70100,"Neckarstadion, Stuttgart",Argentina,1,,Italy,1,,[19],[],[],[],[35],[],draw,,home,,
+1974,Germany,1974.6.18,First round,53300,"Volksparkstadion, Hamburg",Australia,0,,West Germany,3,,[],[],[],"[12, 34, 53]",[],[],away,,away,,
+1974,Germany,1974.6.18,First round,31700,"Parkstadion, Gelsenkirchen",Yugoslavia,9,,Zaire,0,,"[8, 14, 18, 22, 30, 35, 61, 65, 81]",[],[],[],[],[],home,,home,,
+1974,Germany,1974.6.18,First round,28300,"Olympiastadion, Berlin West",Chile,1,,Germany DR,1,,[69],[],[],[55],[],[],draw,,away,,
+1974,Germany,1974.6.18,First round,62000,"Waldstadion, Frankfurt/Main",Scotland,0,,Brazil,0,,[],[],[],[],[],[],draw,,,,
+1974,Germany,1974.6.15,First round,55100,"Niedersachsenstadion, Hanover",Uruguay,0,,Netherlands,2,,[],[],[],"[7, 86]",[],[],away,,away,,
+1974,Germany,1974.6.15,First round,23800,"Rheinstadion, Dï¿½Sseldorf",Sweden,0,,Bulgaria,0,,[],[],[],[],[],[],draw,,,,
+1974,Germany,1974.6.15,First round,53000,"Olympiastadion, Munich",Italy,3,,Haiti,1,,"[52, 66, 79]",[],[],[46],[],[],home,,away,,
+1974,Germany,1974.6.15,First round,32700,"Neckarstadion, Stuttgart",Poland,3,,Argentina,2,,"[7, 8, 62]",[],[],"[60, 66]",[],[],home,,home,,
+1974,Germany,1974.6.14,First round,81100,"Olympiastadion, Berlin West",West Germany,1,,Chile,0,,[18],[],[],[],[],[],home,,home,,
+1974,Germany,1974.6.14,First round,17000,"Volksparkstadion, Hamburg",Germany DR,2,,Australia,0,,[72],[58],[],[],[],[],home,,home,,
+1974,Germany,1974.6.14,First round,27000,"Westfalenstadion, Dortmund",Zaire,0,,Scotland,2,,[],[],[],"[26, 34]",[],[],away,,away,,
+1974,Germany,1974.6.13,First round,62000,"Waldstadion, Frankfurt/Main",Brazil,0,,Yugoslavia,0,,[],[],[],[],[],[],draw,,,,
+1970,Mexico,1970.6.21,Final,107412,"Estadio Azteca, Mexico City",Brazil,4,,Italy,1,,"[18, 66, 71, 86]",[],[],[37],[],[],home,,home,,
+1970,Mexico,1970.6.20,Third-place match,104403,"Estadio Azteca, Mexico City",West Germany,1,,Uruguay,0,,[26],[],[],[],[],[],home,,home,,
+1970,Mexico,1970.6.17,Semi-finals,102444,"Estadio Azteca, Mexico City",Italy,4,,West Germany,3,,"[8, 98, 104, 111]",[],[],"[90, 94, 110]",[],[],home,,home,,
+1970,Mexico,1970.6.17,Semi-finals,51261,"Jalisco, Guadalajara",Brazil,3,,Uruguay,1,,"[44, 76, 89]",[],[],[19],[],[],home,,away,,
+1970,Mexico,1970.6.14,Quarter-finals,54233,"Jalisco, Guadalajara",Brazil,4,,Peru,2,,"[11, 15, 52, 75]",[],[],"[28, 70]",[],[],home,,home,,
+1970,Mexico,1970.6.14,Quarter-finals,26851,"Luis Dosal, Toluca",Italy,4,,Mexico,1,,"[63, 70, 76]",[25],[],[13],[],[],home,,away,,
+1970,Mexico,1970.6.14,Quarter-finals,26085,"Estadio Azteca, Mexico City",Uruguay,1,,Soviet Union,0,,[117],[],[],[],[],[],home,,home,,
+1970,Mexico,1970.6.14,Quarter-finals,23357,"Nou Camp - Estadio Leï¿½n, Leon",West Germany,3,,England,2,,"[68, 82, 108]",[],[],"[31, 49]",[],[],home,,away,,
+1970,Mexico,1970.6.11,Group stage,108192,"Estadio Azteca, Mexico City",Mexico,1,,Belgium,0,,[],[],[14],[],[],[],home,,away,,
+1970,Mexico,1970.6.11,Group stage,9890,"Luis Dosal, Toluca",Italy,0,,Israel,0,,[],[],[],[],[],[],draw,,,,
+1970,Mexico,1970.6.11,Group stage,12299,"Nou Camp - Estadio Leï¿½n, Leon",Bulgaria,1,,Morocco,1,,[40],[],[],[61],[],[],draw,,home,,
+1970,Mexico,1970.6.11,Group stage,49292,"Jalisco, Guadalajara",England,1,,Czechoslovakia,0,,[],[],[50],[],[],[],home,,away,,
+1970,Mexico,1970.6.10,Group stage,17875,"Nou Camp - Estadio Leï¿½n, Leon",West Germany,3,,Peru,1,,"[19, 26, 39]",[],[],[44],[],[],home,,home,,
+1970,Mexico,1970.6.10,Group stage,50804,"Jalisco, Guadalajara",Brazil,3,,Romania,2,,"[19, 22, 67]",[],[],"[34, 84]",[],[],home,,home,,
+1970,Mexico,1970.6.10,Group stage,18163,"Cuauhtemoc, Puebla",Sweden,1,,Uruguay,0,,[90],[],[],[],[],[],home,,home,,
+1970,Mexico,1970.6.10,Group stage,89979,"Estadio Azteca, Mexico City",Soviet Union,2,,El Salvador,0,,"[51, 74]",[],[],[],[],[],home,,home,,
+1970,Mexico,1970.6.7,Group stage,103058,"Estadio Azteca, Mexico City",Mexico,4,,El Salvador,0,,"[45, 46, 58, 83]",[],[],[],[],[],home,,home,,
+1970,Mexico,1970.6.7,Group stage,66843,"Jalisco, Guadalajara",Brazil,1,,England,0,,[59],[],[],[],[],[],home,,home,,
+1970,Mexico,1970.6.7,Group stage,12710,"Nou Camp - Estadio Leï¿½n, Leon",West Germany,5,,Bulgaria,2,,"[20, 27, 70, 88]",[],[52],"[12, 89]",[],[],home,,away,,
+1970,Mexico,1970.6.7,Group stage,9624,"Luis Dosal, Toluca",Sweden,1,,Israel,1,,[53],[],[],[56],[],[],draw,,home,,
+1970,Mexico,1970.6.6,Group stage,56818,"Jalisco, Guadalajara",Romania,2,,Czechoslovakia,1,,[52],[],[75],[5],[],[],home,,away,,
+1970,Mexico,1970.6.6,Group stage,29968,"Cuauhtemoc, Puebla",Uruguay,0,,Italy,0,,[],[],[],[],[],[],draw,,,,
+1970,Mexico,1970.6.6,Group stage,95261,"Estadio Azteca, Mexico City",Soviet Union,4,,Belgium,1,,"[14, 57, 63, 76]",[],[],[86],[],[],home,,home,,
+1970,Mexico,1970.6.6,Group stage,13537,"Nou Camp - Estadio Leï¿½n, Leon",Peru,3,,Morocco,0,,"[65, 67, 75]",[],[],[],[],[],home,,home,,
+1970,Mexico,1970.6.3,Group stage,92205,"Estadio Azteca, Mexico City",Belgium,3,,El Salvador,0,,"[12, 54]",[],[79],[],[],[],home,,home,,
+1970,Mexico,1970.6.3,Group stage,52897,"Jalisco, Guadalajara",Brazil,4,,Czechoslovakia,1,,"[24, 59, 61, 83]",[],[],[11],[],[],home,,away,,
+1970,Mexico,1970.6.3,Group stage,13433,"Luis Dosal, Toluca",Italy,1,,Sweden,0,,[10],[],[],[],[],[],home,,home,,
+1970,Mexico,1970.6.3,Group stage,12942,"Nou Camp - Estadio Leï¿½n, Leon",West Germany,2,,Morocco,1,,"[56, 80]",[],[],[21],[],[],home,,away,,
+1970,Mexico,1970.6.2,Group stage,50560,"Jalisco, Guadalajara",England,1,,Romania,0,,[65],[],[],[],[],[],home,,home,,
+1970,Mexico,1970.6.2,Group stage,13765,"Nou Camp - Estadio Leï¿½n, Leon",Peru,3,,Bulgaria,2,,"[50, 55, 73]",[],[],"[13, 49]",[],[],home,,away,,
+1970,Mexico,1970.6.2,Group stage,20654,"Cuauhtemoc, Puebla",Uruguay,2,,Israel,0,,"[23, 50]",[],[],[],[],[],home,,home,,
+1970,Mexico,1970.5.31,Group stage,107160,"Estadio Azteca, Mexico City",Mexico,0,,Soviet Union,0,,[],[],[],[],[],[],draw,,,,
+1966,England,1966.7.30,Final,96924,"Wembley Stadium, London",England,4,,West Germany,2,,"[18, 78, 101, 120]",[],[],"[12, 89]",[],[],home,,away,,
+1966,England,1966.7.28,Third-place match,87696,"Wembley Stadium, London",Portugal,2,,Soviet Union,1,,[89],[],[12],[43],[],[],home,,away,,
+1966,England,1966.7.26,Semi-finals,94493,"Wembley Stadium, London",England,2,,Portugal,1,,"[30, 80]",[],[],[],[],[82],home,,home,,
+1966,England,1966.7.25,Semi-finals,38273,"Goodison Park, Liverpool",West Germany,2,,Soviet Union,1,,"[43, 67]",[],[],[88],[],[],home,,home,,
+1966,England,1966.7.23,Quarter-finals,40248,"Goodison Park, Liverpool",Portugal,5,,Korea DPR,3,,"[27, 56, 80]",[],"[43, 59]","[1, 22, 25]",[],[],home,,away,,
+1966,England,1966.7.23,Quarter-finals,90584,"Wembley Stadium, London",England,1,,Argentina,0,,[78],[],[],[],[],[],home,,home,,
+1966,England,1966.7.23,Quarter-finals,26844,"Roker Park Ground, Sunderland",Soviet Union,2,,Hungary,1,,"[5, 46]",[],[],[57],[],[],home,,home,,
+1966,England,1966.7.23,Quarter-finals,40007,"Hillsborough, Sheffield",West Germany,4,,Uruguay,0,,"[11, 70, 75, 83]",[],[],[],[],[],home,,home,,
+1966,England,1966.7.20,Group stage,98270,"Wembley Stadium, London",England,2,,France,0,,"[38, 75]",[],[],[],[],[],home,,home,,
+1966,England,1966.7.20,Group stage,24129,"Old Trafford Stadium, Manchester",Hungary,3,,Bulgaria,1,,"[45, 54]",[43],[],[15],[],[],home,,away,,
+1966,England,1966.7.20,Group stage,42187,"Villa Park, Birmingham",West Germany,2,,Spain,1,,"[38, 84]",[],[],[22],[],[],home,,away,,
+1966,England,1966.7.20,Group stage,16027,"Roker Park Ground, Sunderland",Soviet Union,2,,Chile,1,,"[28, 85]",[],[],[32],[],[],home,,home,,
+1966,England,1966.7.19,Group stage,61112,"Wembley Stadium, London",Uruguay,0,,Mexico,0,,[],[],[],[],[],[],draw,,,,
+1966,England,1966.7.19,Group stage,32127,"Hillsborough, Sheffield",Argentina,2,,Switzerland,0,,"[53, 81]",[],[],[],[],[],home,,home,,
+1966,England,1966.7.19,Group stage,58479,"Goodison Park, Liverpool",Portugal,3,,Brazil,1,,"[15, 27, 85]",[],[],[73],[],[],home,,home,,
+1966,England,1966.7.19,Group stage,17829,"Ayresome Park, Middlesbrough",Korea DPR,1,,Italy,0,,[42],[],[],[],[],[],home,,home,,
+1966,England,1966.7.16,Group stage,46587,"Villa Park, Birmingham",West Germany,0,,Argentina,0,,[],[],[],[],[],[],draw,,,,
+1966,England,1966.7.16,Group stage,27793,"Roker Park Ground, Sunderland",Soviet Union,1,,Italy,0,,[57],[],[],[],[],[],home,,home,,
+1966,England,1966.7.16,Group stage,25438,"Old Trafford Stadium, Manchester",Portugal,3,,Bulgaria,0,,"[38, 81]",[17],[],[],[],[],home,,home,,
+1966,England,1966.7.16,Group stage,92570,"Wembley Stadium, London",England,2,,Mexico,0,,"[37, 75]",[],[],[],[],[],home,,home,,
+1966,England,1966.7.15,Group stage,32028,"Hillsborough, Sheffield",Spain,2,,Switzerland,1,,"[57, 75]",[],[],[28],[],[],home,,away,,
+1966,England,1966.7.15,Group stage,45662,"White City, London",Uruguay,2,,France,1,,"[26, 31]",[],[],[],[],[15],home,,away,,
+1966,England,1966.7.15,Group stage,51387,"Goodison Park, Liverpool",Hungary,3,,Brazil,1,,"[2, 64]",[],[73],[14],[],[],home,,home,,
+1966,England,1966.7.15,Group stage,13792,"Ayresome Park, Middlesbrough",Korea DPR,1,,Chile,1,,[88],[],[],[],[],[26],draw,,away,,
+1966,England,1966.7.13,Group stage,42738,"Villa Park, Birmingham",Argentina,2,,Spain,1,,"[65, 79]",[],[],[71],[],[],home,,home,,
+1966,England,1966.7.13,Group stage,69237,"Wembley Stadium, London",France,1,,Mexico,1,,[62],[],[],[48],[],[],draw,,away,,
+1966,England,1966.7.13,Group stage,27199,"Roker Park Ground, Sunderland",Italy,2,,Chile,0,,"[8, 88]",[],[],[],[],[],home,,home,,
+1966,England,1966.7.13,Group stage,29886,"Old Trafford Stadium, Manchester",Portugal,3,,Hungary,1,,"[2, 67, 90]",[],[],[60],[],[],home,,home,,
+1966,England,1966.7.12,Group stage,47308,"Goodison Park, Liverpool",Brazil,2,,Bulgaria,0,,"[15, 63]",[],[],[],[],[],home,,home,,
+1966,England,1966.7.12,Group stage,23006,"Ayresome Park, Middlesbrough",Soviet Union,3,,Korea DPR,0,,"[31, 33, 88]",[],[],[],[],[],home,,home,,
+1966,England,1966.7.12,Group stage,36127,"Hillsborough, Sheffield",West Germany,5,,Switzerland,0,,"[15, 20, 39, 52]",[],[77],[],[],[],home,,home,,
+1966,England,1966.7.11,Group stage,87148,"Wembley Stadium, London",England,0,,Uruguay,0,,[],[],[],[],[],[],draw,,,,
+1962,Chile,1962.6.17,Final,68679,"Nacional, Santiago De Chile",Brazil,3,,Czechoslovakia,1,,"[17, 69, 78]",[],[],[15],[],[],home,,away,,
+1962,Chile,1962.6.16,Third-place match,66697,"Nacional, Santiago De Chile",Chile,1,,Yugoslavia,0,,[90],[],[],[],[],[],home,,home,,
+1962,Chile,1962.6.13,Semi-finals,76594,"Nacional, Santiago De Chile",Brazil,4,,Chile,2,,"[9, 32, 47, 78]",[],[],[42],[],[61],home,,home,,
+1962,Chile,1962.6.13,Semi-finals,5890,"Estadio Sausalito, Vina Del Mar",Czechoslovakia,3,,Yugoslavia,1,,"[48, 80]",[],[84],[69],[],[],home,,home,,
+1962,Chile,1962.6.10,Quarter-finals,17268,"Carlos Dittborn, Arica",Chile,2,,Soviet Union,1,,"[11, 29]",[],[],[26],[],[],home,,home,,
+1962,Chile,1962.6.10,Quarter-finals,17736,"Estadio Sausalito, Vina Del Mar",Brazil,3,,England,1,,"[31, 53, 59]",[],[],[38],[],[],home,,home,,
+1962,Chile,1962.6.10,Quarter-finals,11690,"Estadio El Teniente-Codelco, Rancagua",Czechoslovakia,1,,Hungary,0,,[13],[],[],[],[],[],home,,home,,
+1962,Chile,1962.6.10,Quarter-finals,63324,"Nacional, Santiago De Chile",Yugoslavia,1,,West Germany,0,,[85],[],[],[],[],[],home,,home,,
+1962,Chile,1962.6.7,Group stage,5700,"Estadio El Teniente-Codelco, Rancagua",England,0,,Bulgaria,0,,[],[],[],[],[],[],draw,,,,
+1962,Chile,1962.6.7,Group stage,10648,"Estadio Sausalito, Vina Del Mar",Mexico,3,,Czechoslovakia,1,,"[12, 29]",[],[90],[1],[],[],home,,away,,
+1962,Chile,1962.6.7,Group stage,59828,"Nacional, Santiago De Chile",Italy,3,,Switzerland,0,,"[2, 65, 67]",[],[],[],[],[],home,,home,,
+1962,Chile,1962.6.7,Group stage,7167,"Carlos Dittborn, Arica",Yugoslavia,5,,Colombia,0,,"[20, 25, 61, 82, 87]",[],[],[],[],[],home,,home,,
+1962,Chile,1962.6.6,Group stage,67224,"Nacional, Santiago De Chile",West Germany,2,,Chile,0,,[82],[],[21],[],[],[],home,,home,,
+1962,Chile,1962.6.6,Group stage,9973,"Carlos Dittborn, Arica",Soviet Union,2,,Uruguay,1,,"[38, 89]",[],[],[54],[],[],home,,home,,
+1962,Chile,1962.6.6,Group stage,7945,"Estadio El Teniente-Codelco, Rancagua",Hungary,0,,Argentina,0,,[],[],[],[],[],[],draw,,,,
+1962,Chile,1962.6.6,Group stage,18715,"Estadio Sausalito, Vina Del Mar",Brazil,2,,Spain,1,,"[72, 86]",[],[],[35],[],[],home,,away,,
+1962,Chile,1962.6.3,Group stage,11875,"Estadio Sausalito, Vina Del Mar",Spain,1,,Mexico,0,,[90],[],[],[],[],[],home,,home,,
+1962,Chile,1962.6.3,Group stage,8040,"Carlos Dittborn, Arica",Soviet Union,4,,Colombia,4,,"[8, 10, 11, 56]",[],[],"[21, 68, 72, 76]",[],[],draw,,home,,
+1962,Chile,1962.6.3,Group stage,7442,"Estadio El Teniente-Codelco, Rancagua",Hungary,6,,Bulgaria,1,,"[1, 6, 8, 12, 53, 70]",[],[],[64],[],[],home,,home,,
+1962,Chile,1962.6.3,Group stage,64922,"Nacional, Santiago De Chile",West Germany,2,,Switzerland,1,,"[45, 59]",[],[],[73],[],[],home,,home,,
+1962,Chile,1962.6.2,Group stage,66057,"Nacional, Santiago De Chile",Chile,2,,Italy,0,,"[73, 87]",[],[],[],[],[],home,,home,,
+1962,Chile,1962.6.2,Group stage,14903,"Estadio Sausalito, Vina Del Mar",Brazil,0,,Czechoslovakia,0,,[],[],[],[],[],[],draw,,,,
+1962,Chile,1962.6.2,Group stage,9794,"Estadio El Teniente-Codelco, Rancagua",England,3,,Argentina,1,,"[42, 67]",[],[17],[81],[],[],home,,home,,
+1962,Chile,1962.6.2,Group stage,8829,"Carlos Dittborn, Arica",Yugoslavia,3,,Uruguay,1,,"[29, 49]",[],[25],[19],[],[],home,,away,,
+1962,Chile,1962.5.31,Group stage,65440,"Nacional, Santiago De Chile",West Germany,0,,Italy,0,,[],[],[],[],[],[],draw,,,,
+1962,Chile,1962.5.31,Group stage,7938,"Estadio El Teniente-Codelco, Rancagua",Hungary,2,,England,1,,"[17, 71]",[],[],[],[],[60],home,,home,,
+1962,Chile,1962.5.31,Group stage,12700,"Estadio Sausalito, Vina Del Mar",Czechoslovakia,1,,Spain,0,,[80],[],[],[],[],[],home,,home,,
+1962,Chile,1962.5.31,Group stage,9622,"Carlos Dittborn, Arica",Soviet Union,2,,Yugoslavia,0,,"[51, 83]",[],[],[],[],[],home,,home,,
+1962,Chile,1962.5.30,Group stage,65006,"Nacional, Santiago De Chile",Chile,3,,Switzerland,1,,"[44, 51, 55]",[],[],[6],[],[],home,,away,,
+1962,Chile,1962.5.30,Group stage,7908,"Carlos Dittborn, Arica",Uruguay,2,,Colombia,1,,"[56, 75]",[],[],[],[],[19],home,,away,,
+1962,Chile,1962.5.30,Group stage,10484,"Estadio Sausalito, Vina Del Mar",Brazil,2,,Mexico,0,,"[56, 73]",[],[],[],[],[],home,,home,,
+1962,Chile,1962.5.30,Group stage,7134,"Estadio El Teniente-Codelco, Rancagua",Argentina,1,,Bulgaria,0,,[4],[],[],[],[],[],home,,home,,
+1958,Sweden,1958.6.29,Final,49737,"Rasunda Stadium, Solna",Brazil,5,,Sweden,2,,"[9, 32, 55, 68, 90]",[],[],"[4, 80]",[],[],home,,away,,
+1958,Sweden,1958.6.28,Third-place match,32483,"Nya Ullevi, Gothenburg",France,6,,West Germany,3,,"[16, 36, 50, 78, 89]",[],[27],"[18, 52, 84]",[],[],home,,home,,
+1958,Sweden,1958.6.24,Semi-finals,49471,"Nya Ullevi, Gothenburg",Sweden,3,,West Germany,1,,"[32, 81, 88]",[],[],[24],[],[],home,,away,,
+1958,Sweden,1958.6.24,Semi-finals,27100,"Rasunda Stadium, Solna",Brazil,5,,France,2,,"[2, 39, 52, 64, 75]",[],[],"[9, 83]",[],[],home,,home,,
+1958,Sweden,1958.6.19,Quarter-finals,11800,"Idrottsparken, Norrkï¿½Ping",France,4,,Northern Ireland,0,,"[44, 55, 63, 68]",[],[],[],[],[],home,,home,,
+1958,Sweden,1958.6.19,Quarter-finals,20055,"Malmo Stadion, Malmï¿½",West Germany,1,,Yugoslavia,0,,[12],[],[],[],[],[],home,,home,,
+1958,Sweden,1958.6.19,Quarter-finals,25923,"Nya Ullevi, Gothenburg",Brazil,1,,Wales,0,,[66],[],[],[],[],[],home,,home,,
+1958,Sweden,1958.6.19,Quarter-finals,31900,"Rasunda Stadium, Solna",Sweden,2,,Soviet Union,0,,"[49, 88]",[],[],[],[],[],home,,home,,
+1958,Sweden,1958.6.17,Group stage play-off,6196,"Malmo Stadion, Malmï¿½",Northern Ireland,2,,Czechoslovakia,1,,"[44, 99]",[],[],[19],[],[],home,,away,,
+1958,Sweden,1958.6.17,Group stage play-off,2823,"Rasunda Stadium, Solna",Wales,2,,Hungary,1,,"[55, 76]",[],[],[33],[],[],home,,away,,
+1958,Sweden,1958.6.17,Group stage play-off,23182,"Nya Ullevi, Gothenburg",Soviet Union,1,,England,0,,[68],[],[],[],[],[],home,,home,,
+1958,Sweden,1958.6.15,Group stage,30287,"Rasunda Stadium, Solna",Sweden,0,,Wales,0,,[],[],[],[],[],[],draw,,,,
+1958,Sweden,1958.6.15,Group stage,13103,"Tunavallen, Eskilstuna",Paraguay,3,,Yugoslavia,3,,"[20, 49, 80]",[],[],"[12, 29, 73]",[],[],draw,,away,,
+1958,Sweden,1958.6.15,Group stage,21990,"Malmo Stadion, Malmï¿½",West Germany,2,,Northern Ireland,2,,"[20, 79]",[],[],"[19, 60]",[],[],draw,,away,,
+1958,Sweden,1958.6.15,Group stage,16418,"Olympia Stadium, Helsingborg",Czechoslovakia,6,,Argentina,1,,"[8, 17, 40, 69, 82, 89]",[],[],[],[],[65],home,,home,,
+1958,Sweden,1958.6.15,Group stage,15872,"Ryavallen, Boras",England,2,,Austria,2,,"[56, 73]",[],[],"[16, 70]",[],[],draw,,away,,
+1958,Sweden,1958.6.15,Group stage,50928,"Nya Ullevi, Gothenburg",Brazil,2,,Soviet Union,0,,"[3, 77]",[],[],[],[],[],home,,home,,
+1958,Sweden,1958.6.15,Group stage,13300,"Jarnvallen, Sandviken",Hungary,4,,Mexico,0,,"[19, 46, 54, 69]",[],[],[],[],[],home,,home,,
+1958,Sweden,1958.6.15,Group stage,13554,"Eyravallen, Orebro",France,2,,Scotland,1,,"[22, 44]",[],[],[66],[],[],home,,home,,
+1958,Sweden,1958.6.12,Group stage,38850,"Rasunda Stadium, Solna",Sweden,2,,Hungary,1,,"[34, 55]",[],[],[77],[],[],home,,home,,
+1958,Sweden,1958.6.11,Group stage,21239,"Ryavallen, Boras",Soviet Union,2,,Austria,0,,"[15, 63]",[],[],[],[],[],home,,home,,
+1958,Sweden,1958.6.11,Group stage,25000,"Olympia Stadium, Helsingborg",West Germany,2,,Czechoslovakia,2,,"[59, 70]",[],[],[43],[],[24],draw,,away,,
+1958,Sweden,1958.6.11,Group stage,14174,"Orjans Vall, Halmstad",Argentina,3,,Northern Ireland,1,,"[55, 59]",[],[38],[3],[],[],home,,away,,
+1958,Sweden,1958.6.11,Group stage,12217,"Arosvallen, Vasteras",Yugoslavia,3,,France,2,,"[16, 63, 88]",[],[],"[4, 85]",[],[],home,,away,,
+1958,Sweden,1958.6.11,Group stage,11665,"Idrottsparken, Norrkï¿½Ping",Paraguay,3,,Scotland,2,,"[4, 45, 73]",[],[],"[24, 76]",[],[],home,,home,,
+1958,Sweden,1958.6.11,Group stage,40895,"Nya Ullevi, Gothenburg",Brazil,0,,England,0,,[],[],[],[],[],[],draw,,,,
+1958,Sweden,1958.6.11,Group stage,15150,"Rasunda Stadium, Solna",Mexico,1,,Wales,1,,[89],[],[],[32],[],[],draw,,away,,
+1958,Sweden,1958.6.8,Group stage,34107,"Rasunda Stadium, Solna",Sweden,3,,Mexico,0,,"[17, 64]",[],[57],[],[],[],home,,home,,
+1958,Sweden,1958.6.8,Group stage,10647,"Orjans Vall, Halmstad",Northern Ireland,1,,Czechoslovakia,0,,[20],[],[],[],[],[],home,,home,,
+1958,Sweden,1958.6.8,Group stage,15343,"Jarnvallen, Sandviken",Hungary,1,,Wales,1,,[5],[],[],[27],[],[],draw,,home,,
+1958,Sweden,1958.6.8,Group stage,9591,"Arosvallen, Vasteras",Yugoslavia,1,,Scotland,1,,[6],[],[],[49],[],[],draw,,home,,
+1958,Sweden,1958.6.8,Group stage,17788,"Rimnersvallen, Udevalla",Brazil,3,,Austria,0,,"[38, 49, 89]",[],[],[],[],[],home,,home,,
+1958,Sweden,1958.6.8,Group stage,49348,"Nya Ullevi, Gothenburg",Soviet Union,2,,England,2,,"[13, 55]",[],[],[66],[],[85],draw,,home,,
+1958,Sweden,1958.6.8,Group stage,16518,"Idrottsparken, Norrkï¿½Ping",France,7,,Paraguay,3,,"[24, 30, 52, 61, 67, 70, 83]",[],[],"[20, 50]",[],[44],home,,away,,
+1958,Sweden,1958.6.8,Group stage,31156,"Malmo Stadion, Malmï¿½",Argentina,1,,West Germany,3,,[2],[],[],"[32, 40, 79]",[],[],away,,home,,
+1954,Switzerland,1954.7.4,Final,62500,"Wankdorf Stadium, Berne",Germany,3,,Hungary,2,,"[10, 18, 84]",[],[],"[6, 8]",[],[],home,,away,,
+1954,Switzerland,1954.7.3,Third-place match,32000,"Hardturm, Zurich",Austria,3,,Uruguay,1,,[79],[59],[16],[22],[],[],home,,away,,
+1954,Switzerland,1954.6.30,Semi-finals,45000,"La Pontaise, Lausanne",Hungary,4,,Uruguay,2,,"[12, 47, 109, 116]",[],[],"[75, 86]",[],[],home,,home,,
+1954,Switzerland,1954.6.30,Semi-finals,58000,"St. Jakob, Basel",Germany,6,,Austria,1,,"[31, 47, 61, 89]",[],"[54, 64]",[51],[],[],home,,home,,
+1954,Switzerland,1954.6.27,Quarter-finals,17000,"Charmilles, Geneva",Germany,2,,Yugoslavia,0,,[85],[9],[],[],[],[],home,,home,,
+1954,Switzerland,1954.6.27,Quarter-finals,40000,"Wankdorf Stadium, Berne",Hungary,4,,Brazil,2,,"[4, 7, 88]",[],[60],[65],[],[18],home,,home,,
+1954,Switzerland,1954.6.26,Quarter-finals,28000,"St. Jakob, Basel",Uruguay,4,,England,2,,"[5, 39, 46, 78]",[],[],"[16, 67]",[],[],home,,home,,
+1954,Switzerland,1954.6.26,Quarter-finals,35000,"La Pontaise, Lausanne",Switzerland,5,,Austria,7,,"[16, 17, 19, 39, 60]",[],[],"[25, 26, 27, 32, 34, 53, 76]",[],[],away,,home,,
+1954,Switzerland,1954.6.23,Group stage play-off,17000,"Hardturm, Zurich",Germany,7,,Türkiye,2,,"[7, 12, 30, 60, 62, 77, 79]",[],[],"[21, 82]",[],[],home,,home,,
+1954,Switzerland,1954.6.23,Group stage play-off,30000,"St. Jakob, Basel",Switzerland,4,,Italy,1,,"[14, 48, 85, 90]",[],[],[67],[],[],home,,home,,
+1954,Switzerland,1954.6.20,Group stage,56000,"St. Jakob, Basel",Hungary,8,,Germany,3,,"[3, 17, 21, 52, 54, 69, 75, 78]",[],[],"[25, 77, 84]",[],[],home,,home,,
+1954,Switzerland,1954.6.20,Group stage,4000,"Charmilles, Geneva",Türkiye,7,,Korea Republic,0,,"[10, 18, 30, 37, 64, 70, 76]",[],[],[],[],[],home,,home,,
+1954,Switzerland,1954.6.20,Group stage,24000,"Comunale di Cornaredo, Lugano",Italy,4,,Belgium,1,,"[48, 58, 78]",[],[41],[81],[],[],home,,home,,
+1954,Switzerland,1954.6.20,Group stage,43500,"Wankdorf Stadium, Berne",Switzerland,0,,England,2,,[],[],[],"[43, 69]",[],[],away,,away,,
+1954,Switzerland,1954.6.19,Group stage,34000,"St. Jakob, Basel",Uruguay,7,,Scotland,0,,"[17, 30, 47, 54, 57, 83, 85]",[],[],[],[],[],home,,home,,
+1954,Switzerland,1954.6.19,Group stage,24637,"La Pontaise, Lausanne",Brazil,1,,Yugoslavia,1,,[69],[],[],[48],[],[],draw,,away,,
+1954,Switzerland,1954.6.19,Group stage,26000,"Hardturm, Zurich",Austria,5,,Czechoslovakia,0,,"[3, 4, 21, 24, 65]",[],[],[],[],[],home,,home,,
+1954,Switzerland,1954.6.19,Group stage,19000,"Charmilles, Geneva",France,3,,Mexico,2,,[19],[46],[88],"[54, 85]",[],[],home,,home,,
+1954,Switzerland,1954.6.17,Group stage,43000,"La Pontaise, Lausanne",Switzerland,2,,Italy,1,,"[18, 78]",[],[],[44],[],[],home,,home,,
+1954,Switzerland,1954.6.17,Group stage,13000,"Hardturm, Zurich",Hungary,9,,Korea Republic,0,,"[12, 18, 24, 36, 50, 59, 75, 83, 89]",[],[],[],[],[],home,,home,,
+1954,Switzerland,1954.6.17,Group stage,28000,"Wankdorf Stadium, Berne",Germany,4,,Türkiye,1,,"[14, 52, 60, 84]",[],[],[2],[],[],home,,away,,
+1954,Switzerland,1954.6.17,Group stage,14000,"St. Jakob, Basel",England,4,,Belgium,4,,"[26, 36, 63, 91]",[],[],"[5, 67, 71]",[94],[],draw,,away,,
+1954,Switzerland,1954.6.16,Group stage,20500,"Wankdorf Stadium, Berne",Uruguay,2,,Czechoslovakia,0,,"[71, 84]",[],[],[],[],[],home,,home,,
+1954,Switzerland,1954.6.16,Group stage,16000,"La Pontaise, Lausanne",Yugoslavia,1,,France,0,,[15],[],[],[],[],[],home,,home,,
+1954,Switzerland,1954.6.16,Group stage,13470,"Charmilles, Geneva",Brazil,5,,Mexico,0,,"[23, 30, 34, 43, 69]",[],[],[],[],[],home,,home,,
+1954,Switzerland,1954.6.16,Group stage,25000,"Hardturm, Zurich",Austria,1,,Scotland,0,,[33],[],[],[],[],[],home,,home,,
+1950,Brazil,1950.7.16,Final stage,11227,"Pacaembu, Sao Paulo",Sweden,3,,Spain,1,,"[15, 33, 80]",[],[],[82],[],[],home,,home,,
+1950,Brazil,1950.7.16,Final stage,173850,"Maracanï¿½ - Estï¿½dio Jornalista Mï¿½rio Filho, Rio De Janeiro",Uruguay,2,,Brazil,1,,"[66, 79]",[],[],[47],[],[],home,,away,,
+1950,Brazil,1950.7.13,Final stage,152772,"Maracanï¿½ - Estï¿½dio Jornalista Mï¿½rio Filho, Rio De Janeiro",Brazil,6,,Spain,1,,"[21, 31, 55, 57, 67]",[15],[],[71],[],[],home,,home,,
+1950,Brazil,1950.7.13,Final stage,7987,"Pacaembu, Sao Paulo",Uruguay,3,,Sweden,2,,"[39, 77, 85]",[],[],"[5, 40]",[],[],home,,away,,
+1950,Brazil,1950.7.9,Final stage,138886,"Maracanï¿½ - Estï¿½dio Jornalista Mï¿½rio Filho, Rio De Janeiro",Brazil,7,,Sweden,1,,"[17, 36, 39, 52, 58, 85, 88]",[],[],[],[],[67],home,,home,,
+1950,Brazil,1950.7.9,Final stage,44802,"Pacaembu, Sao Paulo",Uruguay,2,,Spain,2,,"[29, 73]",[],[],"[37, 39]",[],[],draw,,home,,
+1950,Brazil,1950.7.2,Group stage,8501,"Ilha do Retiro, Recife",Chile,5,,United States,2,,"[16, 32, 54, 60, 82]",[],[],[47],[],[48],home,,home,,
+1950,Brazil,1950.7.2,Group stage,25811,"Pacaembu, Sao Paulo",Italy,2,,Paraguay,0,,"[12, 63]",[],[],[],[],[],home,,home,,
+1950,Brazil,1950.7.2,Group stage,5284,"Independencia, Belo Horizonte",Uruguay,8,,Bolivia,0,,"[14, 18, 23, 40, 51, 54, 83, 87]",[],[],[],[],[],home,,home,,
+1950,Brazil,1950.7.2,Group stage,74462,"Maracanï¿½ - Estï¿½dio Jornalista Mï¿½rio Filho, Rio De Janeiro",Spain,1,,England,0,,[48],[],[],[],[],[],home,,home,,
+1950,Brazil,1950.7.2,Group stage,3580,"Eucaliptos, Porto Alegre",Switzerland,2,,Mexico,1,,"[10, 44]",[],[],[89],[],[],home,,home,,
+1950,Brazil,1950.7.1,Group stage,142429,"Maracanï¿½ - Estï¿½dio Jornalista Mï¿½rio Filho, Rio De Janeiro",Brazil,2,,Yugoslavia,0,,"[4, 69]",[],[],[],[],[],home,,home,,
+1950,Brazil,1950.6.29,Group stage,19790,"Maracanï¿½ - Estï¿½dio Jornalista Mï¿½rio Filho, Rio De Janeiro",Spain,2,,Chile,0,,"[17, 30]",[],[],[],[],[],home,,home,,
+1950,Brazil,1950.6.29,Group stage,10151,"Independencia, Belo Horizonte",United States,1,,England,0,,[38],[],[],[],[],[],home,,home,,
+1950,Brazil,1950.6.29,Group stage,7903,"Durival de Brito, Curitiba",Sweden,2,,Paraguay,2,,"[17, 26]",[],[],"[35, 74]",[],[],draw,,home,,
+1950,Brazil,1950.6.28,Group stage,42032,"Pacaembu, Sao Paulo",Brazil,2,,Switzerland,2,,"[3, 32]",[],[],"[17, 88]",[],[],draw,,home,,
+1950,Brazil,1950.6.28,Group stage,11078,"Eucaliptos, Porto Alegre",Yugoslavia,4,,Mexico,1,,"[20, 23, 51, 81]",[],[],[],[],[89],home,,home,,
+1950,Brazil,1950.6.25,Group stage,36502,"Pacaembu, Sao Paulo",Sweden,3,,Italy,2,,"[25, 34, 69]",[],[],"[7, 78]",[],[],home,,away,,
+1950,Brazil,1950.6.25,Group stage,29703,"Maracanï¿½ - Estï¿½dio Jornalista Mï¿½rio Filho, Rio De Janeiro",England,2,,Chile,0,,"[39, 51]",[],[],[],[],[],home,,home,,
+1950,Brazil,1950.6.25,Group stage,9511,"Durival de Brito, Curitiba",Spain,3,,United States,1,,"[81, 83, 89]",[],[],[17],[],[],home,,away,,
+1950,Brazil,1950.6.25,Group stage,7336,"Independencia, Belo Horizonte",Yugoslavia,3,,Switzerland,0,,"[59, 70, 84]",[],[],[],[],[],home,,home,,
+1950,Brazil,1950.6.24,Group stage,81649,"Maracanï¿½ - Estï¿½dio Jornalista Mï¿½rio Filho, Rio De Janeiro",Brazil,4,,Mexico,0,,"[30, 65, 71, 79]",[],[],[],[],[],home,,home,,
+1938,France,1938.6.19,Third-place match,12000,"Stade du Parc Lescure, Bordeaux",Brazil,4,,Sweden,2,,"[44, 63, 74, 80]",[],[],"[28, 38]",[],[],home,,away,,
+1938,France,1938.6.19,Final,45000,"Stade Olympique, Colombes",Italy,4,,Hungary,2,,"[6, 16, 35, 82]",[],[],"[8, 70]",[],[],home,,home,,
+1938,France,1938.6.16,Semi-finals,20000,"Parc des Princes, Paris",Hungary,5,,Sweden,1,,"[37, 39, 65, 85]",[19],[],[1],[],[],home,,away,,
+1938,France,1938.6.16,Semi-finals,33000,"Stade Vï¿½lodrome, Marseilles",Italy,2,,Brazil,1,,[51],[],[60],[87],[],[],home,,home,,
+1938,France,1938.6.14,Quarter-finals,18141,"Stade du Parc Lescure, Bordeaux",Brazil,2,,Czechoslovakia,1,,"[57, 63]",[],[],[25],[],[],home,,away,,
+1938,France,1938.6.12,Quarter-finals,7000,"Fort Carree, Antibes",Sweden,8,,Cuba,0,,"[9, 22, 37, 44, 80, 81, 84, 89]",[],[],[],[],[],home,,home,,
+1938,France,1938.6.12,Quarter-finals,22021,"Stade du Parc Lescure, Bordeaux",Brazil,1,,Czechoslovakia,1,,[30],[],[],[],[],[65],draw,,home,,
+1938,France,1938.6.12,Quarter-finals,15000,"Victor Boucquey, Lille",Hungary,2,,Switzerland,0,,"[40, 89]",[],[],[],[],[],home,,home,,
+1938,France,1938.6.12,Quarter-finals,58455,"Stade Olympique, Colombes",Italy,3,,France,1,,"[9, 51, 72]",[],[],[10],[],[],home,,home,,
+1938,France,1938.6.9,Round of 16,20025,"Parc des Princes, Paris",Switzerland,4,,Germany,2,,"[42, 64, 75, 78]",[],[],[8],[22],[],home,,away,,
+1938,France,1938.6.9,Round of 16,8000,"Stade Municipal, Toulouse",Cuba,2,,Romania,1,,"[51, 57]",[],[],[35],[],[],home,,away,,
+1938,France,1938.6.5,Round of 16,19000,"Stade Vï¿½lodrome, Marseilles",Italy,2,,Norway,1,,"[2, 94]",[],[],[83],[],[],home,,home,,
+1938,France,1938.6.5,Round of 16,7000,"Stade Municipal, Toulouse",Cuba,3,,Romania,3,,"[44, 69, 103]",[],[],"[35, 88, 105]",[],[],draw,,away,,
+1938,France,1938.6.5,Round of 16,9000,"Velodrome Municipale, Reims",Hungary,6,,Dutch East Indies,0,,"[13, 15, 28, 35, 76, 89]",[],[],[],[],[],home,,home,,
+1938,France,1938.6.5,Round of 16,30454,"Stade Olympique, Colombes",France,3,,Belgium,1,,"[1, 16, 69]",[],[],[38],[],[],home,,home,,
+1938,France,1938.6.5,Round of 16,13452,"Stade de la Meinau, Strasbourg",Brazil,6,,Poland,5,,"[18, 25, 44, 71, 93, 104]",[],[],"[53, 59, 89, 118]",[],[23],home,,home,,
+1938,France,1938.6.5,Round of 16,11000,"Cavee Verte, Le Havre",Czechoslovakia,3,,Netherlands,0,,"[93, 111, 118]",[],[],[],[],[],home,,home,,
+1938,France,1938.6.4,Round of 16,27152,"Parc des Princes, Paris",Switzerland,1,,Germany,1,,[43],[],[],[29],[],[],draw,,away,,
+1934,Italy,1934.6.10,Final,55000,"Nazionale PNF, Rome",Italy,2,,Czechoslovakia,1,,"[81, 95]",[],[],[71],[],[],home,,away,,
+1934,Italy,1934.6.7,Third-place match,7000,"Giorgio Ascarelli, Naples",Germany,3,,Austria,2,,"[1, 27, 42]",[],[],"[28, 54]",[],[],home,,home,,
+1934,Italy,1934.6.3,Semi-finals,15000,"Nazionale PNF, Rome",Czechoslovakia,3,,Germany,1,,"[21, 69, 80]",[],[],[62],[],[],home,,home,,
+1934,Italy,1934.6.3,Semi-finals,35000,"San Siro, Milan",Italy,1,,Austria,0,,[19],[],[],[],[],[],home,,home,,
+1934,Italy,1934.6.1,Quarter-finals,43000,"Giovanni Berta, Florence",Italy,1,,Spain,0,,[11],[],[],[],[],[],home,,home,,
+1934,Italy,1934.5.31,Quarter-finals,23000,"Littorale, Bologna",Austria,2,,Hungary,1,,"[8, 51]",[],[],[],[],[60],home,,home,,
+1934,Italy,1934.5.31,Quarter-finals,12000,"Stadio Benito Mussolini, Turin",Czechoslovakia,3,,Switzerland,2,,"[24, 49, 82]",[],[],"[18, 78]",[],[],home,,away,,
+1934,Italy,1934.5.31,Quarter-finals,35000,"Giovanni Berta, Florence",Italy,1,,Spain,1,,[44],[],[],[30],[],[],draw,,away,,
+1934,Italy,1934.5.31,Quarter-finals,3000,"San Siro, Milan",Germany,2,,Sweden,1,,"[60, 63]",[],[],[82],[],[],home,,home,,
+1934,Italy,1934.5.27,Round of 16,9000,"Littorio, Trieste",Czechoslovakia,2,,Romania,1,,"[50, 67]",[],[],[11],[],[],home,,away,,
+1934,Italy,1934.5.27,Round of 16,9000,"Giorgio Ascarelli, Naples",Hungary,4,,Egypt,2,,"[11, 31, 53, 61]",[],[],"[35, 39]",[],[],home,,home,,
+1934,Italy,1934.5.27,Round of 16,16000,"Stadio Benito Mussolini, Turin",Austria,3,,France,2,,"[44, 93, 109]",[],[],[18],[],[116],home,,away,,
+1934,Italy,1934.5.27,Round of 16,33000,"San Siro, Milan",Switzerland,3,,Netherlands,2,,"[7, 43, 66]",[],[],"[29, 69]",[],[],home,,home,,
+1934,Italy,1934.5.27,Round of 16,14000,"Littorale, Bologna",Sweden,3,,Argentina,2,,"[9, 67, 79]",[],[],"[4, 48]",[],[],home,,away,,
+1934,Italy,1934.5.27,Round of 16,21000,"Luigi Ferraris, Genoa",Spain,3,,Brazil,1,,"[25, 29]",[],[18],[55],[],[],home,,home,,
+1934,Italy,1934.5.27,Round of 16,8000,"Giovanni Berta, Florence",Germany,5,,Belgium,2,,"[25, 49, 66, 70, 87]",[],[],"[29, 43]",[],[],home,,home,,
+1934,Italy,1934.5.27,Round of 16,25000,"Nazionale PNF, Rome",Italy,7,,United States,1,,"[18, 20, 29, 63, 64, 69, 90]",[],[],[57],[],[],home,,home,,
+1930,Uruguay,1930.7.30,Final,68346,"Estadio Centenario, Montevideo",Uruguay,4,,Argentina,2,,"[12, 57, 68, 89]",[],[],"[20, 37]",[],[],home,,home,,
+1930,Uruguay,1930.7.27,Semi-finals,79867,"Estadio Centenario, Montevideo",Uruguay,6,,Yugoslavia,1,,"[18, 20, 31, 61, 67, 72]",[],[],[4],[],[],home,,away,,
+1930,Uruguay,1930.7.26,Semi-finals,72886,"Estadio Centenario, Montevideo",Argentina,6,,United States,1,,"[20, 56, 69, 80, 85, 87]",[],[],[89],[],[],home,,home,,
+1930,Uruguay,1930.7.22,Group stage,41459,"Estadio Centenario, Montevideo",Argentina,3,,Chile,1,,"[12, 13, 51]",[],[],[15],[],[],home,,home,,
+1930,Uruguay,1930.7.21,Group stage,70022,"Estadio Centenario, Montevideo",Uruguay,4,,Romania,0,,"[7, 24, 30, 35]",[],[],[],[],[],home,,home,,
+1930,Uruguay,1930.7.20,Group stage,25466,"Estadio Centenario, Montevideo",Brazil,4,,Bolivia,0,,"[37, 67, 73, 83]",[],[],[],[],[],home,,home,,
+1930,Uruguay,1930.7.20,Group stage,12000,"Estadio Centenario, Montevideo",Paraguay,1,,Belgium,0,,[40],[],[],[],[],[],home,,home,,
+1930,Uruguay,1930.7.19,Group stage,2000,"Estadio Centenario, Montevideo",Chile,1,,France,0,,[65],[],[],[],[],[],home,,home,,
+1930,Uruguay,1930.7.19,Group stage,42100,"Estadio Centenario, Montevideo",Argentina,6,,Mexico,3,,"[8, 12, 17, 53, 55, 80]",[],[],"[65, 75]",[],[42],home,,home,,
+1930,Uruguay,1930.7.18,Group stage,57735,"Estadio Centenario, Montevideo",Uruguay,1,,Peru,0,,[60],[],[],[],[],[],home,,home,,
+1930,Uruguay,1930.7.17,Group stage,18306,"Parque Central, Montevideo",Yugoslavia,4,,Bolivia,0,,"[60, 65, 67, 85]",[],[],[],[],[],home,,home,,
+1930,Uruguay,1930.7.17,Group stage,18306,"Parque Central, Montevideo",United States,3,,Paraguay,0,,"[10, 15, 50]",[],[],[],[],[],home,,home,,
+1930,Uruguay,1930.7.16,Group stage,9249,"Parque Central, Montevideo",Chile,3,,Mexico,0,,"[3, 65]",[51],[],[],[],[],home,,home,,
+1930,Uruguay,1930.7.15,Group stage,23409,"Parque Central, Montevideo",Argentina,1,,France,0,,[81],[],[],[],[],[],home,,home,,
+1930,Uruguay,1930.7.14,Group stage,24059,"Parque Central, Montevideo",Yugoslavia,2,,Brazil,1,,"[21, 30]",[],[],[62],[],[],home,,home,,
+1930,Uruguay,1930.7.14,Group stage,2549,"Pocitos, Montevideo",Romania,3,,Peru,1,,"[1, 79, 89]",[],[],[75],[],[],home,,home,,
+1930,Uruguay,1930.7.13,Group stage,18346,"Parque Central, Montevideo",United States,3,,Belgium,0,,"[23, 45, 69]",[],[],[],[],[],home,,home,,
+1930,Uruguay,1930.7.13,Group stage,4444,"Pocitos, Montevideo",France,4,,Mexico,1,,"[19, 40, 43, 87]",[],[],[70],[],[],home,,home,,
